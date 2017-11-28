@@ -1,0 +1,10 @@
+(module VPAC0 (layer F.Cu) (tedit 5A08BB73)
+  (attr virtual)
+  (fp_text reference VP_0 (at 0 0) (layer F.SilkS) hide
+    (effects (font (thickness 0.15)))
+  )
+  (fp_text value VPDEV0 (at 0 0) (layer F.SilkS) hide
+    (effects (font (thickness 0.15)))
+  )
+  (pad VP thru_hole circle (at 0 0) (size 0.6096 0.6096) (drill 0.3048) (layers *.Cu *.Paste *.Mask))
+)
