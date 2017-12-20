@@ -396,12 +396,12 @@ Transform {
     } ]
   }
 Transform {
-  rotation -0.577 0.577 0.577 4.19
-  translation 78.485 -61.062 0.854
+  rotation 0.577 0.577 0.577 2.09
+  translation 75.603 -61.062 0.854
   scale 1 1 1
   children [
     Inline {
-      url "shapes3D/47642-001.wrl"
+      url "shapes3D/U02-BFD3111B0-009.wrl"
     } ]
   }
 Transform {

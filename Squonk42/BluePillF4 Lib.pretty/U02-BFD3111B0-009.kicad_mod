@@ -1,11 +1,11 @@
-(module U02-BFD3111B0-009 (layer F.Cu) (tedit 5A36DDC1)
+(module U02-BFD3111B0-009 (layer F.Cu) (tedit 5A36E34F)
   (descr "MID MOUNT PCB SMT MICRO USB TYPE B FEMALE SOCKET SOLDER JACK 5 PIN 4 LEGS")
   (tags "MID MOUNT PCB SMT MICRO USB TYPE B FEMALE SOCKET SOLDER JACK 5 PIN 4 LEGS")
   (attr smd)
-  (fp_text reference >NAME (at -3.048 -6.985) (layer F.SilkS)
+  (fp_text reference J5 (at -3.048 -6.985) (layer F.SilkS) hide
     (effects (font (size 0.8128 0.8128) (thickness 0.0762)))
   )
-  (fp_text value >VALUE (at -2.6416 3.80746) (layer F.SilkS)
+  (fp_text value 47642-001 (at -2.6416 3.80746) (layer F.SilkS) hide
     (effects (font (size 0.8128 0.8128) (thickness 0.0762)))
   )
   (fp_line (start -0.12446 -3.59918) (end 0.12446 -3.59918) (layer Dwgs.User) (width 0.06604))
@@ -399,4 +399,9 @@
   (pad S$2 thru_hole oval (at 4.84886 0.15494 90) (size 2.3 1.4) (drill oval 1.699999 0.800001) (layers *.Cu *.Paste *.Mask))
   (pad S$3 thru_hole oval (at -4.84886 -3.14452 90) (size 2.3 1.4) (drill oval 1.699999 0.800001) (layers *.Cu *.Paste *.Mask))
   (pad S$4 thru_hole oval (at 4.84886 -3.14452 90) (size 2.3 1.4) (drill oval 1.699999 0.800001) (layers *.Cu *.Paste *.Mask))
+  (model /home/mstempin/devel/STM32_Pill_Boards/Squonk42/shapes3D/U02-BFD3111B0-009.wrl
+    (at (xyz 0 -0.08 0.01))
+    (scale (xyz 0.3937 0.3937 0.3937))
+    (rotate (xyz -90 0 180))
+  )
 )

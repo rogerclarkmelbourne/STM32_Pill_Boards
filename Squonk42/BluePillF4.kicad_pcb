@@ -15,15 +15,15 @@
   (page User 210.007 148.006)
   (title_block
     (title "BluePill F4")
-    (date 2017-12-17)
+    (date 2017-12-20)
     (rev A)
     (company www.stm32duino.com)
     (comment 1 "© 2017, All rights reserved.")
   )
 
   (layers
-    (0 Top signal hide)
-    (31 Bottom signal)
+    (0 Top signal)
+    (31 Bottom signal hide)
     (32 B.Adhes user hide)
     (33 F.Adhes user hide)
     (34 B.Paste user hide)
@@ -74,7 +74,7 @@
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
     (grid_origin 75.7301 72.5416)
-    (visible_elements 7FFFBF1F)
+    (visible_elements 7FFF7F1F)
     (pcbplotparams
       (layerselection 0x00030_80000001)
       (usegerberextensions false)
@@ -97,9 +97,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory /tmp/toto/))
   )
 
   (net 0 "")
@@ -4624,10 +4624,10 @@
       (net 1 GND))
     (pad S$4 thru_hole oval (at 4.84886 -3.14452) (size 2.3 1.4) (drill oval 1.699999 0.800001) (layers *.Cu *.Paste *.Mask)
       (net 1 GND))
-    (model /home/mstempin/devel/STM32_Pill_Boards/Squonk42/shapes3D/47642-001.wrl
-      (at (xyz 0 0.033465 0.01))
+    (model /home/mstempin/devel/STM32_Pill_Boards/Squonk42/shapes3D/U02-BFD3111B0-009.wrl
+      (at (xyz 0 -0.08 0.01))
       (scale (xyz 0.3937 0.3937 0.3937))
-      (rotate (xyz -90 0 0))
+      (rotate (xyz -90 0 180))
     )
   )
 
