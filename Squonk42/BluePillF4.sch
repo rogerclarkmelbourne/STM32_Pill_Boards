@@ -1,14 +1,13 @@
 EESchema Schematic File Version 2
 LIBS:BluePillF4
 LIBS:power
-LIBS:BluePillF4-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "BluePill F4"
-Date "2017-12-23"
+Date "2017-12-26"
 Rev "A"
 Comp "© 2017 www.stm32duino.com, All rights reserved."
 Comment1 ""
@@ -48,11 +47,11 @@ Text Notes 8590 650  0    100  ~ 20
 SWD
 Text Notes 10800 4100 0    100  ~ 20
 USB
-Text Notes 4790 700  0    100  ~ 20
+Text Notes 5700 700  0    100  ~ 20
 LEDs
 Text Notes 7260 3070 0    70   ~ 0
 Install R5\nfor USER\nbutton\non PB8
-Text Notes 5190 1450 2    70   ~ 0
+Text Notes 5090 1450 2    70   ~ 0
 PWR
 Text Notes 1090 4050 0    70   ~ 0
 2x
@@ -360,23 +359,12 @@ $EndComp
 $Comp
 L LED_0603 D1
 U 1 1 5A089AB6
-P 5300 1200
-F 0 "D1" V 5350 1100 70  0000 R BNN
-F 1 "GREEN" V 5250 1100 70  0000 R BNN
-F 2 "BluePillF4 Lib:LED0603" H 5290 990 65  0001 L TNN
-F 3 "" H 5300 1200 60  0001 C CNN
-	1    5300 1200
-	0    1    -1   0   
-$EndComp
-$Comp
-L LED_0603 D2
-U 1 1 5A089B7E
-P 5600 1200
-F 0 "D2" V 5650 1400 70  0000 L BNN
-F 1 "RED" V 5550 1400 70  0000 L BNN
-F 2 "BluePillF4 Lib:LED0603" H 5590 990 65  0001 L TNN
-F 3 "" H 5600 1200 60  0001 C CNN
-	1    5600 1200
+P 5200 1200
+F 0 "D1" V 5250 1100 70  0000 R BNN
+F 1 "GREEN" V 5150 1100 70  0000 R BNN
+F 2 "BluePillF4 Lib:LED0603" H 5190 990 65  0001 L TNN
+F 3 "" H 5200 1200 60  0001 C CNN
+	1    5200 1200
 	0    1    -1   0   
 $EndComp
 $Comp
@@ -536,23 +524,23 @@ $EndComp
 $Comp
 L RES_0603 R2
 U 1 1 5A08AABA
-P 5300 1700
-F 0 "R2" V 5300 1640 70  0000 R TNN
-F 1 "510R" V 5200 1640 70  0000 R TNN
-F 2 "BluePillF4 Lib:R0603" H 5290 1490 65  0001 L TNN
-F 3 "" H 5300 1700 60  0001 C CNN
-	1    5300 1700
+P 5200 1700
+F 0 "R2" V 5200 1640 70  0000 R TNN
+F 1 "510R" V 5100 1640 70  0000 R TNN
+F 2 "BluePillF4 Lib:R0603" H 5190 1490 65  0001 L TNN
+F 3 "" H 5200 1700 60  0001 C CNN
+	1    5200 1700
 	0    1    -1   0   
 $EndComp
 $Comp
 L RES_0603 R3
 U 1 1 5A08AB82
-P 5600 1700
-F 0 "R3" V 5600 1890 70  0000 R TNN
-F 1 "510R" V 5500 2040 70  0000 R TNN
-F 2 "BluePillF4 Lib:R0603" H 5590 1490 65  0001 L TNN
-F 3 "" H 5600 1700 60  0001 C CNN
-	1    5600 1700
+P 5500 1800
+F 0 "R3" V 5700 1750 70  0000 R TNN
+F 1 "560R" H 5650 1750 70  0000 R TNN
+F 2 "BluePillF4 Lib:R0603" H 5490 1590 65  0001 L TNN
+F 3 "" H 5500 1800 60  0001 C CNN
+	1    5500 1800
 	0    1    -1   0   
 $EndComp
 $Comp
@@ -833,23 +821,23 @@ $EndComp
 $Comp
 L +3V3 #SUPPLY015
 U 1 1 5A08BABE
-P 5300 900
-F 0 "#SUPPLY015" H 5300 1050 70  0001 L BNN
-F 1 "+3V3" H 5160 1050 70  0000 L BNN
-F 2 "" H 5300 900 60  0001 C CNN
-F 3 "" H 5300 900 60  0001 C CNN
-	1    5300 900 
+P 5200 900
+F 0 "#SUPPLY015" H 5200 1050 70  0001 L BNN
+F 1 "+3V3" H 5060 1050 70  0000 L BNN
+F 2 "" H 5200 900 60  0001 C CNN
+F 3 "" H 5200 900 60  0001 C CNN
+	1    5200 900 
 	-1   0    0    -1  
 $EndComp
 $Comp
 L GND #SUPPLY016
 U 1 1 5A08BB22
-P 5300 2000
-F 0 "#SUPPLY016" H 5300 1750 70  0001 R BNN
-F 1 "GND" H 5390 1750 70  0000 R BNN
-F 2 "" H 5300 2000 60  0001 C CNN
-F 3 "" H 5300 2000 60  0001 C CNN
-	1    5300 2000
+P 5200 2000
+F 0 "#SUPPLY016" H 5200 1750 70  0001 R BNN
+F 1 "GND" H 5290 1750 70  0000 R BNN
+F 2 "" H 5200 2000 60  0001 C CNN
+F 3 "" H 5200 2000 60  0001 C CNN
+	1    5200 2000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1356,9 +1344,7 @@ Text Label 2400 4100 0    65   ~ 0
 PC13
 Text Label 7450 4100 0    65   ~ 0
 PC13
-Text Label 5790 1434 0    65   ~ 0
-PC13
-Text Label 5600 2100 1    65   ~ 0
+Text Label 5500 2200 1    65   ~ 0
 PC13
 Text Label 2400 4200 0    65   ~ 0
 PC14
@@ -1426,11 +1412,11 @@ Text GLabel 7500 1000 1    10   UnSpc ~ 0
 +3V3
 Text GLabel 7500 900  3    10   UnSpc ~ 0
 +3V3
-Text GLabel 5300 1100 1    10   UnSpc ~ 0
+Text GLabel 5200 1100 1    10   UnSpc ~ 0
 +3V3
-Text GLabel 5300 900  3    10   UnSpc ~ 0
+Text GLabel 5200 900  3    10   UnSpc ~ 0
 +3V3
-Text GLabel 5600 1100 1    10   UnSpc ~ 0
+Text GLabel 5700 1100 1    10   UnSpc ~ 0
 +3V3
 Text GLabel 9000 5500 1    10   UnSpc ~ 0
 +3V3
@@ -1526,14 +1512,14 @@ Text Label 7100 1900 0    10   ~ 0
 BOOT0
 Text Label 3700 3500 1    10   ~ 0
 BOOT0
-Text Label 5300 1500 1    10   ~ 0
+Text Label 5200 1500 1    10   ~ 0
 D1
-Text Label 5300 1400 3    10   ~ 0
+Text Label 5200 1400 3    10   ~ 0
 D1
-Text Label 5600 1400 3    10   ~ 0
-D2
-Text Label 5600 1500 1    10   ~ 0
-D2
+Text Label 5500 1500 3    10   ~ 0
+D2_R
+Text Label 5500 1600 3    10   ~ 0
+D2_R
 Text Label 10400 5400 2    10   ~ 0
 DM
 Text Label 9500 6100 0    10   ~ 0
@@ -1570,9 +1556,9 @@ Text GLabel 10300 4900 1    10   UnSpc ~ 0
 GND
 Text GLabel 10500 5000 1    10   UnSpc ~ 0
 GND
-Text GLabel 5300 2000 1    10   UnSpc ~ 0
+Text GLabel 5200 2000 1    10   UnSpc ~ 0
 GND
-Text GLabel 5300 1900 3    10   UnSpc ~ 0
+Text GLabel 5200 1900 3    10   UnSpc ~ 0
 GND
 Text GLabel 8300 2400 3    10   UnSpc ~ 0
 GND
@@ -1862,7 +1848,7 @@ Text Label 2700 4100 2    10   ~ 0
 PC13
 Text Label 7350 4100 0    10   ~ 0
 PC13
-Text Label 5600 1900 3    10   ~ 0
+Text Label 5500 2000 3    10   ~ 0
 PC13
 Text Label 2700 4200 2    10   ~ 0
 PC14
@@ -2518,12 +2504,12 @@ Wire Wire Line
 Wire Wire Line
 	7500 900  7500 1000
 Wire Wire Line
-	5300 900  5300 1100
+	5200 900  5200 1100
 Wire Wire Line
-	5600 1000 5600 1100
+	5700 1000 5700 1100
 Wire Wire Line
-	5600 1000 5300 1000
-Connection ~ 5300 1000
+	5700 1000 5200 1000
+Connection ~ 5200 1000
 Wire Wire Line
 	9000 5500 9000 5400
 Wire Wire Line
@@ -2549,7 +2535,7 @@ Wire Wire Line
 	2400 1100 2400 1300
 Connection ~ 2400 1200
 Wire Wire Line
-	8800 2800 9800 2800
+	9100 2800 9800 2800
 Wire Wire Line
 	9100 2700 9100 2900
 Connection ~ 9100 2800
@@ -2624,9 +2610,9 @@ Connection ~ 7200 2200
 Wire Wire Line
 	3700 3200 3700 3500
 Wire Wire Line
-	5300 1500 5300 1400
+	5200 1500 5200 1400
 Wire Wire Line
-	5600 1400 5600 1500
+	5500 1500 5500 1600
 Wire Wire Line
 	10400 5400 9900 5400
 Wire Wire Line
@@ -2671,7 +2657,7 @@ Wire Wire Line
 	10300 4900 10300 4800
 Connection ~ 10500 4800
 Wire Wire Line
-	5300 2000 5300 1900
+	5200 2000 5200 1900
 Wire Wire Line
 	7800 2500 8300 2500
 Wire Wire Line
@@ -2754,7 +2740,7 @@ Wire Wire Line
 Wire Wire Line
 	9100 3100 9100 3300
 Wire Wire Line
-	8800 3200 9200 3200
+	9100 3200 9200 3200
 Wire Wire Line
 	9200 3200 9200 3000
 Wire Wire Line
@@ -2775,7 +2761,7 @@ Connection ~ 10300 6100
 Wire Wire Line
 	10100 1900 10100 1800
 Wire Wire Line
-	10100 1800 10300 1800
+	9700 1800 10300 1800
 Wire Wire Line
 	10300 1800 10300 2100
 Wire Wire Line
@@ -2973,7 +2959,7 @@ Wire Wire Line
 Wire Wire Line
 	7650 4100 7350 4100
 Wire Wire Line
-	5600 2100 5600 1900
+	5500 2200 5500 2000
 Wire Wire Line
 	2100 3800 2100 4200
 Wire Wire Line
@@ -3255,21 +3241,6 @@ Wire Wire Line
 	2700 1800 2700 1500
 Connection ~ 2400 1800
 $Comp
-L CAP_0603 C19
-U 1 1 5A3EF348
-P 8800 3000
-F 0 "C19" V 8875 2725 70  0000 L BNN
-F 1 "100n" V 8775 2725 70  0000 L BNN
-F 2 "BluePillF4 Lib:C0603" H 8790 2790 65  0001 L TNN
-F 3 "" H 8800 3000 60  0001 C CNN
-	1    8800 3000
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	8800 2800 8800 2900
-Wire Wire Line
-	8800 3200 8800 3100
-$Comp
 L RES_0603 R12
 U 1 1 5A3F09CB
 P 10400 4500
@@ -3295,12 +3266,90 @@ Text GLabel 2700 1300 1    10   UnSpc ~ 0
 +3V3
 Text GLabel 2700 1500 3    10   UnSpc ~ 0
 GND
-Text GLabel 8800 2900 1    10   UnSpc ~ 0
-+3V3
-Text GLabel 8800 3100 3    10   UnSpc ~ 0
-GND
 Text GLabel 2400 6200 0    10   UnSpc ~ 0
 AGND
 Text GLabel 2900 6200 2    10   UnSpc ~ 0
 GND
+$Comp
+L 1616RGB D2
+U 1 1 5A426D49
+P 5700 1400
+F 0 "D2" V 6350 1400 70  0000 L BNN
+F 1 "1616RGB" V 6250 1050 70  0000 L BNN
+F 2 "BluePillF4 Lib:1616RGB" H 5730 1550 20  0001 C CNN
+F 3 "" H 5700 1400 60  0001 C CNN
+	1    5700 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L RES_0603 R14
+U 1 1 5A427787
+P 5700 1800
+F 0 "R14" V 5900 1750 70  0000 R TNN
+F 1 "560R" H 5850 1750 70  0000 R TNN
+F 2 "BluePillF4 Lib:R0603" H 5690 1590 65  0001 L TNN
+F 3 "" H 5700 1800 60  0001 C CNN
+	1    5700 1800
+	0    1    -1   0   
+$EndComp
+$Comp
+L RES_0603 R15
+U 1 1 5A427885
+P 5900 1800
+F 0 "R15" V 6100 1750 70  0000 R TNN
+F 1 "220R" H 6050 1750 70  0000 R TNN
+F 2 "BluePillF4 Lib:R0603" H 5890 1590 65  0001 L TNN
+F 3 "" H 5900 1800 60  0001 C CNN
+	1    5900 1800
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	5700 1600 5700 1500
+Wire Wire Line
+	5900 1600 5900 1500
+Wire Wire Line
+	5700 2000 5700 2200
+Wire Wire Line
+	5900 2000 5900 2200
+Text Label 5700 1540 1    10   ~ 0
+D2_G
+Text Label 5700 1640 1    10   ~ 0
+D2_G
+Text Label 5900 1540 1    10   ~ 0
+D2_B
+Text Label 5900 1640 1    10   ~ 0
+D2_B
+Text Label 5700 2040 1    10   ~ 0
+PA13
+Text Label 5900 2040 1    10   ~ 0
+PA14
+Text Label 5700 2200 1    65   ~ 0
+PA13
+Text Label 5900 2200 1    65   ~ 0
+PA14
+Text Notes 4800 2750 0    70   ~ 0
+Note: RGB LED can be\nreplaced by 0603 LED\nin same footprint and\nnot mounting R14/R15
+Text Notes 3500 2550 0    70   ~ 0
+Note: Unmount R2 for\nLow-Power Operation
+$Comp
+L RES_0603 R16
+U 1 1 5A42D7B9
+P 9700 2100
+F 0 "R16" V 9900 2050 70  0000 R TNN
+F 1 "1M" H 9850 2050 70  0000 R TNN
+F 2 "BluePillF4 Lib:R0603" H 9690 1890 65  0001 L TNN
+F 3 "" H 9700 2100 60  0001 C CNN
+	1    9700 2100
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	9700 1900 9700 1800
+Connection ~ 10100 1800
+Wire Wire Line
+	9700 2300 9700 2600
+Connection ~ 9700 2600
+Text GLabel 9700 1900 1    10   UnSpc ~ 0
+GND
+Text Label 9700 2300 1    10   ~ 0
+SDIO_D3
 $EndSCHEMATC
