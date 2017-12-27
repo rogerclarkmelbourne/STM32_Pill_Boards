@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/mstempin/devel/STM32_Pill_Boards/Squonk42/BluePillF4.sch</source>
-    <date>mer. 27 déc. 2017 18:12:30 CET</date>
+    <date>mer. 27 déc. 2017 18:42:40 CET</date>
     <tool>Eeschema 4.0.7-e2-6376~58~ubuntu16.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -25,7 +25,7 @@
       <fields>
         <field name="TOL">±10%</field>
         <field name="VOLT">6.3V</field>
-        <field name="PARTNO">C0603_10u_X7R_10%_CER_50V</field>
+        <field name="PARTNO">C0603_10u_X7R_10%_CER_6V3</field>
         <field name="TYPE">CER</field>
         <field name="TC">X7R</field>
         <field name="SIZE">0603</field>
@@ -105,7 +105,7 @@
       <fields>
         <field name="TOL">±10%</field>
         <field name="VOLT">6.3V</field>
-        <field name="PARTNO">C0603_4u7_X7R_10%_CER_50V</field>
+        <field name="PARTNO">C0603_4u7_X7R_10%_CER_6V3</field>
         <field name="TYPE">CER</field>
         <field name="TC">X7R</field>
         <field name="SIZE">0603</field>
@@ -137,7 +137,7 @@
       <fields>
         <field name="TOL">±10%</field>
         <field name="VOLT">6.3V</field>
-        <field name="PARTNO">C0603_4u7_X7R_10%_CER_50V</field>
+        <field name="PARTNO">C0603_4u7_X7R_10%_CER_6V3</field>
         <field name="TYPE">CER</field>
         <field name="TC">X7R</field>
         <field name="SIZE">0603</field>
@@ -185,7 +185,7 @@
       <fields>
         <field name="TOL">±10%</field>
         <field name="VOLT">6.3V</field>
-        <field name="PARTNO">C0603_2u2_X7R_10%_CER_50V</field>
+        <field name="PARTNO">C0603_2u2_X7R_10%_CER_6V3</field>
         <field name="TYPE">CER</field>
         <field name="TC">X7R</field>
         <field name="SIZE">0603</field>
@@ -233,7 +233,7 @@
       <fields>
         <field name="TOL">±10%</field>
         <field name="VOLT">6.3V</field>
-        <field name="PARTNO">C0603_2u2_X7R_10%_CER_50V</field>
+        <field name="PARTNO">C0603_2u2_X7R_10%_CER_6V3</field>
         <field name="TYPE">CER</field>
         <field name="TC">X7R</field>
         <field name="SIZE">0603</field>
@@ -265,10 +265,11 @@
       <fields>
         <field name="TOL">±10%</field>
         <field name="VOLT">6.3V</field>
-        <field name="PARTNO">C0603_4u7_X7R_10%_CER_50V</field>
+        <field name="PARTNO">C0603_4u7_X7R_10%_CER_6V3</field>
         <field name="TYPE">CER</field>
         <field name="TC">X7R</field>
         <field name="SIZE">0603</field>
+        <field name="DNP">F</field>
       </fields>
       <libsource lib="BluePillF4" part="CAP_0603"/>
       <sheetpath names="/" tstamps="/"/>
@@ -295,6 +296,7 @@
       <footprint>BluePillF4 Lib:LED0603</footprint>
       <fields>
         <field name="PARTNO">LED0603-GREEN</field>
+        <field name="SIZE">0603</field>
         <field name="DNP">F</field>
       </fields>
       <libsource lib="BluePillF4" part="LED_0603"/>
@@ -511,6 +513,7 @@
       <footprint>BluePillF4 Lib:R0603</footprint>
       <fields>
         <field name="TOL">5%</field>
+        <field name="PARTNO">R0603_510R_5%_125mW</field>
         <field name="SIZE">0603</field>
         <field name="RATE">125mW</field>
         <field name="DNP">F</field>
@@ -594,6 +597,7 @@
       <footprint>BluePillF4 Lib:R0603</footprint>
       <fields>
         <field name="TOL">5%</field>
+        <field name="PARTNO">R0603_1k_5%_125mW</field>
         <field name="SIZE">0603</field>
         <field name="RATE">125mW</field>
         <field name="DNP">F</field>
@@ -792,6 +796,7 @@
       <datasheet>http://optoelectronics.liteon.com/upload/download/DS22-2008-0044/LTST-C19HE1WT.pdf</datasheet>
       <fields>
         <field name="PARTNO">LED1616-RGB</field>
+        <field name="SIZE">1616</field>
         <field name="DNP">F</field>
       </fields>
       <libsource lib="BluePillF4" part="1616RGB"/>
