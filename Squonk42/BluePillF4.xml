@@ -1,0 +1,1631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/mstempin/devel/STM32_Pill_Boards/Squonk42/BluePillF4.sch</source>
+    <date>mer. 27 déc. 2017 18:42:40 CET</date>
+    <tool>Eeschema 4.0.7-e2-6376~58~ubuntu16.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>BluePill F4</title>
+        <company>© 2017 www.stm32duino.com, All rights reserved.</company>
+        <rev>A</rev>
+        <date>2017-12-27</date>
+        <source>BluePillF4.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10u</value>
+      <footprint>BluePillF4 Lib:C0603</footprint>
+      <fields>
+        <field name="TOL">±10%</field>
+        <field name="VOLT">6.3V</field>
+        <field name="PARTNO">C0603_10u_X7R_10%_CER_6V3</field>
+        <field name="TYPE">CER</field>
+        <field name="TC">X7R</field>
+        <field name="SIZE">0603</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="CAP_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A088D6E</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>6p8</value>
+      <footprint>BluePillF4 Lib:C0603</footprint>
+      <fields>
+        <field name="TOL">±5%</field>
+        <field name="VOLT">50V</field>
+        <field name="PARTNO">C0603_6p8_NP0_5%_CER_50V</field>
+        <field name="TYPE">CER</field>
+        <field name="TC">NP0</field>
+        <field name="SIZE">0603</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="CAP_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A088E36</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>6p8</value>
+      <footprint>BluePillF4 Lib:C0603</footprint>
+      <fields>
+        <field name="TOL">±5%</field>
+        <field name="VOLT">50V</field>
+        <field name="PARTNO">C0603_6p8_NP0_5%_CER_50V</field>
+        <field name="TYPE">CER</field>
+        <field name="TC">NP0</field>
+        <field name="SIZE">0603</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="CAP_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A088EFE</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>20p</value>
+      <footprint>BluePillF4 Lib:C0603</footprint>
+      <fields>
+        <field name="TOL">±5%</field>
+        <field name="VOLT">50V</field>
+        <field name="PARTNO">C0603_20p_NP0_5%_CER_50V</field>
+        <field name="TYPE">CER</field>
+        <field name="TC">NP0</field>
+        <field name="SIZE">0603</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="CAP_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A088FC6</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>20p</value>
+      <footprint>BluePillF4 Lib:C0603</footprint>
+      <fields>
+        <field name="TOL">±5%</field>
+        <field name="VOLT">50V</field>
+        <field name="PARTNO">C0603_20p_NP0_5%_CER_50V</field>
+        <field name="TYPE">CER</field>
+        <field name="TC">NP0</field>
+        <field name="SIZE">0603</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="CAP_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A08908E</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>4u7</value>
+      <footprint>BluePillF4 Lib:C0603</footprint>
+      <fields>
+        <field name="TOL">±10%</field>
+        <field name="VOLT">6.3V</field>
+        <field name="PARTNO">C0603_4u7_X7R_10%_CER_6V3</field>
+        <field name="TYPE">CER</field>
+        <field name="TC">X7R</field>
+        <field name="SIZE">0603</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="CAP_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A089156</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100n</value>
+      <footprint>BluePillF4 Lib:C0603</footprint>
+      <fields>
+        <field name="TOL">±10%</field>
+        <field name="VOLT">50V</field>
+        <field name="PARTNO">C0603_100n_X7R_10%_CER_50V</field>
+        <field name="TYPE">CER</field>
+        <field name="TC">X7R</field>
+        <field name="SIZE">0603</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="CAP_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A08921E</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>4u7</value>
+      <footprint>BluePillF4 Lib:C0603</footprint>
+      <fields>
+        <field name="TOL">±10%</field>
+        <field name="VOLT">6.3V</field>
+        <field name="PARTNO">C0603_4u7_X7R_10%_CER_6V3</field>
+        <field name="TYPE">CER</field>
+        <field name="TC">X7R</field>
+        <field name="SIZE">0603</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="CAP_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0892E6</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100n</value>
+      <footprint>BluePillF4 Lib:C0603</footprint>
+      <fields>
+        <field name="TOL">±10%</field>
+        <field name="VOLT">50V</field>
+        <field name="PARTNO">C0603_100n_X7R_10%_CER_50V</field>
+        <field name="TYPE">CER</field>
+        <field name="TC">X7R</field>
+        <field name="SIZE">0603</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="CAP_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0893AE</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100n</value>
+      <footprint>BluePillF4 Lib:C0603</footprint>
+      <fields>
+        <field name="TOL">±10%</field>
+        <field name="VOLT">50V</field>
+        <field name="PARTNO">C0603_100n_X7R_10%_CER_50V</field>
+        <field name="TYPE">CER</field>
+        <field name="TC">X7R</field>
+        <field name="SIZE">0603</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="CAP_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A089476</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>2u2</value>
+      <footprint>BluePillF4 Lib:C0603</footprint>
+      <fields>
+        <field name="TOL">±10%</field>
+        <field name="VOLT">6.3V</field>
+        <field name="PARTNO">C0603_2u2_X7R_10%_CER_6V3</field>
+        <field name="TYPE">CER</field>
+        <field name="TC">X7R</field>
+        <field name="SIZE">0603</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="CAP_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A08953E</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>100n</value>
+      <footprint>BluePillF4 Lib:C0603</footprint>
+      <fields>
+        <field name="TOL">±10%</field>
+        <field name="VOLT">50V</field>
+        <field name="PARTNO">C0603_100n_X7R_10%_CER_50V</field>
+        <field name="TYPE">CER</field>
+        <field name="TC">X7R</field>
+        <field name="SIZE">0603</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="CAP_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A089606</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>100n</value>
+      <footprint>BluePillF4 Lib:C0603</footprint>
+      <fields>
+        <field name="TOL">±10%</field>
+        <field name="VOLT">50V</field>
+        <field name="PARTNO">C0603_100n_X7R_10%_CER_50V</field>
+        <field name="TYPE">CER</field>
+        <field name="TC">X7R</field>
+        <field name="SIZE">0603</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="CAP_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0896CE</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>2u2</value>
+      <footprint>BluePillF4 Lib:C0603</footprint>
+      <fields>
+        <field name="TOL">±10%</field>
+        <field name="VOLT">6.3V</field>
+        <field name="PARTNO">C0603_2u2_X7R_10%_CER_6V3</field>
+        <field name="TYPE">CER</field>
+        <field name="TC">X7R</field>
+        <field name="SIZE">0603</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="CAP_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A089796</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>100n</value>
+      <footprint>BluePillF4 Lib:C0603</footprint>
+      <fields>
+        <field name="TOL">±10%</field>
+        <field name="VOLT">50V</field>
+        <field name="PARTNO">C0603_100n_X7R_10%_CER_50V</field>
+        <field name="TYPE">CER</field>
+        <field name="TC">X7R</field>
+        <field name="SIZE">0603</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="CAP_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A08985E</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>4u7</value>
+      <footprint>BluePillF4 Lib:C0603</footprint>
+      <fields>
+        <field name="TOL">±10%</field>
+        <field name="VOLT">6.3V</field>
+        <field name="PARTNO">C0603_4u7_X7R_10%_CER_6V3</field>
+        <field name="TYPE">CER</field>
+        <field name="TC">X7R</field>
+        <field name="SIZE">0603</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="CAP_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A089926</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100n</value>
+      <footprint>BluePillF4 Lib:C0603</footprint>
+      <fields>
+        <field name="TOL">±10%</field>
+        <field name="VOLT">50V</field>
+        <field name="PARTNO">C0603_100n_X7R_10%_CER_50V</field>
+        <field name="TYPE">CER</field>
+        <field name="TC">X7R</field>
+        <field name="SIZE">0603</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="CAP_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0899EE</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>GREEN</value>
+      <footprint>BluePillF4 Lib:LED0603</footprint>
+      <fields>
+        <field name="PARTNO">LED0603-GREEN</field>
+        <field name="SIZE">0603</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="LED_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A089AB6</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>MH20-1</value>
+      <footprint>BluePillF4 Lib:MH20-1-0.1</footprint>
+      <fields>
+        <field name="PARTNO">MH20-1-0.1</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="MH20-1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A089CAA</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>MH20-1</value>
+      <footprint>BluePillF4 Lib:MH20-1-0.1</footprint>
+      <fields>
+        <field name="PARTNO">MH20-1-0.1</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="MH20-1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A089D72</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>MH_RA4-1</value>
+      <footprint>BluePillF4 Lib:MH_RA4-1-0.1</footprint>
+      <fields>
+        <field name="PARTNO">MH_RA4-1-0.1</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="MH_RA4-1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A089E3A</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>MR07C-06200</value>
+      <footprint>BluePillF4 Lib:MR07C-06200</footprint>
+      <datasheet>http://www.asia-atom.com/pro_dt/productId=112.html</datasheet>
+      <fields>
+        <field name="PARTNO">MR07C-06200</field>
+        <field name="HEIGHT">1.9mm</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="MR07C-06200"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A089F02</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>U02-BFD3111B0-009</value>
+      <footprint>BluePillF4 Lib:U02-BFD3111B0-009</footprint>
+      <datasheet>https://bsc-elec.en.alibaba.com/product/60650336309-804890321/Mid_mount_PCB_SMT_Micro_USB_Type_B_Female_Socket_Solder_Jack_5_Pin_4_legs.html</datasheet>
+      <fields>
+        <field name="PARTNO">U02-BFD3111B0-009</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="U02-BFD3111B0-009"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A089FCA</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>FBMH1608HM471-T</value>
+      <footprint>BluePillF4 Lib:FB0603</footprint>
+      <datasheet>http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=FBMH1608HM471-T&amp;fileName=FBMH1608HM471-T_SS&amp;mode=specSheetDownload</datasheet>
+      <fields>
+        <field name="PARTNO">FBMH1608HM471-T</field>
+        <field name="SIZE">0603</field>
+        <field name="RATE">1A</field>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="BluePillF4" part="FB_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A08A092</tstamp>
+    </comp>
+    <comp ref="PC0">
+      <value>TEST_PAD</value>
+      <footprint>BluePillF4 Lib:TEST_PAD</footprint>
+      <fields>
+        <field name="BOM">EXCLUDE</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="TEST_PAD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A08A222</tstamp>
+    </comp>
+    <comp ref="PC1">
+      <value>TEST_PAD</value>
+      <footprint>BluePillF4 Lib:TEST_PAD</footprint>
+      <fields>
+        <field name="BOM">EXCLUDE</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="TEST_PAD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A08A2EA</tstamp>
+    </comp>
+    <comp ref="PC2">
+      <value>TEST_PAD</value>
+      <footprint>BluePillF4 Lib:TEST_PAD</footprint>
+      <fields>
+        <field name="BOM">EXCLUDE</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="TEST_PAD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A08A3B2</tstamp>
+    </comp>
+    <comp ref="PC3">
+      <value>TEST_PAD</value>
+      <footprint>BluePillF4 Lib:TEST_PAD</footprint>
+      <fields>
+        <field name="BOM">EXCLUDE</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="TEST_PAD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A08A47A</tstamp>
+    </comp>
+    <comp ref="PC5">
+      <value>TEST_PAD</value>
+      <footprint>BluePillF4 Lib:TEST_PAD</footprint>
+      <fields>
+        <field name="BOM">EXCLUDE</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="TEST_PAD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A08A542</tstamp>
+    </comp>
+    <comp ref="PC6">
+      <value>TEST_PAD</value>
+      <footprint>BluePillF4 Lib:TEST_PAD</footprint>
+      <fields>
+        <field name="BOM">EXCLUDE</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="TEST_PAD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A08A60A</tstamp>
+    </comp>
+    <comp ref="PC7">
+      <value>TEST_PAD</value>
+      <footprint>BluePillF4 Lib:TEST_PAD</footprint>
+      <fields>
+        <field name="BOM">EXCLUDE</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="TEST_PAD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A08A6D2</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>100k</value>
+      <footprint>BluePillF4 Lib:R0603</footprint>
+      <fields>
+        <field name="TOL">5%</field>
+        <field name="PARTNO">R0603_100k_5%_125mW</field>
+        <field name="SIZE">0603</field>
+        <field name="RATE">125mW</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="RES_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A08A9F2</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>510R</value>
+      <footprint>BluePillF4 Lib:R0603</footprint>
+      <fields>
+        <field name="TOL">5%</field>
+        <field name="PARTNO">R0603_510R_5%_125mW</field>
+        <field name="SIZE">0603</field>
+        <field name="RATE">125mW</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="RES_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A08AABA</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>560R</value>
+      <footprint>BluePillF4 Lib:R0603</footprint>
+      <fields>
+        <field name="TOL">5%</field>
+        <field name="PARTNO">R0603_510R_5%_125mW</field>
+        <field name="SIZE">0603</field>
+        <field name="RATE">125mW</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="RES_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A08AB82</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>100k</value>
+      <footprint>BluePillF4 Lib:R0603</footprint>
+      <fields>
+        <field name="TOL">5%</field>
+        <field name="PARTNO">R0603_100k_5%_125mW</field>
+        <field name="SIZE">0603</field>
+        <field name="RATE">125mW</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="RES_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A08AC4A</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>0R</value>
+      <footprint>BluePillF4 Lib:R0603</footprint>
+      <fields>
+        <field name="TOL">5%</field>
+        <field name="PARTNO">R0603_510R_5%_125mW</field>
+        <field name="SIZE">0603</field>
+        <field name="RATE">125mW</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="RES_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A08AD12</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>BluePillF4 Lib:R0603</footprint>
+      <fields>
+        <field name="TOL">5%</field>
+        <field name="PARTNO">R0603_10k_5%_125mW</field>
+        <field name="SIZE">0603</field>
+        <field name="RATE">125mW</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="RES_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A08ADDA</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>100k</value>
+      <footprint>BluePillF4 Lib:R0603</footprint>
+      <fields>
+        <field name="TOL">5%</field>
+        <field name="PARTNO">R0603_100k_5%_125mW</field>
+        <field name="SIZE">0603</field>
+        <field name="RATE">125mW</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="RES_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A08AEA2</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>1k5</value>
+      <footprint>BluePillF4 Lib:R0603</footprint>
+      <fields>
+        <field name="TOL">5%</field>
+        <field name="PARTNO">R0603_1k5_5%_125mW</field>
+        <field name="SIZE">0603</field>
+        <field name="RATE">125mW</field>
+        <field name="DNP">DNP</field>
+      </fields>
+      <libsource lib="BluePillF4" part="RES_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A08AF6A</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>22R</value>
+      <footprint>BluePillF4 Lib:R0603</footprint>
+      <fields>
+        <field name="TOL">5%</field>
+        <field name="PARTNO">R0603_22R_5%_125mW</field>
+        <field name="SIZE">0603</field>
+        <field name="RATE">125mW</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="RES_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A08B032</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>22R</value>
+      <footprint>BluePillF4 Lib:R0603</footprint>
+      <fields>
+        <field name="TOL">5%</field>
+        <field name="PARTNO">R0603_22R_5%_125mW</field>
+        <field name="SIZE">0603</field>
+        <field name="RATE">125mW</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="RES_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A08B0FA</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>1k</value>
+      <footprint>BluePillF4 Lib:R0603</footprint>
+      <fields>
+        <field name="TOL">5%</field>
+        <field name="PARTNO">R0603_1k_5%_125mW</field>
+        <field name="SIZE">0603</field>
+        <field name="RATE">125mW</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="RES_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A08B1C2</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <footprint>BluePillF4 Lib:R0603</footprint>
+      <fields>
+        <field name="TOL">5%</field>
+        <field name="PARTNO">R0603_10k_5%_125mW</field>
+        <field name="SIZE">0603</field>
+        <field name="RATE">125mW</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="RES_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A08B352</tstamp>
+    </comp>
+    <comp ref="S1">
+      <value>SKSGACE010</value>
+      <footprint>BluePillF4 Lib:SKSGACE010</footprint>
+      <datasheet>http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKSG/SKSGACE010.html</datasheet>
+      <fields>
+        <field name="PARTNO">SKSGACE010</field>
+        <field name="HEIGHT">1.4mm</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="SKSGACE010"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A08B41A</tstamp>
+    </comp>
+    <comp ref="S2">
+      <value>SKSGACE010</value>
+      <footprint>BluePillF4 Lib:SKSGACE010</footprint>
+      <datasheet>http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKSG/SKSGACE010.html</datasheet>
+      <fields>
+        <field name="PARTNO">SKSGACE010</field>
+        <field name="HEIGHT">1.4mm</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="SKSGACE010"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A08B4E2</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>AP2114HA-3.3TRG1</value>
+      <footprint>BluePillF4 Lib:SOT223</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AP2114.pdf</datasheet>
+      <fields>
+        <field name="VOLT">3.3V</field>
+        <field name="PARTNO">AP2114HA3.3-TRG1</field>
+        <field name="RATE">1A</field>
+        <field name="HEIGHT">1.7mm</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="AP2114HA-3.3TRG1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A08C676</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>AP2112K3.3-TRG1</value>
+      <footprint>BluePillF4 Lib:SOT23-5</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AP2112.pdf</datasheet>
+      <fields>
+        <field name="VOLT">3.3V</field>
+        <field name="PARTNO">AP2112K3.3-TRG1</field>
+        <field name="RATE">1A</field>
+        <field name="HEIGHT">1.3mm</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="AP2112K3.3-TRG1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A08C73E</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>STM32F405RGT6</value>
+      <footprint>BluePillF4 Lib:LQFP64</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/ef/92/76/6d/bb/c2/4f/f7/DM00037051.pdf/files/DM00037051.pdf/jcr:content/translations/en.DM00037051.pdf</datasheet>
+      <fields>
+        <field name="PARTNO">STM32F405RGT6</field>
+        <field name="HEIGHT">1.6mm</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="STM32F405RGT6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A08C806</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>SY6280</value>
+      <footprint>BluePillF4 Lib:SOT23-5</footprint>
+      <datasheet>http://img009.hc360.cn/m7/M0F/B2/C6/wKhQo1bhZhKEAMEoAAAAAFCI7tc925.pdf</datasheet>
+      <fields>
+        <field name="PARTNO">SY6280AAC</field>
+        <field name="HEIGHT">1.3mm</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="SY6280"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A08C8CE</tstamp>
+    </comp>
+    <comp ref="Y2">
+      <value>NX3225GD</value>
+      <footprint>BluePillF4 Lib:CRYSTAL_32X25_2P</footprint>
+      <datasheet>http://www.ndk.com/images/products/catalog/c_NX3225GD-STD-CRA-3_e.pdf</datasheet>
+      <fields>
+        <field name="TOL">±50ppm</field>
+        <field name="PARTNO">NX3225GD-8MHZ-STD-CRA-3</field>
+        <field name="DNP">F</field>
+        <field name="FREQ">8MHz</field>
+        <field name="CAP">8pF</field>
+      </fields>
+      <libsource lib="BluePillF4" part="NX3225GD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A09181B</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>1N5819HW</value>
+      <footprint>BluePillF4 Lib:SOD-123</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds30217.pdf</datasheet>
+      <fields>
+        <field name="VOLT">40V</field>
+        <field name="PARTNO">1N5819HW</field>
+        <field name="RATE">1A</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="1N5819HW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A308BA1</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>FC-12M</value>
+      <footprint>BluePillF4 Lib:FC-12M</footprint>
+      <datasheet>https://support.epson.biz/td/api/doc_check.php?dl=brief_fc-12m_en.pdf</datasheet>
+      <fields>
+        <field name="TOL">±20ppm</field>
+        <field name="PARTNO">FC-12M 32.7680KA-A3</field>
+        <field name="DNP">F</field>
+        <field name="FREQ">32.768KhZ</field>
+        <field name="CAP">12.5pF</field>
+      </fields>
+      <libsource lib="BluePillF4" part="FC-12M"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A346A7B</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>BLM18BA470SN1D</value>
+      <footprint>BluePillF4 Lib:FB0603</footprint>
+      <datasheet>https://www.murata.com/en-eu/api/pdfdownloadapi?cate=&amp;partno=BLM18BA470SN1%23</datasheet>
+      <fields>
+        <field name="PARTNO">BLM18BA470SN1D</field>
+        <field name="SIZE">0603</field>
+        <field name="RATE">300mA</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="FB_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A35F7D7</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>100n</value>
+      <footprint>BluePillF4 Lib:C0603</footprint>
+      <fields>
+        <field name="TOL">±10%</field>
+        <field name="VOLT">50V</field>
+        <field name="PARTNO">C0603_100n_X7R_10%_CER_50V</field>
+        <field name="TYPE">CER</field>
+        <field name="TC">X7R</field>
+        <field name="SIZE">0603</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="CAP_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3ED5EE</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>510R</value>
+      <footprint>BluePillF4 Lib:R0603</footprint>
+      <fields>
+        <field name="TOL">5%</field>
+        <field name="PARTNO">R0603_510R_5%_125mW</field>
+        <field name="SIZE">0603</field>
+        <field name="RATE">125mW</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="RES_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A3F09CB</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1616RGB</value>
+      <footprint>BluePillF4 Lib:1616RGB</footprint>
+      <datasheet>http://optoelectronics.liteon.com/upload/download/DS22-2008-0044/LTST-C19HE1WT.pdf</datasheet>
+      <fields>
+        <field name="PARTNO">LED1616-RGB</field>
+        <field name="SIZE">1616</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="1616RGB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A426D49</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>560R</value>
+      <footprint>BluePillF4 Lib:R0603</footprint>
+      <fields>
+        <field name="TOL">5%</field>
+        <field name="PARTNO">R0603_510R_5%_125mW</field>
+        <field name="SIZE">0603</field>
+        <field name="RATE">125mW</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="RES_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A427787</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>220R</value>
+      <footprint>BluePillF4 Lib:R0603</footprint>
+      <fields>
+        <field name="TOL">5%</field>
+        <field name="PARTNO">R0603_510R_5%_125mW</field>
+        <field name="SIZE">0603</field>
+        <field name="RATE">125mW</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="RES_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A427885</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>1M</value>
+      <footprint>BluePillF4 Lib:R0603</footprint>
+      <fields>
+        <field name="TOL">5%</field>
+        <field name="PARTNO">R0603_1M_5%_125mW</field>
+        <field name="SIZE">0603</field>
+        <field name="RATE">125mW</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="RES_0603"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A42D7B9</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="BluePillF4" part="1616RGB">
+      <footprints>
+        <fp>*1615RGB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1616RGB</field>
+        <field name="Footprint">1615RGB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CR" type="passive"/>
+        <pin num="2" name="CG" type="passive"/>
+        <pin num="3" name="CB" type="passive"/>
+        <pin num="4" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BluePillF4" part="1N5819HW">
+      <footprints>
+        <fp>*SOD-123*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N5819HW</field>
+        <field name="Footprint">SOD-123</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BluePillF4" part="AP2112K-TRG1">
+      <aliases>
+        <alias>AP2112K1.2-TRG1</alias>
+        <alias>AP2112K1.8-TRG1</alias>
+        <alias>AP2112K2.5-TRG1</alias>
+        <alias>AP2112K2.6-TRG1</alias>
+        <alias>AP2112K3.3-TRG1</alias>
+      </aliases>
+      <footprints>
+        <fp>*SOT23-5*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP2112K-TRG1</field>
+        <field name="Footprint">SOT23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="5" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="BluePillF4" part="AP2114HA-TRG1">
+      <aliases>
+        <alias>AP2114HA-1.2TRG1</alias>
+        <alias>AP2114HA-1.5TRG1</alias>
+        <alias>AP2114HA-1.8TRG1</alias>
+        <alias>AP2114HA-2.5TRG1</alias>
+        <alias>AP2114HA-3.3TRG1</alias>
+      </aliases>
+      <footprints>
+        <fp>*SOT223*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP2114HA-TRG1</field>
+        <field name="Footprint">SOT223</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VOUT" type="power_out"/>
+        <pin num="PAD" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="BluePillF4" part="CAP_0603">
+      <footprints>
+        <fp>*C0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAP_0603</field>
+        <field name="Footprint">C0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BluePillF4" part="FB_0603">
+      <footprints>
+        <fp>*FB0603*</fp>
+        <fp>*FB0805*</fp>
+        <fp>*FB1206*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">FB_0603</field>
+        <field name="Footprint">FB0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BluePillF4" part="FC-12M">
+      <footprints>
+        <fp>*FC-12M*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">FC-12M</field>
+        <field name="Footprint">FC-12M</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BluePillF4" part="LED_0603">
+      <footprints>
+        <fp>*LED0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_0603</field>
+        <field name="Footprint">LED0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BluePillF4" part="MH20-1">
+      <footprints>
+        <fp>*MH20-1-0.1*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">MH20-1</field>
+        <field name="Footprint">MH20-1-0.1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+        <pin num="17" name="17" type="passive"/>
+        <pin num="18" name="18" type="passive"/>
+        <pin num="19" name="19" type="passive"/>
+        <pin num="20" name="20" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BluePillF4" part="MH_RA4-1">
+      <footprints>
+        <fp>*MH_RA4-1-0.1*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">MH_RA4-1</field>
+        <field name="Footprint">MH_RA4-1-0.1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BluePillF4" part="MR07C-06200">
+      <footprints>
+        <fp>*MR07C-06200*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">MR07C-06200</field>
+        <field name="Footprint">MR07C-06200</field>
+      </fields>
+      <pins>
+        <pin num="G1" name="GND" type="power_in"/>
+        <pin num="G2" name="GND" type="power_in"/>
+        <pin num="P1" name="DAT2" type="BiDi"/>
+        <pin num="P2" name="CD/DAT3" type="BiDi"/>
+        <pin num="P3" name="CMD" type="input"/>
+        <pin num="P4" name="VDD" type="power_in"/>
+        <pin num="P5" name="CLK" type="input"/>
+        <pin num="P6" name="VSS" type="power_in"/>
+        <pin num="P7" name="DAT0" type="BiDi"/>
+        <pin num="P8" name="DAT1" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="BluePillF4" part="NX3225GD">
+      <footprints>
+        <fp>*CRYSTAL_32X25_2P*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">NX3225GD</field>
+        <field name="Footprint">CRYSTAL_32X25_2P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BluePillF4" part="RES_0603">
+      <footprints>
+        <fp>*R0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RES_0603</field>
+        <field name="Footprint">R0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BluePillF4" part="SKSGACE010">
+      <footprints>
+        <fp>*SKSGACE010*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">SKSGACE010</field>
+        <field name="Footprint">SKSGACE010</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="A" type="passive"/>
+        <pin num="4" name="B" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BluePillF4" part="STM32F405R">
+      <aliases>
+        <alias>STM32F405RGT6</alias>
+      </aliases>
+      <footprints>
+        <fp>*LQFP64*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32F405R</field>
+        <field name="Footprint">LQFP64</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBAT" type="power_in"/>
+        <pin num="2" name="PC13" type="BiDi"/>
+        <pin num="3" name="PC14" type="BiDi"/>
+        <pin num="4" name="PC15" type="BiDi"/>
+        <pin num="5" name="PH0" type="BiDi"/>
+        <pin num="6" name="PH1" type="BiDi"/>
+        <pin num="7" name="NRST" type="input"/>
+        <pin num="8" name="PC0" type="BiDi"/>
+        <pin num="9" name="PC1" type="BiDi"/>
+        <pin num="10" name="PC2" type="BiDi"/>
+        <pin num="11" name="PC3" type="BiDi"/>
+        <pin num="12" name="VSSA" type="power_in"/>
+        <pin num="13" name="VDDA" type="power_in"/>
+        <pin num="14" name="PA0_WKUP" type="BiDi"/>
+        <pin num="15" name="PA1" type="BiDi"/>
+        <pin num="16" name="PA2" type="BiDi"/>
+        <pin num="17" name="PA3" type="BiDi"/>
+        <pin num="18" name="VSS" type="power_in"/>
+        <pin num="19" name="VDD" type="power_in"/>
+        <pin num="20" name="PA4" type="BiDi"/>
+        <pin num="21" name="PA5" type="BiDi"/>
+        <pin num="22" name="PA6" type="BiDi"/>
+        <pin num="23" name="PA7" type="BiDi"/>
+        <pin num="24" name="PC4" type="BiDi"/>
+        <pin num="25" name="PC5" type="BiDi"/>
+        <pin num="26" name="PB0" type="BiDi"/>
+        <pin num="27" name="PB1" type="BiDi"/>
+        <pin num="28" name="PB2" type="BiDi"/>
+        <pin num="29" name="PB10" type="BiDi"/>
+        <pin num="30" name="PB11" type="BiDi"/>
+        <pin num="31" name="VCAP_1" type="passive"/>
+        <pin num="32" name="VDD" type="power_in"/>
+        <pin num="33" name="PB12" type="BiDi"/>
+        <pin num="34" name="PB13" type="BiDi"/>
+        <pin num="35" name="PB14" type="BiDi"/>
+        <pin num="36" name="PB15" type="BiDi"/>
+        <pin num="37" name="PC6" type="BiDi"/>
+        <pin num="38" name="PC7" type="BiDi"/>
+        <pin num="39" name="PC8" type="BiDi"/>
+        <pin num="40" name="PC9" type="BiDi"/>
+        <pin num="41" name="PA8" type="BiDi"/>
+        <pin num="42" name="PA9" type="BiDi"/>
+        <pin num="43" name="PA10" type="BiDi"/>
+        <pin num="44" name="PA11" type="BiDi"/>
+        <pin num="45" name="PA12" type="BiDi"/>
+        <pin num="46" name="PA13" type="BiDi"/>
+        <pin num="47" name="VCAP_2" type="passive"/>
+        <pin num="48" name="VDD" type="power_in"/>
+        <pin num="49" name="PA14" type="BiDi"/>
+        <pin num="50" name="PA15" type="BiDi"/>
+        <pin num="51" name="PC10" type="BiDi"/>
+        <pin num="52" name="PC11" type="BiDi"/>
+        <pin num="53" name="PC12" type="BiDi"/>
+        <pin num="54" name="PD2" type="BiDi"/>
+        <pin num="55" name="PB3" type="BiDi"/>
+        <pin num="56" name="PB4" type="BiDi"/>
+        <pin num="57" name="PB5" type="BiDi"/>
+        <pin num="58" name="PB6" type="BiDi"/>
+        <pin num="59" name="PB7" type="BiDi"/>
+        <pin num="60" name="BOOT0" type="BiDi"/>
+        <pin num="61" name="PB8" type="BiDi"/>
+        <pin num="62" name="PB9" type="BiDi"/>
+        <pin num="63" name="VSS" type="power_in"/>
+        <pin num="64" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="BluePillF4" part="SY6280">
+      <footprints>
+        <fp>*SOT23-5*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SY6280</field>
+        <field name="Footprint">SOT23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="power_out"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="ISET" type="passive"/>
+        <pin num="4" name="EN" type="input"/>
+        <pin num="5" name="IN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="BluePillF4" part="TEST_PAD">
+      <footprints>
+        <fp>*TEST_PAD*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TEST_PAD</field>
+        <field name="Footprint">TEST_PAD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PP" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BluePillF4" part="U02-BFD3111B0-009">
+      <footprints>
+        <fp>*U02-BFD3111B0-009*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">U02-BFD3111B0-009</field>
+        <field name="Footprint">U02-BFD3111B0-009</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="S$1" name="M0" type="passive"/>
+        <pin num="S$2" name="M1" type="passive"/>
+        <pin num="S$3" name="M2" type="passive"/>
+        <pin num="S$4" name="M3" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="BluePillF4">
+      <uri>/home/mstempin/devel/STM32_Pill_Boards/Squonk42/BluePillF4.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/SDIO_D1">
+      <node ref="J4" pin="P8"/>
+      <node ref="U3" pin="40"/>
+    </net>
+    <net code="2" name="/SDIO_D2">
+      <node ref="U3" pin="51"/>
+      <node ref="J4" pin="P1"/>
+    </net>
+    <net code="3" name="/SDIO_D0">
+      <node ref="U3" pin="39"/>
+      <node ref="J4" pin="P7"/>
+    </net>
+    <net code="4" name="/SDIO_CMD">
+      <node ref="J4" pin="P3"/>
+      <node ref="U3" pin="54"/>
+    </net>
+    <net code="5" name="/SDIO_CK">
+      <node ref="U3" pin="53"/>
+      <node ref="J4" pin="P5"/>
+    </net>
+    <net code="6" name="/VBUS_EN">
+      <node ref="U3" pin="24"/>
+      <node ref="U4" pin="4"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="7" name="/VCAP_1">
+      <node ref="C11" pin="2"/>
+      <node ref="U3" pin="31"/>
+    </net>
+    <net code="8" name="/DP">
+      <node ref="R10" pin="1"/>
+      <node ref="J5" pin="3"/>
+    </net>
+    <net code="9" name="/DM">
+      <node ref="J5" pin="2"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="10" name="+5V">
+      <node ref="C6" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="U4" pin="5"/>
+      <node ref="D3" pin="C"/>
+      <node ref="J2" pin="3"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="11" name="+3V3A">
+      <node ref="U3" pin="13"/>
+      <node ref="J2" pin="1"/>
+      <node ref="U2" pin="5"/>
+      <node ref="L1" pin="2"/>
+      <node ref="C7" pin="2"/>
+    </net>
+    <net code="12" name="AGND">
+      <node ref="C1" pin="2"/>
+      <node ref="L2" pin="1"/>
+      <node ref="U3" pin="12"/>
+      <node ref="C7" pin="1"/>
+    </net>
+    <net code="13" name="/BOOT0">
+      <node ref="S1" pin="2"/>
+      <node ref="U3" pin="60"/>
+      <node ref="R5" pin="2"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="14" name="/D1">
+      <node ref="R2" pin="2"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="15" name="/D2_R">
+      <node ref="R3" pin="2"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="16" name="/PA7">
+      <node ref="J1" pin="12"/>
+      <node ref="U3" pin="23"/>
+    </net>
+    <net code="17" name="GND">
+      <node ref="R13" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U1" pin="PAD"/>
+      <node ref="C10" pin="1"/>
+      <node ref="R16" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C9" pin="1"/>
+      <node ref="L2" pin="2"/>
+      <node ref="J5" pin="S$4"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="J4" pin="G2"/>
+      <node ref="J3" pin="1"/>
+      <node ref="J4" pin="G1"/>
+      <node ref="C13" pin="2"/>
+      <node ref="J4" pin="P6"/>
+      <node ref="J5" pin="5"/>
+      <node ref="J5" pin="S$1"/>
+      <node ref="J5" pin="S$2"/>
+      <node ref="J5" pin="S$3"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="S1" pin="5"/>
+      <node ref="S1" pin="6"/>
+      <node ref="C12" pin="2"/>
+      <node ref="S2" pin="5"/>
+      <node ref="S2" pin="6"/>
+      <node ref="C16" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U4" pin="2"/>
+      <node ref="J1" pin="20"/>
+      <node ref="U3" pin="63"/>
+      <node ref="J1" pin="19"/>
+      <node ref="U3" pin="18"/>
+      <node ref="J2" pin="2"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="18" name="/ID">
+      <node ref="R11" pin="1"/>
+      <node ref="J5" pin="4"/>
+    </net>
+    <net code="19" name="/ISET">
+      <node ref="R13" pin="1"/>
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="20" name="/NRST">
+      <node ref="U3" pin="7"/>
+      <node ref="S2" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="J1" pin="17"/>
+    </net>
+    <net code="21" name="/PC5">
+      <node ref="PC5" pin="1"/>
+      <node ref="U3" pin="25"/>
+    </net>
+    <net code="22" name="/PC3">
+      <node ref="PC3" pin="1"/>
+      <node ref="U3" pin="11"/>
+    </net>
+    <net code="23" name="/PC2">
+      <node ref="PC2" pin="1"/>
+      <node ref="U3" pin="10"/>
+    </net>
+    <net code="24" name="/PC1">
+      <node ref="U3" pin="9"/>
+      <node ref="PC1" pin="1"/>
+    </net>
+    <net code="25" name="/PC0">
+      <node ref="PC0" pin="1"/>
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="26" name="/PB15">
+      <node ref="J2" pin="17"/>
+      <node ref="U3" pin="36"/>
+    </net>
+    <net code="27" name="/PB14">
+      <node ref="U3" pin="35"/>
+      <node ref="J2" pin="18"/>
+    </net>
+    <net code="28" name="/PB13">
+      <node ref="J2" pin="19"/>
+      <node ref="U3" pin="34"/>
+    </net>
+    <net code="29" name="/PB12">
+      <node ref="J2" pin="20"/>
+      <node ref="U3" pin="33"/>
+    </net>
+    <net code="30" name="/PC13">
+      <node ref="R3" pin="1"/>
+      <node ref="U3" pin="2"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="31" name="/R6">
+      <node ref="S2" pin="3"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="32" name="/PB0">
+      <node ref="J1" pin="13"/>
+      <node ref="U3" pin="26"/>
+    </net>
+    <net code="33" name="/PB1">
+      <node ref="U3" pin="27"/>
+      <node ref="J1" pin="14"/>
+    </net>
+    <net code="34" name="/PB2">
+      <node ref="U3" pin="28"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="35" name="/PB8">
+      <node ref="R5" pin="1"/>
+      <node ref="J2" pin="5"/>
+      <node ref="U3" pin="61"/>
+    </net>
+    <net code="36" name="/PB10">
+      <node ref="J1" pin="15"/>
+      <node ref="U3" pin="29"/>
+    </net>
+    <net code="37" name="/PB11">
+      <node ref="U3" pin="30"/>
+      <node ref="J1" pin="16"/>
+    </net>
+    <net code="38" name="/D2_G">
+      <node ref="R14" pin="2"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="39" name="/D2_B">
+      <node ref="D2" pin="3"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="40" name="Net-(S2-Pad1)">
+      <node ref="S2" pin="1"/>
+    </net>
+    <net code="41" name="Net-(S1-Pad1)">
+      <node ref="S1" pin="1"/>
+    </net>
+    <net code="42" name="Net-(S2-Pad4)">
+      <node ref="S2" pin="4"/>
+    </net>
+    <net code="43" name="Net-(S1-Pad4)">
+      <node ref="S1" pin="4"/>
+    </net>
+    <net code="44" name="+3V3">
+      <node ref="U3" pin="64"/>
+      <node ref="D1" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="U3" pin="19"/>
+      <node ref="U3" pin="48"/>
+      <node ref="J1" pin="18"/>
+      <node ref="J4" pin="P4"/>
+      <node ref="J3" pin="4"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="L1" pin="1"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C9" pin="2"/>
+      <node ref="S1" pin="3"/>
+      <node ref="C18" pin="2"/>
+      <node ref="D2" pin="4"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U3" pin="32"/>
+    </net>
+    <net code="45" name="/VBUS">
+      <node ref="J5" pin="1"/>
+      <node ref="R12" pin="1"/>
+      <node ref="U4" pin="1"/>
+      <node ref="D3" pin="A"/>
+    </net>
+    <net code="46" name="/SDIO_D3">
+      <node ref="J4" pin="P2"/>
+      <node ref="R16" pin="1"/>
+      <node ref="U3" pin="52"/>
+    </net>
+    <net code="47" name="/PC15">
+      <node ref="J1" pin="4"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U3" pin="4"/>
+      <node ref="Y1" pin="2"/>
+    </net>
+    <net code="48" name="/PC14">
+      <node ref="J1" pin="3"/>
+      <node ref="Y1" pin="1"/>
+      <node ref="U3" pin="3"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="49" name="/VBAT">
+      <node ref="J1" pin="1"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="50" name="/VCAP_2">
+      <node ref="U3" pin="47"/>
+      <node ref="C14" pin="2"/>
+    </net>
+    <net code="51" name="/OSCIN">
+      <node ref="C4" pin="1"/>
+      <node ref="Y2" pin="2"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="52" name="/OSCOUT">
+      <node ref="U3" pin="6"/>
+      <node ref="C5" pin="1"/>
+      <node ref="Y2" pin="1"/>
+    </net>
+    <net code="53" name="/PA0">
+      <node ref="J1" pin="5"/>
+      <node ref="U3" pin="14"/>
+    </net>
+    <net code="54" name="/PA1">
+      <node ref="J1" pin="6"/>
+      <node ref="U3" pin="15"/>
+    </net>
+    <net code="55" name="/PA2">
+      <node ref="U3" pin="16"/>
+      <node ref="J1" pin="7"/>
+    </net>
+    <net code="56" name="/PA3">
+      <node ref="J1" pin="8"/>
+      <node ref="U3" pin="17"/>
+    </net>
+    <net code="57" name="/PA4">
+      <node ref="U3" pin="20"/>
+      <node ref="J1" pin="9"/>
+    </net>
+    <net code="58" name="/PA5">
+      <node ref="U3" pin="21"/>
+      <node ref="J1" pin="10"/>
+    </net>
+    <net code="59" name="/PB9">
+      <node ref="J2" pin="4"/>
+      <node ref="U3" pin="62"/>
+    </net>
+    <net code="60" name="/PB7">
+      <node ref="U3" pin="59"/>
+      <node ref="J2" pin="6"/>
+    </net>
+    <net code="61" name="/PB6">
+      <node ref="J2" pin="7"/>
+      <node ref="U3" pin="58"/>
+    </net>
+    <net code="62" name="/PB5">
+      <node ref="J2" pin="8"/>
+      <node ref="U3" pin="57"/>
+    </net>
+    <net code="63" name="/PC6">
+      <node ref="PC6" pin="1"/>
+      <node ref="U3" pin="37"/>
+    </net>
+    <net code="64" name="/PC7">
+      <node ref="U3" pin="38"/>
+      <node ref="PC7" pin="1"/>
+    </net>
+    <net code="65" name="/PA6">
+      <node ref="U3" pin="22"/>
+      <node ref="J1" pin="11"/>
+    </net>
+    <net code="66" name="/PA8">
+      <node ref="U3" pin="41"/>
+      <node ref="J2" pin="16"/>
+    </net>
+    <net code="67" name="/PA9">
+      <node ref="U3" pin="42"/>
+      <node ref="R12" pin="2"/>
+      <node ref="J2" pin="15"/>
+    </net>
+    <net code="68" name="/PA10">
+      <node ref="R11" pin="2"/>
+      <node ref="J2" pin="14"/>
+      <node ref="U3" pin="43"/>
+    </net>
+    <net code="69" name="/PA11">
+      <node ref="J2" pin="13"/>
+      <node ref="R9" pin="2"/>
+      <node ref="U3" pin="44"/>
+    </net>
+    <net code="70" name="/PA12">
+      <node ref="R8" pin="2"/>
+      <node ref="R10" pin="2"/>
+      <node ref="J2" pin="12"/>
+      <node ref="U3" pin="45"/>
+    </net>
+    <net code="71" name="/PA13">
+      <node ref="R14" pin="1"/>
+      <node ref="U3" pin="46"/>
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="72" name="/PA14">
+      <node ref="J3" pin="2"/>
+      <node ref="R15" pin="1"/>
+      <node ref="U3" pin="49"/>
+    </net>
+    <net code="73" name="/PA15">
+      <node ref="U3" pin="50"/>
+      <node ref="J2" pin="11"/>
+    </net>
+    <net code="74" name="/PB3">
+      <node ref="U3" pin="55"/>
+      <node ref="J2" pin="10"/>
+    </net>
+    <net code="75" name="/PB4">
+      <node ref="J2" pin="9"/>
+      <node ref="U3" pin="56"/>
+    </net>
+  </nets>
+</export>

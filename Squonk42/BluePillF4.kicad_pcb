@@ -3,7 +3,7 @@
   (general
     (links 261)
     (no_connects 0)
-    (area 73.06828 49.4743 197.198196 119.5516)
+    (area 75.655099 49.556599 129.145101 72.566601)
     (thickness 1.2)
     (drawings 119)
     (tracks 1148)
@@ -15,7 +15,7 @@
   (page User 210.007 148.006)
   (title_block
     (title "BluePill F4")
-    (date 2017-12-26)
+    (date 2017-12-27)
     (rev A)
     (company www.stm32duino.com)
     (comment 1 "© 2017, All rights reserved.")

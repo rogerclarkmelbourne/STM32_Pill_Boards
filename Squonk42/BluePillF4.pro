@@ -1,4 +1,4 @@
-update=mar. 26 déc. 2017 16:20:43 CET
+update=mer. 27 déc. 2017 18:11:00 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,6 +25,12 @@ version=1
 NetIExt=net
 [general]
 version=1
+[eeschema]
+version=1
+LibDir=
+[eeschema/libraries]
+LibName1=BluePillF4
+LibName2=power
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -35,9 +41,3 @@ NetFmtName=Pcbnew
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
-[eeschema]
-version=1
-LibDir=
-[eeschema/libraries]
-LibName1=BluePillF4
-LibName2=power
