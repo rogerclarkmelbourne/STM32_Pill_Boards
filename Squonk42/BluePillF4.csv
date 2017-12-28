@@ -14,6 +14,7 @@ J4 ,1,"MR07C-06200","BluePillF4 Lib:MR07C-06200","http://www.asia-atom.com/pro_d
 J5 ,1,"U02-BFD3111B0-009","BluePillF4 Lib:U02-BFD3111B0-009","https://bsc-elec.en.alibaba.com/product/60650336309-804890321/Mid_mount_PCB_SMT_Micro_USB_Type_B_Female_Socket_Solder_Jack_5_Pin_4_legs.html","","","U02-BFD3111B0-009","","","","F","","","","",""
 L1 ,1,"FBMH1608HM471-T","BluePillF4 Lib:FB0603","http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=FBMH1608HM471-T&fileName=FBMH1608HM471-T_SS&mode=specSheetDownload","","","FBMH1608HM471-T","","","0603","DNP","","1A","","",""
 L2 ,1,"BLM18BA470SN1D","BluePillF4 Lib:FB0603","https://www.murata.com/en-eu/api/pdfdownloadapi?cate=&partno=BLM18BA470SN1%23","","","BLM18BA470SN1D","","","0603","F","","300mA","","",""
+L3 ,1,"LQW2BASR47J00L","BluePillF4 Lib:FB0805","http://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-0084.pdf","","","LQW2BASR47J00L","","","0805","F","","250mA","","",""
 PC0 PC1 PC2 PC3 PC5 PC6 PC7 ,7,"TEST_PAD","BluePillF4 Lib:TEST_PAD","","","","","","","","F","","","EXCLUDE","",""
 R1 R4 R7 ,3,"100k","BluePillF4 Lib:R0603","","5%","","R0603_100k_5%_125mW","","","0603","F","","125mW","","",""
 R11 ,1,"1k","BluePillF4 Lib:R0603","","5%","","R0603_1k_5%_125mW","","","0603","F","","125mW","","",""
