@@ -8,7 +8,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "BluePill F4"
-Date "2017-12-28"
+Date "2017-12-30"
 Rev "A"
 Comp "© 2017 www.stm32duino.com, All rights reserved."
 Comment1 ""
