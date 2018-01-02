@@ -2950,9 +2950,9 @@
       (net 46 /PA13))
     (pad 4 thru_hole circle (at 3.81 3.81) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask)
       (net 2 +3V3))
-    (model "/home/mstempin/kicad-files/BluePill F4/3D Models/Pin_Header_Angled_1x04_Pitch2.54mm.wrl"
+    (model ${KIPRJMOD}/shapes3D/Pin_Header_Angled_1x04_Pitch2.54mm.wrl
       (at (xyz -0.15 -0.147 0))
-      (scale (xyz 0.393700787 0.393700787 0.393700787))
+      (scale (xyz 0.393701 0.393701 0.393701))
       (rotate (xyz 0 0 -90))
     )
   )
@@ -3138,9 +3138,9 @@
       (net 1 GND))
     (pad 6 smd rect (at 1.7125 0 90) (size 0.7 0.325) (layers Top F.Paste F.Mask)
       (net 1 GND))
-    (model "/home/mstempin/kicad-files/BluePill F4/3D Models/SKSGAC.wrl"
+    (model ${KIPRJMOD}/shapes3D/SKSGAC.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 0.393700787 0.393700787 0.393700787))
+      (scale (xyz 0.393701 0.393701 0.393701))
       (rotate (xyz -90 0 0))
     )
   )
@@ -3326,9 +3326,9 @@
       (net 1 GND))
     (pad 6 smd rect (at 1.7125 0 90) (size 0.7 0.325) (layers Top F.Paste F.Mask)
       (net 1 GND))
-    (model "/home/mstempin/kicad-files/BluePill F4/3D Models/SKSGAC.wrl"
+    (model ${KIPRJMOD}/shapes3D/SKSGAC.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 0.393700787 0.393700787 0.393700787))
+      (scale (xyz 0.393701 0.393701 0.393701))
       (rotate (xyz -90 0 0))
     )
   )
@@ -3535,7 +3535,7 @@
       (net 1 GND))
     (pad G2 smd rect (at -3.03 9.2 270) (size 3.1 1.5) (layers Bottom B.Paste B.Mask)
       (net 1 GND))
-    (model "/home/mstempin/kicad-files/BluePill F4/3D Models/MR07C-06200.wrl"
+    (model ${KIPRJMOD}/shapes3D/MR07C-06200.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.393701 0.393701 0.393701))
       (rotate (xyz 0 0 0))
@@ -3994,7 +3994,7 @@
       (net 9 /OSCOUT))
     (pad 2 smd rect (at 0.95 0 270) (size 1.5 2.7) (layers Top F.Paste F.Mask)
       (net 8 /OSCIN))
-    (model "/home/mstempin/kicad-files/BluePill F4/3D Models/NX3225GD.wrl"
+    (model ${KIPRJMOD}/shapes3D/NX3225GD.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.393701 0.393701 0.393701))
       (rotate (xyz -90 0 0))
@@ -4048,7 +4048,7 @@
       (net 53 /VBUS))
     (pad C smd rect (at -1.5748 0) (size 0.89916 0.94996) (layers Top F.Paste F.Mask)
       (net 3 +5V))
-    (model "/home/mstempin/kicad-files/BluePill F4/3D Models/SOD-123.wrl"
+    (model ${KIPRJMOD}/shapes3D/SOD-123.wrl
       (at (xyz -0.056 -0.033 0))
       (scale (xyz 0.393701 0.393701 0.393701))
       (rotate (xyz 0 0 0))
@@ -4128,7 +4128,7 @@
       (net 6 /PC14))
     (pad 2 smd rect (at 0.7493 0 180) (size 1.39954 0.6985) (layers Top F.Paste F.Mask)
       (net 7 /PC15))
-    (model "/home/mstempin/kicad-files/BluePill F4/3D Models/FC-12M.wrl"
+    (model ${KIPRJMOD}/shapes3D/FC-12M.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.393701 0.393701 0.393701))
       (rotate (xyz 0 0 0))
@@ -4569,7 +4569,7 @@
       (net 1 GND))
     (pad S$4 thru_hole oval (at 4.84886 -3.14452) (size 2.3 1.4) (drill oval 1.699999 0.800001) (layers *.Cu *.Paste *.Mask)
       (net 1 GND))
-    (model /home/mstempin/devel/STM32_Pill_Boards/Squonk42/shapes3D/U02-BFD3111B0-009.wrl
+    (model ${KIPRJMOD}/shapes3D/U02-BFD3111B0-009.wrl
       (at (xyz 0 -0.08 0.01))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 180))
@@ -4761,7 +4761,7 @@
       (net 75 /D2_B))
     (pad 4 smd rect (at 0.79756 0.44958 90) (size 0.79756 0.54864) (layers Top F.Paste F.Mask)
       (net 2 +3V3))
-    (model "/home/mstempin/kicad-files/BluePill F4/3D Models/1616 RGB LED.wrl"
+    (model "${KIPRJMOD}/shapes3D/1616 RGB LED.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 0.393701 0.393701 0.393701))
       (rotate (xyz 0 0 0))
