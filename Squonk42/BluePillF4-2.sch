@@ -6,7 +6,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 3 3
 Title "BluePill F4"
 Date "2018-01-03"
 Rev "A"
@@ -16,12 +16,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 625  850  4025 2275
-U 5A4D4310
-F0 "BluePillF4-1" 250
-F1 "BluePillF4-1.sch" 250
-$EndSheet
 Text Notes 9275 6750 0    39   ~ 0
 Licensed under a Creative Commons\nAttribution-Share-Alike Unported License.\nSee creativecommons.org/licenses/by-sa/4.0/
 Text Notes 9275 6825 0    32   ~ 0
@@ -32,12 +26,12 @@ Text Notes 9275 6925 0    32   ~ 0
 regarding this product, including but not limited to, any implied warranties of
 Text Notes 9275 6975 0    32   ~ 0
 merchantibility or fitness for any particular application.
-Text Notes 9600 7100 0    32   ~ 0
+Text Notes 9575 7100 0    32   ~ 0
 The author(s) may make changes to specifications and product 
-Text Notes 9600 7150 0    32   ~ 0
+Text Notes 9575 7150 0    32   ~ 0
 descriptions at any time, without notice.
 $Bitmap
-Pos 8200 6800
+Pos 8100 6800
 Scale 1,000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 01 93 00 00 00 8D 08 06 00 00 00 72 B7 97 
@@ -591,10 +585,261 @@ B1 FA F3 E2 C5 8B 3A E5 21 E4 E5 E5 6B 1D E4 03 55 59 99 53 52 52 48 8F AB AB AB
 07 47 25 A5 D2 E9 03 52 D8 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-$Sheet
-S 5050 850  4025 2275
-U 5A4D7C11
-F0 "BluePillF4-2" 250
-F1 "BluePillF4-2.sch" 250
-$EndSheet
+$Comp
+L RES_0603 R?
+U 1 1 5A4D9DD1
+P 1700 1200
+AR Path="/5A4D4310/5A4D9DD1" Ref="R?"  Part="1" 
+AR Path="/5A4D7C11/5A4D9DD1" Ref="R19"  Part="1" 
+F 0 "R19" H 1650 1050 70  0000 L BNN
+F 1 "0R" H 1650 1300 70  0000 L BNN
+F 2 "BluePillF4 Lib:R0603" H 1690 990 65  0001 L TNN
+F 3 "" H 1700 1200 60  0001 C CNN
+F 4 "5%" H 1700 1200 60  0001 C CNN "TOL"
+F 5 "R0603_510R_5%_125mW" H 1700 1200 60  0001 C CNN "PARTNO"
+F 6 "0603" H 1700 1200 60  0001 C CNN "SIZE"
+F 7 "125mW" H 1700 1200 60  0001 C CNN "RATE"
+F 8 "DNP" H 1750 1450 60  0000 C CNN "DNP"
+	1    1700 1200
+	1    0    0    1   
+$EndComp
+$Comp
+L 1N5819HW D?
+U 1 1 5A4DA4E6
+P 3200 1300
+AR Path="/5A4D4310/5A4DA4E6" Ref="D?"  Part="1" 
+AR Path="/5A4D7C11/5A4DA4E6" Ref="D4"  Part="1" 
+F 0 "D4" H 3500 1300 70  0000 L BNN
+F 1 "1N5819HW" H 3500 1200 70  0000 L BNN
+F 2 "BluePillF4 Lib:SOD-123" H 3230 1450 20  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30217.pdf" H 3200 1300 60  0001 C CNN
+F 4 "40V" H 3200 1300 60  0001 C CNN "VOLT"
+F 5 "1N5819HW" H 3200 1300 60  0001 C CNN "PARTNO"
+F 6 "1A" H 3200 1300 60  0001 C CNN "RATE"
+F 7 "F" H 3200 1300 60  0001 C CNN "DNP"
+	1    3200 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L RES_0603 R?
+U 1 1 5A4DB01E
+P 3000 2500
+AR Path="/5A4D4310/5A4DB01E" Ref="R?"  Part="1" 
+AR Path="/5A4D7C11/5A4DB01E" Ref="R18"  Part="1" 
+F 0 "R18" V 3000 2600 70  0000 L BNN
+F 1 "10k" V 3100 2600 70  0000 L BNN
+F 2 "BluePillF4 Lib:R0603" H 2990 2290 65  0001 L TNN
+F 3 "" H 3000 2500 60  0001 C CNN
+F 4 "5%" H 3000 2500 60  0001 C CNN "TOL"
+F 5 "R0603_10k_5%_125mW" H 3000 2500 60  0001 C CNN "PARTNO"
+F 6 "0603" H 3000 2500 60  0001 C CNN "SIZE"
+F 7 "125mW" H 3000 2500 60  0001 C CNN "RATE"
+F 8 "F" H 3000 2500 60  0001 C CNN "DNP"
+	1    3000 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L RES_0603 R?
+U 1 1 5A4DB032
+P 2300 2500
+AR Path="/5A4D4310/5A4DB032" Ref="R?"  Part="1" 
+AR Path="/5A4D7C11/5A4DB032" Ref="R17"  Part="1" 
+F 0 "R17" V 2300 2250 70  0000 L BNN
+F 1 "15k" V 2400 2250 70  0000 L BNN
+F 2 "BluePillF4 Lib:R0603" H 2290 2290 65  0001 L TNN
+F 3 "" H 2300 2500 60  0001 C CNN
+F 4 "5%" H 2300 2500 60  0001 C CNN "TOL"
+F 5 "R0603_15k_5%_125mW" H 2300 2500 60  0001 C CNN "PARTNO"
+F 6 "0603" H 2300 2500 60  0001 C CNN "SIZE"
+F 7 "125mW" H 2300 2500 60  0001 C CNN "RATE"
+F 8 "F" H 2300 2500 60  0001 C CNN "DNP"
+	1    2300 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L CAP_0603 C?
+U 1 1 5A4DC5F8
+P 1100 2500
+AR Path="/5A4D4310/5A4DC5F8" Ref="C?"  Part="1" 
+AR Path="/5A4D7C11/5A4DC5F8" Ref="C19"  Part="1" 
+F 0 "C19" V 1100 2250 70  0000 L BNN
+F 1 "1u" V 1200 2240 70  0000 L BNN
+F 2 "BluePillF4 Lib:C0603" H 1090 2290 65  0001 L TNN
+F 3 "" H 1100 2500 60  0001 C CNN
+F 4 "±10%" H 1100 2500 60  0001 C CNN "TOL"
+F 5 "6.3V" V 1250 2350 60  0000 C CNN "VOLT"
+F 6 "C0603_1u_X7R_10%_CER_6V3" H 1100 2500 60  0001 C CNN "PARTNO"
+F 7 "CER" H 1100 2500 60  0001 C CNN "TYPE"
+F 8 "X7R" H 1100 2500 60  0001 C CNN "TC"
+F 9 "0603" H 1100 2500 60  0001 C CNN "SIZE"
+F 10 "F" H 1100 2500 60  0001 C CNN "DNP"
+	1    1100 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L CAP_0603 C?
+U 1 1 5A4DC654
+P 2600 2500
+AR Path="/5A4D4310/5A4DC654" Ref="C?"  Part="1" 
+AR Path="/5A4D7C11/5A4DC654" Ref="C20"  Part="1" 
+F 0 "C20" V 2600 2600 70  0000 L BNN
+F 1 "1u" V 2700 2600 70  0000 L BNN
+F 2 "BluePillF4 Lib:C0603" H 2590 2290 65  0001 L TNN
+F 3 "" H 2600 2500 60  0001 C CNN
+F 4 "±10%" H 2600 2500 60  0001 C CNN "TOL"
+F 5 "6.3V" V 2750 2650 60  0000 C CNN "VOLT"
+F 6 "C0603_1u_X7R_10%_CER_6V3" H 2600 2500 60  0001 C CNN "PARTNO"
+F 7 "CER" H 2600 2500 60  0001 C CNN "TYPE"
+F 8 "X7R" H 2600 2500 60  0001 C CNN "TC"
+F 9 "0603" H 2600 2500 60  0001 C CNN "SIZE"
+F 10 "F" H 2600 2500 60  0001 C CNN "DNP"
+	1    2600 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L MCP73812T-420I/OT U5
+U 1 1 5A4DC6E1
+P 1700 2100
+F 0 "U5" H 1300 2500 70  0000 L BNN
+F 1 "MCP73812T-420I/OT" H 1500 2500 70  0000 L BNN
+F 2 "BluePillF4 Lib:SOT23-5" H 1730 2250 20  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22036b.pdf" H 1700 2100 65  0001 C CNN
+F 4 "F" H 1700 2100 60  0001 C CNN "DNP"
+	1    1700 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L +VIN #SUPPLY052
+U 1 1 5A4DC75E
+P 3400 1100
+F 0 "#SUPPLY052" H 3400 1100 45  0001 L BNN
+F 1 "+VIN" H 3300 1250 70  0000 L BNN
+F 2 "" H 3400 1100 65  0001 C CNN
+F 3 "" H 3400 1100 65  0001 C CNN
+	1    3400 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #SUPPLY053
+U 1 1 5A4DC787
+P 1100 1100
+F 0 "#SUPPLY053" H 1100 1100 45  0001 L BNN
+F 1 "+5V" H 1000 1250 70  0000 L BNN
+F 2 "" H 1100 1100 60  0001 C CNN
+F 3 "" H 1100 1100 60  0001 C CNN
+	1    1100 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #SUPPLY054
+U 1 1 5A4DC7A9
+P 1700 2900
+F 0 "#SUPPLY054" H 1700 2900 45  0001 L BNN
+F 1 "GND" H 1600 2650 70  0000 L BNN
+F 2 "" H 1700 2900 60  0001 C CNN
+F 3 "" H 1700 2900 60  0001 C CNN
+	1    1700 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L IRLML6402 Q1
+U 1 1 5A4DC942
+P 3400 1600
+F 0 "Q1" H 3550 1650 70  0000 L BNN
+F 1 "IRLML6402" H 3550 1550 70  0000 L BNN
+F 2 "BluePillF4 Lib:SOT323" H 3430 1750 20  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/irlml6402.pdf?fileId=5546d462533600a401535668c9822638" H 3400 1600 32  0001 C CNN
+F 4 "F" H 3400 1600 60  0001 C CNN "DNP"
+	1    3400 1600
+	1    0    0    -1  
+$EndComp
+Text Notes 600  800  0    100  ~ 20
+LIPO\nCHARGER
+Wire Wire Line
+	2200 2200 2300 2200
+Wire Wire Line
+	2300 2200 2300 2300
+Wire Wire Line
+	2200 1900 4300 1900
+Wire Wire Line
+	1100 2800 3000 2800
+Wire Wire Line
+	2300 2700 2300 2800
+Connection ~ 2300 2800
+Wire Wire Line
+	1700 2400 1700 2900
+Connection ~ 1700 2800
+Wire Wire Line
+	1100 2800 1100 2600
+Wire Wire Line
+	1100 1100 1100 2400
+Wire Wire Line
+	1100 2200 1200 2200
+Wire Wire Line
+	2600 1900 2600 2400
+Wire Wire Line
+	2600 2800 2600 2600
+Wire Wire Line
+	3000 2800 3000 2700
+Connection ~ 2600 2800
+Wire Wire Line
+	1200 1900 1100 1900
+Connection ~ 1100 2200
+Wire Wire Line
+	1100 1500 3200 1500
+Wire Wire Line
+	3000 1300 3000 2300
+Connection ~ 1100 1900
+Wire Wire Line
+	1500 1200 1100 1200
+Connection ~ 1100 1500
+Connection ~ 1100 1200
+Connection ~ 3000 1500
+Wire Wire Line
+	3400 1900 3400 1800
+Connection ~ 2600 1900
+Connection ~ 3400 1900
+Wire Wire Line
+	3100 1300 3000 1300
+Wire Wire Line
+	3400 1300 3300 1300
+Wire Wire Line
+	3400 1100 3400 1400
+Connection ~ 3400 1300
+Connection ~ 3400 1200
+Wire Wire Line
+	1900 1200 3400 1200
+Text Label 2200 2200 0    10   ~ 2
+PROG
+Text Notes 600  7650 0    70   ~ 0
+Resistors are 5% 1/8W 0603 unless otherwise specified
+Text Notes 600  7750 0    70   ~ 0
+Ceramic capacitors are +-10% 50V X7R dielectric 0603 unless otherwise specified
+$Comp
+L +VBAT #SUPPLY055
+U 1 1 5A587EA2
+P 4300 1800
+F 0 "#SUPPLY055" H 4300 1800 45  0001 L BNN
+F 1 "+VBAT" H 4150 1950 70  0000 L BNN
+F 2 "" H 4300 1800 65  0001 C CNN
+F 3 "" H 4300 1800 65  0001 C CNN
+	1    4300 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 1900 4300 1800
+Wire Notes Line
+	500  3250 4550 3250
+Wire Notes Line
+	4550 3250 4550 500 
+Text Notes 1550 950  0    65   ~ 0
+Remove\nR19 if LiPo\nCharger
+Wire Notes Line
+	1450 600  1450 1500
+Wire Notes Line
+	1450 1500 2250 1500
+Wire Notes Line
+	2250 1500 2250 600 
+Wire Notes Line
+	2250 600  1450 600 
 $EndSCHEMATC
