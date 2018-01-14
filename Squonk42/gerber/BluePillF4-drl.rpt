@@ -1,0 +1,24 @@
+Drill report for /home/mstempin/devel/STM32_Pill_Boards/Squonk42/BluePillF4.kicad_pcb
+Created on dim. 14 janv. 2018 12:59:51 CET
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  Top                       front
+    L2 :  Bottom                    back
+
+
+Drill file 'BluePillF4.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0,30mm  0,012"  (171 holes)
+    T2  0,80mm  0,031"  (4 holes)  (with 4 slots)
+    T3  1,02mm  0,040"  (44 holes)
+
+    Total plated holes count 219
+
+
+Drill file 'BluePillF4-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0
