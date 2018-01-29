@@ -1,9 +1,9 @@
-(module MR07C-06200 (layer F.Cu) (tedit 5A0B5C6B)
+(module MR07C-06200 (layer F.Cu) (tedit 5A665B93)
   (descr "<b>All-plastic TF card holder</b>")
   (fp_text reference J4 (at -5.08 -11.43) (layer F.SilkS) hide
     (effects (font (size 0.77216 0.77216) (thickness 0.16256)) (justify left bottom))
   )
-  (fp_text value MR07C-06200 (at 1.27 -11.43) (layer F.SilkS) hide
+  (fp_text value 47309-2651 (at 1.27 -11.43) (layer F.SilkS) hide
     (effects (font (size 0.77216 0.77216) (thickness 0.16256)) (justify left bottom))
   )
   (fp_line (start 5.45 -9.6) (end -5.45 -9.6) (layer Dwgs.User) (width 0.127))
@@ -188,7 +188,7 @@
   (pad P1 smd rect (at 3.85 0) (size 0.8 1.5) (layers F.Cu F.Paste F.Mask))
   (pad G1 smd rect (at 3.03 -9.2) (size 3.1 1.5) (layers F.Cu F.Paste F.Mask))
   (pad G2 smd rect (at -3.03 -9.2) (size 3.1 1.5) (layers F.Cu F.Paste F.Mask))
-  (model "/home/mstempin/kicad-files/BluePill F4/3D Models/MR07C-06200.wrl"
+  (model ${KIPRJMOD}/shapes3D/MR07C-06200.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.393701 0.393701 0.393701))
     (rotate (xyz 0 0 0))

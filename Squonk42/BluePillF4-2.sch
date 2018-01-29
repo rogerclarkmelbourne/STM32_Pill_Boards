@@ -8,7 +8,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 3
 Title "BluePill F4"
-Date "2018-01-03"
+Date "2018-01-29"
 Rev "A"
 Comp "© 2017-2018 www.stm32duino.com, All rights reserved."
 Comment1 ""
@@ -600,6 +600,7 @@ F 5 "R0603_510R_5%_125mW" H 1700 1200 60  0001 C CNN "PARTNO"
 F 6 "0603" H 1700 1200 60  0001 C CNN "SIZE"
 F 7 "125mW" H 1700 1200 60  0001 C CNN "RATE"
 F 8 "DNP" H 1750 1450 60  0000 C CNN "DNP"
+F 9 "https://www.aliexpress.com/item/300-pcs-lot-SMD-Puce-R-sistance-0603-0R-1R-1-1R-1-2R-1-3R/32832090817.html" H 1700 1200 60  0001 C CNN "AliExpress"
 	1    1700 1200
 	1    0    0    1   
 $EndComp
@@ -617,6 +618,7 @@ F 4 "40V" H 3200 1300 60  0001 C CNN "VOLT"
 F 5 "1N5819HW" H 3200 1300 60  0001 C CNN "PARTNO"
 F 6 "1A" H 3200 1300 60  0001 C CNN "RATE"
 F 7 "F" H 3200 1300 60  0001 C CNN "DNP"
+F 8 "https://www.aliexpress.com/item/Livraison-gratuite-100-pcs-ss14-sma-1n5819-S4-smd-1A-40-V-do-214ac-Schottky-diode/32841683463.html" H 3200 1300 60  0001 C CNN "AliExpress"
 	1    3200 1300
 	1    0    0    -1  
 $EndComp
@@ -635,6 +637,7 @@ F 5 "R0603_10k_5%_125mW" H 3000 2500 60  0001 C CNN "PARTNO"
 F 6 "0603" H 3000 2500 60  0001 C CNN "SIZE"
 F 7 "125mW" H 3000 2500 60  0001 C CNN "RATE"
 F 8 "F" H 3000 2500 60  0001 C CNN "DNP"
+F 9 "https://www.aliexpress.com/item/Free-shipping-0603-SMD-Resistor-Kit-Assorted-Kit-1ohm-1M-ohm-1-33valuesX-20pcs-660pcs-Sample/32773409942.html" H 3000 2500 60  0001 C CNN "AliExpress"
 	1    3000 2500
 	0    1    1    0   
 $EndComp
@@ -653,6 +656,7 @@ F 5 "R0603_15k_5%_125mW" H 2300 2500 60  0001 C CNN "PARTNO"
 F 6 "0603" H 2300 2500 60  0001 C CNN "SIZE"
 F 7 "125mW" H 2300 2500 60  0001 C CNN "RATE"
 F 8 "F" H 2300 2500 60  0001 C CNN "DNP"
+F 9 "https://ww.aliexpress.com/store/product/300-pcs-lot-SMD-Puce-R-sistance-0603-13-K-15-K-16-K-18-K/1711463_32831368687.html" H 2300 2500 60  0001 C CNN "AliExpress"
 	1    2300 2500
 	0    1    1    0   
 $EndComp
@@ -673,6 +677,7 @@ F 7 "CER" H 1100 2500 60  0001 C CNN "TYPE"
 F 8 "X7R" H 1100 2500 60  0001 C CNN "TC"
 F 9 "0603" H 1100 2500 60  0001 C CNN "SIZE"
 F 10 "F" H 1100 2500 60  0001 C CNN "DNP"
+F 11 "https://www.aliexpress.com/item/0603-SMD-Capacitor-assorted-kit-36values-20pcs-720pcs-1pF-10uF-Samples-Kit-electronic-diy-kit/32817046315.html" H 1100 2500 60  0001 C CNN "AliExpress"
 	1    1100 2500
 	0    1    1    0   
 $EndComp
@@ -693,6 +698,7 @@ F 7 "CER" H 2600 2500 60  0001 C CNN "TYPE"
 F 8 "X7R" H 2600 2500 60  0001 C CNN "TC"
 F 9 "0603" H 2600 2500 60  0001 C CNN "SIZE"
 F 10 "F" H 2600 2500 60  0001 C CNN "DNP"
+F 11 "https://www.aliexpress.com/item/0603-SMD-Capacitor-assorted-kit-36values-20pcs-720pcs-1pF-10uF-Samples-Kit-electronic-diy-kit/32817046315.html" H 2600 2500 60  0001 C CNN "AliExpress"
 	1    2600 2500
 	0    1    1    0   
 $EndComp
@@ -709,10 +715,10 @@ F 4 "F" H 1700 2100 60  0001 C CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +VIN #SUPPLY052
+L +VIN #SUPPLY047
 U 1 1 5A4DC75E
 P 3400 1100
-F 0 "#SUPPLY052" H 3400 1100 45  0001 L BNN
+F 0 "#SUPPLY047" H 3400 1100 45  0001 L BNN
 F 1 "+VIN" H 3300 1250 70  0000 L BNN
 F 2 "" H 3400 1100 65  0001 C CNN
 F 3 "" H 3400 1100 65  0001 C CNN
@@ -720,10 +726,10 @@ F 3 "" H 3400 1100 65  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #SUPPLY053
+L +5V #SUPPLY048
 U 1 1 5A4DC787
 P 1100 1100
-F 0 "#SUPPLY053" H 1100 1100 45  0001 L BNN
+F 0 "#SUPPLY048" H 1100 1100 45  0001 L BNN
 F 1 "+5V" H 1000 1250 70  0000 L BNN
 F 2 "" H 1100 1100 60  0001 C CNN
 F 3 "" H 1100 1100 60  0001 C CNN
@@ -731,10 +737,10 @@ F 3 "" H 1100 1100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #SUPPLY054
+L GND #SUPPLY049
 U 1 1 5A4DC7A9
 P 1700 2900
-F 0 "#SUPPLY054" H 1700 2900 45  0001 L BNN
+F 0 "#SUPPLY049" H 1700 2900 45  0001 L BNN
 F 1 "GND" H 1600 2650 70  0000 L BNN
 F 2 "" H 1700 2900 60  0001 C CNN
 F 3 "" H 1700 2900 60  0001 C CNN
@@ -750,11 +756,227 @@ F 1 "IRLML6402" H 3550 1550 70  0000 L BNN
 F 2 "BluePillF4 Lib:SOT323" H 3430 1750 20  0001 C CNN
 F 3 "https://www.infineon.com/dgdl/irlml6402.pdf?fileId=5546d462533600a401535668c9822638" H 3400 1600 32  0001 C CNN
 F 4 "F" H 3400 1600 60  0001 C CNN "DNP"
+F 5 "https://www.aliexpress.com/item/Livraison-gratuite-20-PCS-IRLML6402-IRLML6402TRPBF-SOT-23-La-nouvelle-qualit-est-tr-s-bon-travail/32847160898.html" H 3400 1600 60  0001 C CNN "AliExpress"
 	1    3400 1600
 	1    0    0    -1  
 $EndComp
 Text Notes 600  800  0    100  ~ 20
 LIPO\nCHARGER
+Text Label 2200 2200 0    10   ~ 2
+PROG
+Text Notes 600  7650 0    70   ~ 0
+Resistors are 5% 1/8W 0603 unless otherwise specified
+Text Notes 600  7750 0    70   ~ 0
+Ceramic capacitors are +-10% 50V X7R dielectric 0603 unless otherwise specified
+$Comp
+L +VBAT #SUPPLY050
+U 1 1 5A587EA2
+P 4300 1800
+F 0 "#SUPPLY050" H 4300 1800 45  0001 L BNN
+F 1 "+VBAT" H 4150 1950 70  0000 L BNN
+F 2 "" H 4300 1800 65  0001 C CNN
+F 3 "" H 4300 1800 65  0001 C CNN
+	1    4300 1800
+	1    0    0    -1  
+$EndComp
+Text Notes 1550 950  0    65   ~ 0
+Remove\nR19 if LiPo\nCharger
+Text Notes 4640 700  0    100  ~ 20
+POWER
+Text Notes 7790 2000 0    70   ~ 0
+Note: Mount L1\nor U2, but not\nboth
+$Comp
+L CAP_0603 C?
+U 1 1 5A6DFFB9
+P 5450 1450
+AR Path="/5A4D4310/5A6DFFB9" Ref="C?"  Part="1" 
+AR Path="/5A4D7C11/5A6DFFB9" Ref="C6"  Part="1" 
+F 0 "C6" V 5450 1240 70  0000 L BNN
+F 1 "4u7" V 5550 1190 70  0000 L BNN
+F 2 "BluePillF4 Lib:C0603" H 5440 1240 65  0001 L TNN
+F 3 "" H 5450 1450 60  0001 C CNN
+F 4 "±10%" H 5450 1450 60  0001 C CNN "TOL"
+F 5 "6.3V" V 5600 1300 60  0000 C CNN "VOLT"
+F 6 "C0603_4u7_X7R_10%_CER_6V3" H 5450 1450 60  0001 C CNN "PARTNO"
+F 7 "CER" H 5450 1450 60  0001 C CNN "TYPE"
+F 8 "X7R" H 5450 1450 60  0001 C CNN "TC"
+F 9 "0603" H 5450 1450 60  0001 C CNN "SIZE"
+F 10 "F" H 5450 1450 60  0001 C CNN "DNP"
+F 11 "https://www.aliexpress.com/item/0603-SMD-Capacitor-assorted-kit-36values-20pcs-720pcs-1pF-10uF-Samples-Kit-electronic-diy-kit/32817046315.html" H 5450 1450 60  0001 C CNN "AliExpress"
+	1    5450 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L CAP_0603 C?
+U 1 1 5A6DFFC7
+P 6450 1450
+AR Path="/5A4D4310/5A6DFFC7" Ref="C?"  Part="1" 
+AR Path="/5A4D7C11/5A6DFFC7" Ref="C8"  Part="1" 
+F 0 "C8" V 6450 1260 70  0000 L BNN
+F 1 "4u7" V 6550 1210 70  0000 L BNN
+F 2 "BluePillF4 Lib:C0603" H 6440 1240 65  0001 L TNN
+F 3 "" H 6450 1450 60  0001 C CNN
+F 4 "±10%" H 6450 1450 60  0001 C CNN "TOL"
+F 5 "6.3V" V 6600 1300 60  0000 C CNN "VOLT"
+F 6 "C0603_4u7_X7R_10%_CER_6V3" H 6450 1450 60  0001 C CNN "PARTNO"
+F 7 "CER" H 6450 1450 60  0001 C CNN "TYPE"
+F 8 "X7R" H 6450 1450 60  0001 C CNN "TC"
+F 9 "0603" H 6450 1450 60  0001 C CNN "SIZE"
+F 10 "F" H 6450 1450 60  0001 C CNN "DNP"
+F 11 "https://www.aliexpress.com/item/0603-SMD-Capacitor-assorted-kit-36values-20pcs-720pcs-1pF-10uF-Samples-Kit-electronic-diy-kit/32817046315.html" H 6450 1450 60  0001 C CNN "AliExpress"
+	1    6450 1450
+	0    -1   1    0   
+$EndComp
+$Comp
+L GND #SUPPLY?
+U 1 1 5A6DFFCE
+P 5950 1950
+AR Path="/5A4D4310/5A6DFFCE" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5A4D7C11/5A6DFFCE" Ref="#SUPPLY051"  Part="1" 
+F 0 "#SUPPLY051" H 5950 1700 70  0001 R BNN
+F 1 "GND" H 6040 1700 70  0000 R BNN
+F 2 "" H 5950 1950 60  0001 C CNN
+F 3 "" H 5950 1950 60  0001 C CNN
+	1    5950 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #SUPPLY?
+U 1 1 5A6DFFD4
+P 6450 1150
+AR Path="/5A4D4310/5A6DFFD4" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5A4D7C11/5A6DFFD4" Ref="#SUPPLY052"  Part="1" 
+F 0 "#SUPPLY052" H 6450 1300 70  0001 L BNN
+F 1 "+3V3" H 6300 1300 70  0000 L BNN
+F 2 "" H 6450 1150 60  0001 C CNN
+F 3 "" H 6450 1150 60  0001 C CNN
+	1    6450 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3A #SUPPLY?
+U 1 1 5A6DFFDA
+P 8250 1150
+AR Path="/5A4D4310/5A6DFFDA" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5A4D7C11/5A6DFFDA" Ref="#SUPPLY053"  Part="1" 
+F 0 "#SUPPLY053" H 8250 1300 70  0001 L BNN
+F 1 "+3V3A" H 8090 1300 70  0000 L BNN
+F 2 "" H 8250 1150 60  0001 C CNN
+F 3 "" H 8250 1150 60  0001 C CNN
+	1    8250 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L AP2114HA-3.3TRG1 U?
+U 1 1 5A6DFFE5
+P 5950 1450
+AR Path="/5A4D4310/5A6DFFE5" Ref="U?"  Part="1" 
+AR Path="/5A4D7C11/5A6DFFE5" Ref="U1"  Part="1" 
+F 0 "U1" H 5550 2150 70  0000 L BNN
+F 1 "AP2114HA-3.3TRG1" H 5550 2050 70  0000 L BNN
+F 2 "BluePillF4 Lib:SOT223" H 5940 1240 65  0001 L TNN
+F 3 "https://www.diodes.com/assets/Datasheets/AP2114.pdf" H 5950 1450 60  0001 C CNN
+F 4 "3.3V" H 5950 1450 60  0001 C CNN "VOLT"
+F 5 "AP2114HA3.3-TRG1" H 5950 1450 60  0001 C CNN "PARTNO"
+F 6 "1A" H 5950 1450 60  0001 C CNN "RATE"
+F 7 "1.7mm" H 5950 1450 60  0001 C CNN "HEIGHT"
+F 8 "F" H 5950 1450 60  0001 C CNN "DNP"
+F 9 "https://www.ebay.com/itm/5PCS-AP2114HA-3-3TRG1-IC-REG-LDO-3-3V-1A-SOT223-2114-AP2114/192198254101?hash=item2cbfe89e15:g:ilIAAOSwurZZKGGk" H 5950 1450 60  0001 C CNN "AliExpress"
+	1    5950 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L AP2112K3.3-TRG1 U?
+U 1 1 5A6DFFF1
+P 7750 1450
+AR Path="/5A4D4310/5A6DFFF1" Ref="U?"  Part="1" 
+AR Path="/5A4D7C11/5A6DFFF1" Ref="U2"  Part="1" 
+F 0 "U2" H 7390 2100 70  0000 L BNN
+F 1 "AP2112K3.3-TRG1" H 7390 2000 70  0000 L BNN
+F 2 "BluePillF4 Lib:SOT23-5" H 7740 1240 65  0001 L TNN
+F 3 "https://www.diodes.com/assets/Datasheets/AP2112.pdf" H 7750 1450 60  0001 C CNN
+F 4 "3.3V" H 7750 1450 60  0001 C CNN "VOLT"
+F 5 "AP2112K3.3-TRG1" H 7750 1450 60  0001 C CNN "PARTNO"
+F 6 "1A" H 7750 1450 60  0001 C CNN "RATE"
+F 7 "1.3mm" H 7750 1450 60  0001 C CNN "HEIGHT"
+F 8 "F" H 7750 1450 60  0001 C CNN "DNP"
+F 9 "https://www.aliexpress.com/item/Free-Shipping-20PCS-AP2112K-3-3TRG1-IC-REG-LDO-3-3V-0-6A-SOT25-2112-AP2112/32669188125.html" H 7750 1450 60  0001 C CNN "AliExpress"
+	1    7750 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAP_0603 C?
+U 1 1 5A6E0015
+P 6750 1450
+AR Path="/5A4D4310/5A6E0015" Ref="C?"  Part="1" 
+AR Path="/5A4D7C11/5A6E0015" Ref="C18"  Part="1" 
+F 0 "C18" V 6825 1500 70  0000 L BNN
+F 1 "100n" V 6725 1500 70  0000 L BNN
+F 2 "BluePillF4 Lib:C0603" H 6740 1240 65  0001 L TNN
+F 3 "" H 6750 1450 60  0001 C CNN
+F 4 "±10%" H 6750 1450 60  0001 C CNN "TOL"
+F 5 "50V" H 6750 1450 60  0001 C CNN "VOLT"
+F 6 "C0603_100n_X7R_10%_CER_50V" H 6750 1450 60  0001 C CNN "PARTNO"
+F 7 "CER" H 6750 1450 60  0001 C CNN "TYPE"
+F 8 "X7R" H 6750 1450 60  0001 C CNN "TC"
+F 9 "0603" H 6750 1450 60  0001 C CNN "SIZE"
+F 10 "F" H 6750 1450 60  0001 C CNN "DNP"
+F 11 "https://www.aliexpress.com/item/0603-SMD-Capacitor-assorted-kit-36values-20pcs-720pcs-1pF-10uF-Samples-Kit-electronic-diy-kit/32817046315.html" H 6750 1450 60  0001 C CNN "AliExpress"
+	1    6750 1450
+	0    1    -1   0   
+$EndComp
+$Comp
+L +VIN #SUPPLY?
+U 1 1 5A6E001F
+P 5450 1150
+AR Path="/5A4D4310/5A6E001F" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5A4D7C11/5A6E001F" Ref="#SUPPLY054"  Part="1" 
+F 0 "#SUPPLY054" H 5450 1150 45  0001 L BNN
+F 1 "+VIN" H 5300 1300 70  0000 L BNN
+F 2 "" H 5450 1150 65  0001 C CNN
+F 3 "" H 5450 1150 65  0001 C CNN
+	1    5450 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L +VIN #SUPPLY?
+U 1 1 5A6E0025
+P 7250 1150
+AR Path="/5A4D4310/5A6E0025" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5A4D7C11/5A6E0025" Ref="#SUPPLY055"  Part="1" 
+F 0 "#SUPPLY055" H 7250 1150 45  0001 L BNN
+F 1 "+VIN" H 7100 1300 70  0000 L BNN
+F 2 "" H 7250 1150 65  0001 C CNN
+F 3 "" H 7250 1150 65  0001 C CNN
+	1    7250 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG056
+U 1 1 5A6E002B
+P 5350 1250
+F 0 "#FLG056" H 5350 1325 50  0001 C CNN
+F 1 "PWR_FLAG" V 5350 1550 50  0000 C CNN
+F 2 "" H 5350 1250 50  0001 C CNN
+F 3 "" H 5350 1250 50  0001 C CNN
+	1    5350 1250
+	0    -1   -1   0   
+$EndComp
+Text Label 7350 1250 0    10   ~ 0
++VIN
+$Comp
+L AGND #SUPPLY?
+U 1 1 5A6E0034
+P 7750 1950
+AR Path="/5A4D4310/5A6E0034" Ref="#SUPPLY?"  Part="1" 
+AR Path="/5A4D7C11/5A6E0034" Ref="#SUPPLY057"  Part="1" 
+F 0 "#SUPPLY057" H 7750 1950 45  0001 L BNN
+F 1 "AGND" H 7600 1700 70  0000 L BNN
+F 2 "" H 7750 1950 60  0001 C CNN
+F 3 "" H 7750 1950 60  0001 C CNN
+	1    7750 1950
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	2200 2200 2300 2200
 Wire Wire Line
@@ -809,31 +1031,12 @@ Connection ~ 3400 1300
 Connection ~ 3400 1200
 Wire Wire Line
 	1900 1200 3400 1200
-Text Label 2200 2200 0    10   ~ 2
-PROG
-Text Notes 600  7650 0    70   ~ 0
-Resistors are 5% 1/8W 0603 unless otherwise specified
-Text Notes 600  7750 0    70   ~ 0
-Ceramic capacitors are +-10% 50V X7R dielectric 0603 unless otherwise specified
-$Comp
-L +VBAT #SUPPLY055
-U 1 1 5A587EA2
-P 4300 1800
-F 0 "#SUPPLY055" H 4300 1800 45  0001 L BNN
-F 1 "+VBAT" H 4150 1950 70  0000 L BNN
-F 2 "" H 4300 1800 65  0001 C CNN
-F 3 "" H 4300 1800 65  0001 C CNN
-	1    4300 1800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4300 1900 4300 1800
 Wire Notes Line
-	500  3250 4550 3250
+	500  3250 8700 3250
 Wire Notes Line
 	4550 3250 4550 500 
-Text Notes 1550 950  0    65   ~ 0
-Remove\nR19 if LiPo\nCharger
 Wire Notes Line
 	1450 600  1450 1500
 Wire Notes Line
@@ -842,4 +1045,53 @@ Wire Notes Line
 	2250 1500 2250 600 
 Wire Notes Line
 	2250 600  1450 600 
+Wire Wire Line
+	6450 1150 6450 1350
+Connection ~ 6450 1250
+Wire Wire Line
+	8150 1250 8250 1250
+Wire Wire Line
+	8250 1250 8250 1150
+Wire Wire Line
+	5350 1250 5550 1250
+Wire Wire Line
+	5450 1150 5450 1350
+Connection ~ 5450 1250
+Wire Wire Line
+	5450 1550 5450 1850
+Wire Wire Line
+	5450 1850 6750 1850
+Wire Wire Line
+	5950 1750 5950 1950
+Wire Wire Line
+	6450 1850 6450 1550
+Connection ~ 5950 1850
+Wire Wire Line
+	7750 1750 7750 1950
+Wire Notes Line
+	8650 655  8650 2250
+Wire Notes Line
+	8650 2250 7150 2250
+Wire Notes Line
+	7150 2250 7150 750 
+Wire Wire Line
+	7250 1250 7350 1250
+Connection ~ 7250 1250
+Wire Wire Line
+	6350 1250 6750 1250
+Wire Notes Line
+	7150 765  7150 655 
+Wire Notes Line
+	7150 655  8650 655 
+Wire Wire Line
+	6750 1250 6750 1350
+Wire Wire Line
+	6750 1850 6750 1550
+Connection ~ 6450 1850
+Wire Wire Line
+	7250 1145 7250 1550
+Wire Wire Line
+	7250 1550 7350 1550
+Wire Notes Line
+	8700 3250 8700 475 
 $EndSCHEMATC

@@ -2,14 +2,14 @@
 <export version="D">
   <design>
     <source>/home/mstempin/devel/STM32_Pill_Boards/Squonk42/BluePillF4.sch</source>
-    <date>sam. 13 janv. 2018 14:32:28 CET</date>
+    <date>lun. 29 janv. 2018 22:00:37 CET</date>
     <tool>Eeschema 4.0.7-e2-6376~58~ubuntu16.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>BluePill F4</title>
         <company>© 2017-2018 www.stm32duino.com, All rights reserved.</company>
         <rev>A</rev>
-        <date>2018-01-03</date>
+        <date>2018-01-29</date>
         <source>BluePillF4.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -22,7 +22,7 @@
         <title>BluePill F4</title>
         <company>© 2017-2018 www.stm32duino.com, All rights reserved.</company>
         <rev>A</rev>
-        <date>2018-01-03</date>
+        <date>2018-01-29</date>
         <source>BluePillF4-1.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -35,7 +35,7 @@
         <title>BluePill F4</title>
         <company>© 2017-2018 www.stm32duino.com, All rights reserved.</company>
         <rev>A</rev>
-        <date>2018-01-03</date>
+        <date>2018-01-29</date>
         <source>BluePillF4-2.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -56,6 +56,7 @@
         <field name="TC">X7R</field>
         <field name="SIZE">0603</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/0603-SMD-Capacitor-assorted-kit-36values-20pcs-720pcs-1pF-10uF-Samples-Kit-electronic-diy-kit/32817046315.html</field>
       </fields>
       <libsource lib="BluePillF4" part="CAP_0603"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
@@ -72,6 +73,7 @@
         <field name="TC">NP0</field>
         <field name="SIZE">0603</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/0603-SMD-Capacitor-assorted-kit-36values-20pcs-720pcs-1pF-10uF-Samples-Kit-electronic-diy-kit/32817046315.html</field>
       </fields>
       <libsource lib="BluePillF4" part="CAP_0603"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
@@ -88,6 +90,7 @@
         <field name="TC">NP0</field>
         <field name="SIZE">0603</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/0603-SMD-Capacitor-assorted-kit-36values-20pcs-720pcs-1pF-10uF-Samples-Kit-electronic-diy-kit/32817046315.html</field>
       </fields>
       <libsource lib="BluePillF4" part="CAP_0603"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
@@ -104,6 +107,7 @@
         <field name="TC">NP0</field>
         <field name="SIZE">0603</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/0603-SMD-Capacitor-assorted-kit-36values-20pcs-720pcs-1pF-10uF-Samples-Kit-electronic-diy-kit/32817046315.html</field>
       </fields>
       <libsource lib="BluePillF4" part="CAP_0603"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
@@ -120,26 +124,11 @@
         <field name="TC">NP0</field>
         <field name="SIZE">0603</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/0603-SMD-Capacitor-assorted-kit-36values-20pcs-720pcs-1pF-10uF-Samples-Kit-electronic-diy-kit/32817046315.html</field>
       </fields>
       <libsource lib="BluePillF4" part="CAP_0603"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
       <tstamp>5A08908E</tstamp>
-    </comp>
-    <comp ref="C6">
-      <value>4u7</value>
-      <footprint>BluePillF4 Lib:C0603</footprint>
-      <fields>
-        <field name="TOL">±10%</field>
-        <field name="VOLT">6.3V</field>
-        <field name="PARTNO">C0603_4u7_X7R_10%_CER_6V3</field>
-        <field name="TYPE">CER</field>
-        <field name="TC">X7R</field>
-        <field name="SIZE">0603</field>
-        <field name="DNP">F</field>
-      </fields>
-      <libsource lib="BluePillF4" part="CAP_0603"/>
-      <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
-      <tstamp>5A089156</tstamp>
     </comp>
     <comp ref="C7">
       <value>100n</value>
@@ -152,26 +141,11 @@
         <field name="TC">X7R</field>
         <field name="SIZE">0603</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/0603-SMD-Capacitor-assorted-kit-36values-20pcs-720pcs-1pF-10uF-Samples-Kit-electronic-diy-kit/32817046315.html</field>
       </fields>
       <libsource lib="BluePillF4" part="CAP_0603"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
       <tstamp>5A08921E</tstamp>
-    </comp>
-    <comp ref="C8">
-      <value>4u7</value>
-      <footprint>BluePillF4 Lib:C0603</footprint>
-      <fields>
-        <field name="TOL">±10%</field>
-        <field name="VOLT">6.3V</field>
-        <field name="PARTNO">C0603_4u7_X7R_10%_CER_6V3</field>
-        <field name="TYPE">CER</field>
-        <field name="TC">X7R</field>
-        <field name="SIZE">0603</field>
-        <field name="DNP">F</field>
-      </fields>
-      <libsource lib="BluePillF4" part="CAP_0603"/>
-      <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
-      <tstamp>5A0892E6</tstamp>
     </comp>
     <comp ref="C9">
       <value>100n</value>
@@ -184,6 +158,7 @@
         <field name="TC">X7R</field>
         <field name="SIZE">0603</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/0603-SMD-Capacitor-assorted-kit-36values-20pcs-720pcs-1pF-10uF-Samples-Kit-electronic-diy-kit/32817046315.html</field>
       </fields>
       <libsource lib="BluePillF4" part="CAP_0603"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
@@ -200,6 +175,7 @@
         <field name="TC">X7R</field>
         <field name="SIZE">0603</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/0603-SMD-Capacitor-assorted-kit-36values-20pcs-720pcs-1pF-10uF-Samples-Kit-electronic-diy-kit/32817046315.html</field>
       </fields>
       <libsource lib="BluePillF4" part="CAP_0603"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
@@ -216,6 +192,7 @@
         <field name="TC">X7R</field>
         <field name="SIZE">0603</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/0603-SMD-Capacitor-assorted-kit-36values-20pcs-720pcs-1pF-10uF-Samples-Kit-electronic-diy-kit/32817046315.html</field>
       </fields>
       <libsource lib="BluePillF4" part="CAP_0603"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
@@ -232,6 +209,7 @@
         <field name="TC">X7R</field>
         <field name="SIZE">0603</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/0603-SMD-Capacitor-assorted-kit-36values-20pcs-720pcs-1pF-10uF-Samples-Kit-electronic-diy-kit/32817046315.html</field>
       </fields>
       <libsource lib="BluePillF4" part="CAP_0603"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
@@ -248,6 +226,7 @@
         <field name="TC">X7R</field>
         <field name="SIZE">0603</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/0603-SMD-Capacitor-assorted-kit-36values-20pcs-720pcs-1pF-10uF-Samples-Kit-electronic-diy-kit/32817046315.html</field>
       </fields>
       <libsource lib="BluePillF4" part="CAP_0603"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
@@ -264,6 +243,7 @@
         <field name="TC">X7R</field>
         <field name="SIZE">0603</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/0603-SMD-Capacitor-assorted-kit-36values-20pcs-720pcs-1pF-10uF-Samples-Kit-electronic-diy-kit/32817046315.html</field>
       </fields>
       <libsource lib="BluePillF4" part="CAP_0603"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
@@ -280,6 +260,7 @@
         <field name="TC">X7R</field>
         <field name="SIZE">0603</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/0603-SMD-Capacitor-assorted-kit-36values-20pcs-720pcs-1pF-10uF-Samples-Kit-electronic-diy-kit/32817046315.html</field>
       </fields>
       <libsource lib="BluePillF4" part="CAP_0603"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
@@ -296,6 +277,7 @@
         <field name="TC">X7R</field>
         <field name="SIZE">0603</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/0603-SMD-Capacitor-assorted-kit-36values-20pcs-720pcs-1pF-10uF-Samples-Kit-electronic-diy-kit/32817046315.html</field>
       </fields>
       <libsource lib="BluePillF4" part="CAP_0603"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
@@ -312,6 +294,7 @@
         <field name="TC">X7R</field>
         <field name="SIZE">0603</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/0603-SMD-Capacitor-assorted-kit-36values-20pcs-720pcs-1pF-10uF-Samples-Kit-electronic-diy-kit/32817046315.html</field>
       </fields>
       <libsource lib="BluePillF4" part="CAP_0603"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
@@ -324,6 +307,7 @@
         <field name="PARTNO">LED0603-GREEN</field>
         <field name="SIZE">0603</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/100pcs-lot-5-Colors-0603-SMD-Led-each-20pcs-Super-Bright-Red-Green-Blue-Yellow-White/32825537127.html</field>
       </fields>
       <libsource lib="BluePillF4" part="LED_0603"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
@@ -335,6 +319,7 @@
       <fields>
         <field name="PARTNO">MH20-1-0.1</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">N/A</field>
       </fields>
       <libsource lib="BluePillF4" part="MH20-1"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
@@ -346,6 +331,7 @@
       <fields>
         <field name="PARTNO">MH20-1-0.1</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">N/A</field>
       </fields>
       <libsource lib="BluePillF4" part="MH20-1"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
@@ -357,21 +343,23 @@
       <fields>
         <field name="PARTNO">MH_RA4-1-0.1</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">N/A</field>
       </fields>
       <libsource lib="BluePillF4" part="MH_RA4-1"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
       <tstamp>5A089E3A</tstamp>
     </comp>
     <comp ref="J4">
-      <value>MR07C-06200</value>
-      <footprint>BluePillF4 Lib:MR07C-06200</footprint>
-      <datasheet>http://www.asia-atom.com/pro_dt/productId=112.html</datasheet>
+      <value>47309-2651</value>
+      <footprint>BluePillF4 Lib:47309-2651</footprint>
+      <datasheet>http://www.molex.com/pdm_docs/sd/473092861_sd.pdf</datasheet>
       <fields>
-        <field name="PARTNO">MR07C-06200</field>
-        <field name="HEIGHT">1.9mm</field>
+        <field name="PARTNO">47309-2651</field>
+        <field name="HEIGHT">2.65mm</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">https://fr.aliexpress.com/item/10-PCS-LOT-Court-TF-carte-mini-MICRO-SD-avec-d-tection-pin-slot-m-moire/32842038620.html</field>
       </fields>
-      <libsource lib="BluePillF4" part="MR07C-06200"/>
+      <libsource lib="BluePillF4" part="47309-2651"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
       <tstamp>5A089F02</tstamp>
     </comp>
@@ -382,6 +370,7 @@
       <fields>
         <field name="PARTNO">U02-BFD3111B0-009</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/50pcs-Micro-USB-Connector-5pin-0-8mm-B-Type-With-hole-Female-For-Mobile-Phone-Micro/32829585274.html</field>
       </fields>
       <libsource lib="BluePillF4" part="U02-BFD3111B0-009"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
@@ -407,6 +396,7 @@
       <fields>
         <field name="BOM">EXCLUDE</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">N/A</field>
       </fields>
       <libsource lib="BluePillF4" part="TEST_PAD"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
@@ -418,6 +408,7 @@
       <fields>
         <field name="BOM">EXCLUDE</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">N/A</field>
       </fields>
       <libsource lib="BluePillF4" part="TEST_PAD"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
@@ -429,6 +420,7 @@
       <fields>
         <field name="BOM">EXCLUDE</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">N/A</field>
       </fields>
       <libsource lib="BluePillF4" part="TEST_PAD"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
@@ -440,6 +432,7 @@
       <fields>
         <field name="BOM">EXCLUDE</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">N/A</field>
       </fields>
       <libsource lib="BluePillF4" part="TEST_PAD"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
@@ -451,6 +444,7 @@
       <fields>
         <field name="BOM">EXCLUDE</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">N/A</field>
       </fields>
       <libsource lib="BluePillF4" part="TEST_PAD"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
@@ -462,6 +456,7 @@
       <fields>
         <field name="BOM">EXCLUDE</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">N/A</field>
       </fields>
       <libsource lib="BluePillF4" part="TEST_PAD"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
@@ -476,6 +471,7 @@
         <field name="SIZE">0603</field>
         <field name="RATE">125mW</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/Free-shipping-0603-SMD-Resistor-Kit-Assorted-Kit-1ohm-1M-ohm-1-33valuesX-20pcs-660pcs-Sample/32773409942.html</field>
       </fields>
       <libsource lib="BluePillF4" part="RES_0603"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
@@ -490,6 +486,7 @@
         <field name="SIZE">0603</field>
         <field name="RATE">125mW</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/300-pcs-lot-SMD-Puce-R-sistance-0603-470R-510R-560R-620R-680R-5-R-sistance/32832082819.html</field>
       </fields>
       <libsource lib="BluePillF4" part="RES_0603"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
@@ -504,6 +501,7 @@
         <field name="SIZE">0603</field>
         <field name="RATE">125mW</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/300-pcs-lot-SMD-Puce-R-sistance-0603-470R-510R-560R-620R-680R-5-R-sistance/32832082819.html</field>
       </fields>
       <libsource lib="BluePillF4" part="RES_0603"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
@@ -518,6 +516,7 @@
         <field name="SIZE">0603</field>
         <field name="RATE">125mW</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/Free-shipping-0603-SMD-Resistor-Kit-Assorted-Kit-1ohm-1M-ohm-1-33valuesX-20pcs-660pcs-Sample/32773409942.html</field>
       </fields>
       <libsource lib="BluePillF4" part="RES_0603"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
@@ -532,6 +531,7 @@
         <field name="SIZE">0603</field>
         <field name="RATE">125mW</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/300-pcs-lot-SMD-Puce-R-sistance-0603-0R-1R-1-1R-1-2R-1-3R/32832090817.html</field>
       </fields>
       <libsource lib="BluePillF4" part="RES_0603"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
@@ -546,6 +546,7 @@
         <field name="SIZE">0603</field>
         <field name="RATE">125mW</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/Free-shipping-0603-SMD-Resistor-Kit-Assorted-Kit-1ohm-1M-ohm-1-33valuesX-20pcs-660pcs-Sample/32773409942.html</field>
       </fields>
       <libsource lib="BluePillF4" part="RES_0603"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
@@ -560,6 +561,7 @@
         <field name="SIZE">0603</field>
         <field name="RATE">125mW</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/Free-shipping-0603-SMD-Resistor-Kit-Assorted-Kit-1ohm-1M-ohm-1-33valuesX-20pcs-660pcs-Sample/32773409942.html</field>
       </fields>
       <libsource lib="BluePillF4" part="RES_0603"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
@@ -574,6 +576,7 @@
         <field name="SIZE">0603</field>
         <field name="RATE">125mW</field>
         <field name="DNP">DNP</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/300-pcs-lot-SMD-Puce-R-sistance-0603-1-2-K-1-3-K-1-5/32830781938.html</field>
       </fields>
       <libsource lib="BluePillF4" part="RES_0603"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
@@ -588,6 +591,7 @@
         <field name="SIZE">0603</field>
         <field name="RATE">125mW</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/Free-shipping-0603-SMD-Resistor-Kit-Assorted-Kit-1ohm-1M-ohm-1-33valuesX-20pcs-660pcs-Sample/32773409942.html</field>
       </fields>
       <libsource lib="BluePillF4" part="RES_0603"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
@@ -602,6 +606,7 @@
         <field name="SIZE">0603</field>
         <field name="RATE">125mW</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/Free-shipping-0603-SMD-Resistor-Kit-Assorted-Kit-1ohm-1M-ohm-1-33valuesX-20pcs-660pcs-Sample/32773409942.html</field>
       </fields>
       <libsource lib="BluePillF4" part="RES_0603"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
@@ -616,6 +621,7 @@
         <field name="SIZE">0603</field>
         <field name="RATE">125mW</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/Free-shipping-0603-SMD-Resistor-Kit-Assorted-Kit-1ohm-1M-ohm-1-33valuesX-20pcs-660pcs-Sample/32773409942.html</field>
       </fields>
       <libsource lib="BluePillF4" part="RES_0603"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
@@ -630,6 +636,7 @@
         <field name="SIZE">0603</field>
         <field name="RATE">125mW</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/Free-shipping-0603-SMD-Resistor-Kit-Assorted-Kit-1ohm-1M-ohm-1-33valuesX-20pcs-660pcs-Sample/32773409942.html</field>
       </fields>
       <libsource lib="BluePillF4" part="RES_0603"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
@@ -643,6 +650,7 @@
         <field name="PARTNO">SKSGACE010</field>
         <field name="HEIGHT">1.4mm</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/3-5-2-7-1-4-Micro-Switch-button-For-BMW-Mercedes-Benz-Switch-button-Car/32660874243.html</field>
       </fields>
       <libsource lib="BluePillF4" part="SKSGACE010"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
@@ -656,40 +664,11 @@
         <field name="PARTNO">SKSGACE010</field>
         <field name="HEIGHT">1.4mm</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/3-5-2-7-1-4-Micro-Switch-button-For-BMW-Mercedes-Benz-Switch-button-Car/32660874243.html</field>
       </fields>
       <libsource lib="BluePillF4" part="SKSGACE010"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
       <tstamp>5A08B4E2</tstamp>
-    </comp>
-    <comp ref="U1">
-      <value>AP2114HA-3.3TRG1</value>
-      <footprint>BluePillF4 Lib:SOT223</footprint>
-      <datasheet>https://www.diodes.com/assets/Datasheets/AP2114.pdf</datasheet>
-      <fields>
-        <field name="VOLT">3.3V</field>
-        <field name="PARTNO">AP2114HA3.3-TRG1</field>
-        <field name="RATE">1A</field>
-        <field name="HEIGHT">1.7mm</field>
-        <field name="DNP">F</field>
-      </fields>
-      <libsource lib="BluePillF4" part="AP2114HA-3.3TRG1"/>
-      <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
-      <tstamp>5A08C676</tstamp>
-    </comp>
-    <comp ref="U2">
-      <value>AP2112K3.3-TRG1</value>
-      <footprint>BluePillF4 Lib:SOT23-5</footprint>
-      <datasheet>https://www.diodes.com/assets/Datasheets/AP2112.pdf</datasheet>
-      <fields>
-        <field name="VOLT">3.3V</field>
-        <field name="PARTNO">AP2112K3.3-TRG1</field>
-        <field name="RATE">1A</field>
-        <field name="HEIGHT">1.3mm</field>
-        <field name="DNP">F</field>
-      </fields>
-      <libsource lib="BluePillF4" part="AP2112K3.3-TRG1"/>
-      <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
-      <tstamp>5A08C73E</tstamp>
     </comp>
     <comp ref="U4">
       <value>SY6280</value>
@@ -699,6 +678,7 @@
         <field name="PARTNO">SY6280AAC</field>
         <field name="HEIGHT">1.3mm</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/20PCS-SY6280AAC-SY6280AA-SY6280A-SY6280-SOT23-5-New-Original-Free-Shipping/32815795608.html</field>
       </fields>
       <libsource lib="BluePillF4" part="SY6280"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
@@ -714,6 +694,7 @@
         <field name="DNP">F</field>
         <field name="FREQ">8MHz</field>
         <field name="CAP">8pF</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/Passive-small-size-3225-2-feet-NX3225GD-8M-8MHZ-8-000MHZ-automotive-grade-industrial-grade/32831259082.html</field>
       </fields>
       <libsource lib="BluePillF4" part="NX3225GD"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
@@ -728,6 +709,7 @@
         <field name="PARTNO">1N5819HW</field>
         <field name="RATE">1A</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/Livraison-gratuite-100-pcs-ss14-sma-1n5819-S4-smd-1A-40-V-do-214ac-Schottky-diode/32841683463.html</field>
       </fields>
       <libsource lib="BluePillF4" part="1N5819HW"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
@@ -743,6 +725,7 @@
         <field name="DNP">F</field>
         <field name="FREQ">32.768KhZ</field>
         <field name="CAP">12.5pF</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/Free-shipping-10pcs-Passive-SMD-crystal-FC-12M-32-768KHZ-32-768K-2012-2-1-2MM/32602555841.html</field>
       </fields>
       <libsource lib="BluePillF4" part="FC-12M"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
@@ -757,26 +740,11 @@
         <field name="SIZE">0603</field>
         <field name="RATE">300mA</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/100PCS-0603-47R-47-ohm-SMD-Magnetic-beads-47R-47-ohm-300MA-Ferrite-Universal-BLM18BA470SN1D-BLM18BA470SN1/32246839345.html</field>
       </fields>
       <libsource lib="BluePillF4" part="FB_0603"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
       <tstamp>5A35F7D7</tstamp>
-    </comp>
-    <comp ref="C18">
-      <value>100n</value>
-      <footprint>BluePillF4 Lib:C0603</footprint>
-      <fields>
-        <field name="TOL">±10%</field>
-        <field name="VOLT">50V</field>
-        <field name="PARTNO">C0603_100n_X7R_10%_CER_50V</field>
-        <field name="TYPE">CER</field>
-        <field name="TC">X7R</field>
-        <field name="SIZE">0603</field>
-        <field name="DNP">F</field>
-      </fields>
-      <libsource lib="BluePillF4" part="CAP_0603"/>
-      <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
-      <tstamp>5A3ED5EE</tstamp>
     </comp>
     <comp ref="R12">
       <value>510R</value>
@@ -787,6 +755,7 @@
         <field name="SIZE">0603</field>
         <field name="RATE">125mW</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/300-pcs-lot-SMD-Puce-R-sistance-0603-470R-510R-560R-620R-680R-5-R-sistance/32832082819.html</field>
       </fields>
       <libsource lib="BluePillF4" part="RES_0603"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
@@ -800,6 +769,7 @@
         <field name="PARTNO">LED1616-RGB</field>
         <field name="SIZE">1616</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/100-pcs-0603-1616-RGB-LED-Anode-Commune-Tricolore-Rouge-Vert-Bleu-0606-Surface-Mount-Puce/1000004783059.html</field>
       </fields>
       <libsource lib="BluePillF4" part="1616RGB"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
@@ -814,6 +784,7 @@
         <field name="SIZE">0603</field>
         <field name="RATE">125mW</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/300-pcs-lot-SMD-Puce-R-sistance-0603-470R-510R-560R-620R-680R-5-R-sistance/32832082819.html</field>
       </fields>
       <libsource lib="BluePillF4" part="RES_0603"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
@@ -828,6 +799,7 @@
         <field name="SIZE">0603</field>
         <field name="RATE">125mW</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">https://www.aliexpress.com/store/product/300-pcs-lot-SMD-Puce-R-sistance-0603-180R-200R-220R-240R-270R-5-R-sistance/1711463_32830817640.html</field>
       </fields>
       <libsource lib="BluePillF4" part="RES_0603"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
@@ -842,6 +814,7 @@
         <field name="SIZE">0603</field>
         <field name="RATE">125mW</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/Free-shipping-0603-SMD-Resistor-Kit-Assorted-Kit-1ohm-1M-ohm-1-33valuesX-20pcs-660pcs-Sample/32773409942.html</field>
       </fields>
       <libsource lib="BluePillF4" part="RES_0603"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
@@ -869,6 +842,7 @@
         <field name="PARTNO">STM32F405RGT6</field>
         <field name="HEIGHT">1.6mm</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/QFP-STM32F405-STM32F405RGT6-1PCS-in-Stock/32382819726.html</field>
       </fields>
       <libsource lib="BluePillF4" part="STM32F405RGT6"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
@@ -880,6 +854,7 @@
       <fields>
         <field name="BOM">EXCLUDE</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">N/A</field>
       </fields>
       <libsource lib="BluePillF4" part="TEST_PAD"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
@@ -894,10 +869,39 @@
         <field name="SIZE">0603</field>
         <field name="RATE">125mW</field>
         <field name="DNP">DNP</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/300-pcs-lot-SMD-Puce-R-sistance-0603-0R-1R-1-1R-1-2R-1-3R/32832090817.html</field>
       </fields>
       <libsource lib="BluePillF4" part="RES_0603"/>
       <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
       <tstamp>5A58633C</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>10k</value>
+      <footprint>BluePillF4 Lib:R0603</footprint>
+      <fields>
+        <field name="TOL">5%</field>
+        <field name="PARTNO">R0603_10k_5%_125mW</field>
+        <field name="SIZE">0603</field>
+        <field name="RATE">125mW</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="RES_0603"/>
+      <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
+      <tstamp>5A6E3EB6</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>10k</value>
+      <footprint>BluePillF4 Lib:R0603</footprint>
+      <fields>
+        <field name="TOL">5%</field>
+        <field name="PARTNO">R0603_10k_5%_125mW</field>
+        <field name="SIZE">0603</field>
+        <field name="RATE">125mW</field>
+        <field name="DNP">F</field>
+      </fields>
+      <libsource lib="BluePillF4" part="RES_0603"/>
+      <sheetpath names="/BluePillF4-1/" tstamps="/5A4D4310/"/>
+      <tstamp>5A6E4128</tstamp>
     </comp>
     <comp ref="R19">
       <value>0R</value>
@@ -908,6 +912,7 @@
         <field name="SIZE">0603</field>
         <field name="RATE">125mW</field>
         <field name="DNP">DNP</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/300-pcs-lot-SMD-Puce-R-sistance-0603-0R-1R-1-1R-1-2R-1-3R/32832090817.html</field>
       </fields>
       <libsource lib="BluePillF4" part="RES_0603"/>
       <sheetpath names="/BluePillF4-2/" tstamps="/5A4D7C11/"/>
@@ -922,6 +927,7 @@
         <field name="PARTNO">1N5819HW</field>
         <field name="RATE">1A</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/Livraison-gratuite-100-pcs-ss14-sma-1n5819-S4-smd-1A-40-V-do-214ac-Schottky-diode/32841683463.html</field>
       </fields>
       <libsource lib="BluePillF4" part="1N5819HW"/>
       <sheetpath names="/BluePillF4-2/" tstamps="/5A4D7C11/"/>
@@ -936,6 +942,7 @@
         <field name="SIZE">0603</field>
         <field name="RATE">125mW</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/Free-shipping-0603-SMD-Resistor-Kit-Assorted-Kit-1ohm-1M-ohm-1-33valuesX-20pcs-660pcs-Sample/32773409942.html</field>
       </fields>
       <libsource lib="BluePillF4" part="RES_0603"/>
       <sheetpath names="/BluePillF4-2/" tstamps="/5A4D7C11/"/>
@@ -950,6 +957,7 @@
         <field name="SIZE">0603</field>
         <field name="RATE">125mW</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">https://ww.aliexpress.com/store/product/300-pcs-lot-SMD-Puce-R-sistance-0603-13-K-15-K-16-K-18-K/1711463_32831368687.html</field>
       </fields>
       <libsource lib="BluePillF4" part="RES_0603"/>
       <sheetpath names="/BluePillF4-2/" tstamps="/5A4D7C11/"/>
@@ -966,6 +974,7 @@
         <field name="TC">X7R</field>
         <field name="SIZE">0603</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/0603-SMD-Capacitor-assorted-kit-36values-20pcs-720pcs-1pF-10uF-Samples-Kit-electronic-diy-kit/32817046315.html</field>
       </fields>
       <libsource lib="BluePillF4" part="CAP_0603"/>
       <sheetpath names="/BluePillF4-2/" tstamps="/5A4D7C11/"/>
@@ -982,6 +991,7 @@
         <field name="TC">X7R</field>
         <field name="SIZE">0603</field>
         <field name="DNP">F</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/0603-SMD-Capacitor-assorted-kit-36values-20pcs-720pcs-1pF-10uF-Samples-Kit-electronic-diy-kit/32817046315.html</field>
       </fields>
       <libsource lib="BluePillF4" part="CAP_0603"/>
       <sheetpath names="/BluePillF4-2/" tstamps="/5A4D7C11/"/>
@@ -1004,10 +1014,94 @@
       <datasheet>https://www.infineon.com/dgdl/irlml6402.pdf?fileId=5546d462533600a401535668c9822638</datasheet>
       <fields>
         <field name="DNP">F</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/Livraison-gratuite-20-PCS-IRLML6402-IRLML6402TRPBF-SOT-23-La-nouvelle-qualit-est-tr-s-bon-travail/32847160898.html</field>
       </fields>
       <libsource lib="BluePillF4" part="IRLML6402"/>
       <sheetpath names="/BluePillF4-2/" tstamps="/5A4D7C11/"/>
       <tstamp>5A4DC942</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>4u7</value>
+      <footprint>BluePillF4 Lib:C0603</footprint>
+      <fields>
+        <field name="TOL">±10%</field>
+        <field name="VOLT">6.3V</field>
+        <field name="PARTNO">C0603_4u7_X7R_10%_CER_6V3</field>
+        <field name="TYPE">CER</field>
+        <field name="TC">X7R</field>
+        <field name="SIZE">0603</field>
+        <field name="DNP">F</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/0603-SMD-Capacitor-assorted-kit-36values-20pcs-720pcs-1pF-10uF-Samples-Kit-electronic-diy-kit/32817046315.html</field>
+      </fields>
+      <libsource lib="BluePillF4" part="CAP_0603"/>
+      <sheetpath names="/BluePillF4-2/" tstamps="/5A4D7C11/"/>
+      <tstamp>5A6DFFB9</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>4u7</value>
+      <footprint>BluePillF4 Lib:C0603</footprint>
+      <fields>
+        <field name="TOL">±10%</field>
+        <field name="VOLT">6.3V</field>
+        <field name="PARTNO">C0603_4u7_X7R_10%_CER_6V3</field>
+        <field name="TYPE">CER</field>
+        <field name="TC">X7R</field>
+        <field name="SIZE">0603</field>
+        <field name="DNP">F</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/0603-SMD-Capacitor-assorted-kit-36values-20pcs-720pcs-1pF-10uF-Samples-Kit-electronic-diy-kit/32817046315.html</field>
+      </fields>
+      <libsource lib="BluePillF4" part="CAP_0603"/>
+      <sheetpath names="/BluePillF4-2/" tstamps="/5A4D7C11/"/>
+      <tstamp>5A6DFFC7</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>AP2114HA-3.3TRG1</value>
+      <footprint>BluePillF4 Lib:SOT223</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AP2114.pdf</datasheet>
+      <fields>
+        <field name="VOLT">3.3V</field>
+        <field name="PARTNO">AP2114HA3.3-TRG1</field>
+        <field name="RATE">1A</field>
+        <field name="HEIGHT">1.7mm</field>
+        <field name="DNP">F</field>
+        <field name="AliExpress">https://www.ebay.com/itm/5PCS-AP2114HA-3-3TRG1-IC-REG-LDO-3-3V-1A-SOT223-2114-AP2114/192198254101?hash=item2cbfe89e15:g:ilIAAOSwurZZKGGk</field>
+      </fields>
+      <libsource lib="BluePillF4" part="AP2114HA-3.3TRG1"/>
+      <sheetpath names="/BluePillF4-2/" tstamps="/5A4D7C11/"/>
+      <tstamp>5A6DFFE5</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>AP2112K3.3-TRG1</value>
+      <footprint>BluePillF4 Lib:SOT23-5</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AP2112.pdf</datasheet>
+      <fields>
+        <field name="VOLT">3.3V</field>
+        <field name="PARTNO">AP2112K3.3-TRG1</field>
+        <field name="RATE">1A</field>
+        <field name="HEIGHT">1.3mm</field>
+        <field name="DNP">F</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/Free-Shipping-20PCS-AP2112K-3-3TRG1-IC-REG-LDO-3-3V-0-6A-SOT25-2112-AP2112/32669188125.html</field>
+      </fields>
+      <libsource lib="BluePillF4" part="AP2112K3.3-TRG1"/>
+      <sheetpath names="/BluePillF4-2/" tstamps="/5A4D7C11/"/>
+      <tstamp>5A6DFFF1</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>100n</value>
+      <footprint>BluePillF4 Lib:C0603</footprint>
+      <fields>
+        <field name="TOL">±10%</field>
+        <field name="VOLT">50V</field>
+        <field name="PARTNO">C0603_100n_X7R_10%_CER_50V</field>
+        <field name="TYPE">CER</field>
+        <field name="TC">X7R</field>
+        <field name="SIZE">0603</field>
+        <field name="DNP">F</field>
+        <field name="AliExpress">https://www.aliexpress.com/item/0603-SMD-Capacitor-assorted-kit-36values-20pcs-720pcs-1pF-10uF-Samples-Kit-electronic-diy-kit/32817046315.html</field>
+      </fields>
+      <libsource lib="BluePillF4" part="CAP_0603"/>
+      <sheetpath names="/BluePillF4-2/" tstamps="/5A4D7C11/"/>
+      <tstamp>5A6E0015</tstamp>
     </comp>
   </components>
   <libparts>
@@ -1039,6 +1133,34 @@
       <pins>
         <pin num="A" name="A" type="passive"/>
         <pin num="C" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BluePillF4" part="47309-">
+      <aliases>
+        <alias>47309-2851</alias>
+        <alias>47309-2651</alias>
+      </aliases>
+      <footprints>
+        <fp>*47309-2851*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">47309-</field>
+        <field name="Footprint">47309-2851</field>
+      </fields>
+      <pins>
+        <pin num="G1" name="GND" type="power_in"/>
+        <pin num="G2" name="GND" type="power_in"/>
+        <pin num="G3" name="POL" type="passive"/>
+        <pin num="G4" name="DET" type="passive"/>
+        <pin num="P1" name="DAT2" type="BiDi"/>
+        <pin num="P2" name="CD/DAT3" type="BiDi"/>
+        <pin num="P3" name="CMD" type="input"/>
+        <pin num="P4" name="VDD" type="power_in"/>
+        <pin num="P5" name="CLK" type="input"/>
+        <pin num="P6" name="VSS" type="power_in"/>
+        <pin num="P7" name="DAT0" type="BiDi"/>
+        <pin num="P8" name="DAT1" type="BiDi"/>
       </pins>
     </libpart>
     <libpart lib="BluePillF4" part="AP2112K-TRG1">
@@ -1243,28 +1365,6 @@
         <pin num="4" name="4" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="BluePillF4" part="MR07C-06200">
-      <footprints>
-        <fp>*MR07C-06200*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">MR07C-06200</field>
-        <field name="Footprint">MR07C-06200</field>
-      </fields>
-      <pins>
-        <pin num="G1" name="GND" type="power_in"/>
-        <pin num="G2" name="GND" type="power_in"/>
-        <pin num="P1" name="DAT2" type="BiDi"/>
-        <pin num="P2" name="CD/DAT3" type="BiDi"/>
-        <pin num="P3" name="CMD" type="input"/>
-        <pin num="P4" name="VDD" type="power_in"/>
-        <pin num="P5" name="CLK" type="input"/>
-        <pin num="P6" name="VSS" type="power_in"/>
-        <pin num="P7" name="DAT0" type="BiDi"/>
-        <pin num="P8" name="DAT1" type="BiDi"/>
-      </pins>
-    </libpart>
     <libpart lib="BluePillF4" part="NX3225GD">
       <footprints>
         <fp>*CRYSTAL_32X25_2P*</fp>
@@ -1448,428 +1548,438 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="/BluePillF4-1/PA3">
-      <node ref="U3" pin="17"/>
-      <node ref="J1" pin="8"/>
-    </net>
-    <net code="2" name="/BluePillF4-1/PA4">
-      <node ref="J1" pin="9"/>
-      <node ref="U3" pin="20"/>
-    </net>
-    <net code="3" name="/BluePillF4-1/PA5">
-      <node ref="U3" pin="21"/>
-      <node ref="J1" pin="10"/>
-    </net>
-    <net code="4" name="/BluePillF4-1/PA6">
-      <node ref="U3" pin="22"/>
-      <node ref="J1" pin="11"/>
-    </net>
-    <net code="5" name="/BluePillF4-1/PA7">
-      <node ref="U3" pin="23"/>
-      <node ref="J1" pin="12"/>
-    </net>
-    <net code="6" name="/BluePillF4-1/PA10">
-      <node ref="U3" pin="43"/>
-      <node ref="R11" pin="2"/>
-      <node ref="J2" pin="14"/>
-    </net>
-    <net code="7" name="/BluePillF4-1/PA11">
-      <node ref="U3" pin="44"/>
-      <node ref="J2" pin="13"/>
-      <node ref="R9" pin="2"/>
-    </net>
-    <net code="8" name="/BluePillF4-1/PA12">
-      <node ref="J2" pin="12"/>
-      <node ref="U3" pin="45"/>
-      <node ref="R8" pin="2"/>
-      <node ref="R10" pin="2"/>
-    </net>
-    <net code="9" name="/BluePillF4-1/ID">
-      <node ref="J5" pin="4"/>
-      <node ref="R11" pin="1"/>
-    </net>
-    <net code="10" name="/BluePillF4-1/ISET">
-      <node ref="R13" pin="1"/>
-      <node ref="U4" pin="3"/>
-    </net>
-    <net code="11" name="/BluePillF4-1/NRST">
-      <node ref="S2" pin="2"/>
-      <node ref="J1" pin="17"/>
-      <node ref="C15" pin="2"/>
-      <node ref="U3" pin="7"/>
-    </net>
-    <net code="12" name="/BluePillF4-1/PA0">
-      <node ref="J1" pin="5"/>
-      <node ref="U3" pin="14"/>
-    </net>
-    <net code="13" name="/BluePillF4-1/PA2">
-      <node ref="U3" pin="16"/>
-      <node ref="J1" pin="7"/>
-    </net>
-    <net code="14" name="/BluePillF4-1/PB10">
-      <node ref="U3" pin="29"/>
-      <node ref="J1" pin="15"/>
-    </net>
-    <net code="15" name="/BluePillF4-1/PB11">
-      <node ref="J1" pin="16"/>
-      <node ref="U3" pin="30"/>
-    </net>
-    <net code="16" name="/BluePillF4-1/PB14">
-      <node ref="U3" pin="35"/>
-      <node ref="J2" pin="18"/>
-    </net>
-    <net code="17" name="/BluePillF4-1/PC1">
-      <node ref="U3" pin="9"/>
-      <node ref="PC1" pin="1"/>
-    </net>
-    <net code="18" name="/BluePillF4-1/PC2">
-      <node ref="U3" pin="10"/>
-      <node ref="PC2" pin="1"/>
-    </net>
-    <net code="19" name="/BluePillF4-1/PC3">
-      <node ref="U3" pin="11"/>
-      <node ref="PC3" pin="1"/>
-    </net>
-    <net code="20" name="/BluePillF4-1/PC5">
-      <node ref="PC5" pin="1"/>
-      <node ref="U3" pin="25"/>
-    </net>
-    <net code="21" name="/BluePillF4-1/PC13">
-      <node ref="R3" pin="1"/>
-      <node ref="U3" pin="2"/>
-      <node ref="J1" pin="2"/>
-    </net>
-    <net code="22" name="/BluePillF4-1/PB0">
-      <node ref="U3" pin="26"/>
-      <node ref="J1" pin="13"/>
-    </net>
-    <net code="23" name="/BluePillF4-1/PB1">
-      <node ref="U3" pin="27"/>
-      <node ref="J1" pin="14"/>
-    </net>
-    <net code="24" name="/BluePillF4-1/PB2">
-      <node ref="U3" pin="28"/>
-      <node ref="R1" pin="1"/>
-    </net>
-    <net code="25" name="/BluePillF4-1/BOOT0">
-      <node ref="S1" pin="2"/>
-      <node ref="R4" pin="1"/>
-      <node ref="U3" pin="60"/>
-      <node ref="R5" pin="2"/>
-    </net>
-    <net code="26" name="/BluePillF4-1/D1">
-      <node ref="R2" pin="2"/>
-      <node ref="D1" pin="1"/>
-    </net>
-    <net code="27" name="/BluePillF4-1/D2_R">
+    <net code="1" name="/BluePillF4-1/D2_R">
       <node ref="R3" pin="2"/>
       <node ref="D2" pin="1"/>
     </net>
-    <net code="28" name="/BluePillF4-1/DM">
+    <net code="2" name="/BluePillF4-1/DM">
       <node ref="J5" pin="2"/>
       <node ref="R9" pin="1"/>
     </net>
-    <net code="29" name="/BluePillF4-1/DP">
+    <net code="3" name="/BluePillF4-1/DP">
       <node ref="J5" pin="3"/>
       <node ref="R10" pin="1"/>
     </net>
-    <net code="30" name="AGND">
-      <node ref="U2" pin="2"/>
-      <node ref="C7" pin="1"/>
-      <node ref="U3" pin="12"/>
-      <node ref="L2" pin="1"/>
+    <net code="4" name="/BluePillF4-1/D1">
+      <node ref="R2" pin="2"/>
+      <node ref="D1" pin="1"/>
     </net>
-    <net code="31" name="/BluePillF4-1/VCAP_1">
+    <net code="5" name="+3V3A">
+      <node ref="U3" pin="13"/>
+      <node ref="L1" pin="2"/>
+      <node ref="U2" pin="5"/>
+      <node ref="C7" pin="2"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="6" name="/BluePillF4-1/BOOT0">
+      <node ref="U3" pin="60"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="S1" pin="2"/>
+    </net>
+    <net code="7" name="/BluePillF4-1/PA3">
+      <node ref="U3" pin="17"/>
+      <node ref="J1" pin="8"/>
+    </net>
+    <net code="8" name="/BluePillF4-1/PA1">
+      <node ref="U3" pin="15"/>
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="9" name="/BluePillF4-1/PC5">
+      <node ref="PC5" pin="1"/>
+      <node ref="U3" pin="25"/>
+    </net>
+    <net code="10" name="/BluePillF4-1/PA2">
+      <node ref="U3" pin="16"/>
+      <node ref="J1" pin="7"/>
+    </net>
+    <net code="11" name="/BluePillF4-1/PB0">
+      <node ref="U3" pin="26"/>
+      <node ref="J1" pin="13"/>
+    </net>
+    <net code="12" name="/BluePillF4-1/PB1">
+      <node ref="U3" pin="27"/>
+      <node ref="J1" pin="14"/>
+    </net>
+    <net code="13" name="/BluePillF4-1/PB2">
+      <node ref="R1" pin="1"/>
+      <node ref="U3" pin="28"/>
+    </net>
+    <net code="14" name="/BluePillF4-1/PC3">
+      <node ref="PC3" pin="1"/>
+      <node ref="U3" pin="11"/>
+    </net>
+    <net code="15" name="/BluePillF4-1/PA5">
+      <node ref="J1" pin="10"/>
+      <node ref="U3" pin="21"/>
+    </net>
+    <net code="16" name="/BluePillF4-1/VCAP_1">
       <node ref="C11" pin="2"/>
       <node ref="U3" pin="31"/>
     </net>
-    <net code="32" name="+VBAT">
-      <node ref="R20" pin="2"/>
-      <node ref="U5" pin="3"/>
-      <node ref="J3" pin="4"/>
-      <node ref="C20" pin="1"/>
-      <node ref="Q1" pin="3"/>
+    <net code="17" name="/BluePillF4-1/PA6">
+      <node ref="J1" pin="11"/>
+      <node ref="U3" pin="22"/>
     </net>
-    <net code="33" name="GND">
-      <node ref="R7" pin="2"/>
-      <node ref="U5" pin="2"/>
-      <node ref="R16" pin="2"/>
-      <node ref="C18" pin="1"/>
-      <node ref="C1" pin="2"/>
-      <node ref="R13" pin="2"/>
-      <node ref="S1" pin="5"/>
-      <node ref="S1" pin="6"/>
-      <node ref="R4" pin="2"/>
-      <node ref="S2" pin="5"/>
-      <node ref="S2" pin="6"/>
-      <node ref="U1" pin="2"/>
-      <node ref="R1" pin="2"/>
-      <node ref="R2" pin="1"/>
-      <node ref="J4" pin="G2"/>
-      <node ref="C3" pin="2"/>
-      <node ref="C4" pin="2"/>
-      <node ref="C5" pin="2"/>
-      <node ref="C6" pin="2"/>
-      <node ref="C8" pin="2"/>
-      <node ref="C9" pin="1"/>
-      <node ref="C10" pin="1"/>
-      <node ref="C11" pin="1"/>
-      <node ref="C12" pin="2"/>
-      <node ref="J4" pin="P6"/>
-      <node ref="J3" pin="1"/>
-      <node ref="J4" pin="G1"/>
-      <node ref="C2" pin="2"/>
-      <node ref="J5" pin="5"/>
-      <node ref="J5" pin="S$1"/>
-      <node ref="J5" pin="S$2"/>
-      <node ref="J5" pin="S$3"/>
-      <node ref="J5" pin="S$4"/>
-      <node ref="J1" pin="19"/>
-      <node ref="J2" pin="2"/>
-      <node ref="U4" pin="2"/>
-      <node ref="U1" pin="PAD"/>
-      <node ref="C15" pin="1"/>
-      <node ref="C20" pin="2"/>
-      <node ref="C14" pin="1"/>
-      <node ref="C19" pin="2"/>
-      <node ref="C16" pin="1"/>
-      <node ref="C17" pin="1"/>
-      <node ref="R17" pin="2"/>
-      <node ref="R18" pin="2"/>
-      <node ref="C13" pin="2"/>
-      <node ref="J1" pin="20"/>
-      <node ref="U3" pin="18"/>
-      <node ref="U3" pin="63"/>
-      <node ref="L2" pin="2"/>
+    <net code="18" name="/BluePillF4-1/PA7">
+      <node ref="J1" pin="12"/>
+      <node ref="U3" pin="23"/>
     </net>
-    <net code="34" name="/BluePillF4-1/VBUS_EN">
-      <node ref="R7" pin="1"/>
-      <node ref="U4" pin="4"/>
-      <node ref="U3" pin="8"/>
+    <net code="19" name="/BluePillF4-1/PA0">
+      <node ref="U3" pin="14"/>
+      <node ref="J1" pin="5"/>
     </net>
-    <net code="35" name="/BluePillF4-1/PC4">
-      <node ref="PC4" pin="1"/>
-      <node ref="U3" pin="24"/>
+    <net code="20" name="+3V3">
+      <node ref="C12" pin="1"/>
+      <node ref="S1" pin="3"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C10" pin="2"/>
+      <node ref="R20" pin="1"/>
+      <node ref="L3" pin="2"/>
+      <node ref="J1" pin="18"/>
+      <node ref="C17" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="R6" pin="1"/>
+      <node ref="C9" pin="2"/>
+      <node ref="L1" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="U3" pin="64"/>
+      <node ref="U3" pin="48"/>
+      <node ref="U3" pin="19"/>
+      <node ref="U3" pin="32"/>
+      <node ref="D2" pin="4"/>
+      <node ref="C8" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="C18" pin="2"/>
     </net>
-    <net code="36" name="/BluePillF4-1/PA13">
+    <net code="21" name="/BluePillF4-1/PA13">
+      <node ref="U3" pin="46"/>
       <node ref="R14" pin="1"/>
       <node ref="J3" pin="3"/>
-      <node ref="U3" pin="46"/>
     </net>
-    <net code="37" name="/BluePillF4-1/PA14">
+    <net code="22" name="/BluePillF4-1/PA14">
       <node ref="J3" pin="2"/>
       <node ref="R15" pin="1"/>
       <node ref="U3" pin="49"/>
     </net>
-    <net code="38" name="/BluePillF4-1/R6">
-      <node ref="R6" pin="2"/>
-      <node ref="S2" pin="3"/>
+    <net code="23" name="GND">
+      <node ref="U5" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="J1" pin="19"/>
+      <node ref="J5" pin="S$2"/>
+      <node ref="J5" pin="S$1"/>
+      <node ref="R18" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="S2" pin="5"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="L2" pin="2"/>
+      <node ref="S1" pin="5"/>
+      <node ref="S1" pin="6"/>
+      <node ref="C20" pin="2"/>
+      <node ref="S2" pin="6"/>
+      <node ref="R2" pin="1"/>
+      <node ref="J5" pin="S$4"/>
+      <node ref="C18" pin="1"/>
+      <node ref="R16" pin="2"/>
+      <node ref="U1" pin="PAD"/>
+      <node ref="J5" pin="5"/>
+      <node ref="R17" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="J3" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="J5" pin="S$3"/>
+      <node ref="C15" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="J1" pin="20"/>
+      <node ref="C5" pin="2"/>
+      <node ref="U4" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="J4" pin="P6"/>
+      <node ref="J4" pin="G2"/>
+      <node ref="J4" pin="G1"/>
+      <node ref="U3" pin="63"/>
+      <node ref="R22" pin="2"/>
+      <node ref="U3" pin="18"/>
     </net>
-    <net code="39" name="Net-(S1-Pad1)">
+    <net code="24" name="/BluePillF4-1/VBUS_EN">
+      <node ref="U3" pin="8"/>
+      <node ref="U4" pin="4"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="25" name="/BluePillF4-1/PC4">
+      <node ref="PC4" pin="1"/>
+      <node ref="U3" pin="24"/>
+    </net>
+    <net code="26" name="+VBAT">
+      <node ref="Q1" pin="3"/>
+      <node ref="U5" pin="3"/>
+      <node ref="R20" pin="2"/>
+      <node ref="J3" pin="4"/>
+      <node ref="C20" pin="1"/>
+    </net>
+    <net code="27" name="Net-(J4-PadG4)">
+      <node ref="J4" pin="G4"/>
+    </net>
+    <net code="28" name="Net-(J4-PadG3)">
+      <node ref="J4" pin="G3"/>
+    </net>
+    <net code="29" name="/BluePillF4-1/SDIO_CK">
+      <node ref="U3" pin="53"/>
+      <node ref="J4" pin="P5"/>
+    </net>
+    <net code="30" name="/BluePillF4-1/PC2">
+      <node ref="PC2" pin="1"/>
+      <node ref="U3" pin="10"/>
+    </net>
+    <net code="31" name="/BluePillF4-1/PC13">
+      <node ref="U3" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="32" name="/BluePillF4-1/R6">
+      <node ref="S2" pin="3"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="33" name="AGND">
+      <node ref="C7" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="U3" pin="12"/>
+      <node ref="L2" pin="1"/>
+    </net>
+    <net code="34" name="+VIN">
+      <node ref="C6" pin="1"/>
+      <node ref="R21" pin="1"/>
+      <node ref="D4" pin="C"/>
+      <node ref="R19" pin="2"/>
+      <node ref="U2" pin="3"/>
+      <node ref="U2" pin="1"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="35" name="/BluePillF4-1/PC1">
+      <node ref="R21" pin="2"/>
+      <node ref="PC1" pin="1"/>
+      <node ref="R22" pin="1"/>
+      <node ref="U3" pin="9"/>
+    </net>
+    <net code="36" name="/BluePillF4-1/SDIO_D3">
+      <node ref="R16" pin="1"/>
+      <node ref="U3" pin="52"/>
+      <node ref="J4" pin="P2"/>
+    </net>
+    <net code="37" name="+5V">
+      <node ref="D3" pin="C"/>
+      <node ref="U5" pin="1"/>
+      <node ref="R19" pin="1"/>
+      <node ref="U4" pin="5"/>
+      <node ref="D4" pin="A"/>
+      <node ref="R18" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="U5" pin="4"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="38" name="/BluePillF4-1/VBUS">
+      <node ref="D3" pin="A"/>
+      <node ref="J5" pin="1"/>
+      <node ref="U4" pin="1"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="39" name="/BluePillF4-1/VBK">
+      <node ref="J1" pin="1"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="40" name="/BluePillF4-1/ISET">
+      <node ref="U4" pin="3"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="41" name="/BluePillF4-1/ID">
+      <node ref="R11" pin="1"/>
+      <node ref="J5" pin="4"/>
+    </net>
+    <net code="42" name="/BluePillF4-1/NRST">
+      <node ref="U3" pin="7"/>
+      <node ref="S2" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="J1" pin="17"/>
+    </net>
+    <net code="43" name="/BluePillF4-1/PB8">
+      <node ref="U3" pin="61"/>
+      <node ref="J2" pin="5"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="44" name="/BluePillF4-1/PB11">
+      <node ref="U3" pin="30"/>
+      <node ref="J1" pin="16"/>
+    </net>
+    <net code="45" name="/BluePillF4-1/PA10">
+      <node ref="J2" pin="14"/>
+      <node ref="U3" pin="43"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="46" name="/BluePillF4-1/PA11">
+      <node ref="J2" pin="13"/>
+      <node ref="U3" pin="44"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="47" name="/BluePillF4-1/PA12">
+      <node ref="R8" pin="2"/>
+      <node ref="J2" pin="12"/>
+      <node ref="R10" pin="2"/>
+      <node ref="U3" pin="45"/>
+    </net>
+    <net code="48" name="Net-(S1-Pad1)">
       <node ref="S1" pin="1"/>
     </net>
-    <net code="40" name="/BluePillF4-1/SDIO_D2">
+    <net code="49" name="Net-(S1-Pad4)">
+      <node ref="S1" pin="4"/>
+    </net>
+    <net code="50" name="Net-(S2-Pad1)">
+      <node ref="S2" pin="1"/>
+    </net>
+    <net code="51" name="Net-(S2-Pad4)">
+      <node ref="S2" pin="4"/>
+    </net>
+    <net code="52" name="/BluePillF4-1/SDIO_CMD">
+      <node ref="J4" pin="P3"/>
+      <node ref="U3" pin="54"/>
+    </net>
+    <net code="53" name="/BluePillF4-1/SDIO_D0">
+      <node ref="J4" pin="P7"/>
+      <node ref="U3" pin="39"/>
+    </net>
+    <net code="54" name="/BluePillF4-1/SDIO_D1">
+      <node ref="U3" pin="40"/>
+      <node ref="J4" pin="P8"/>
+    </net>
+    <net code="55" name="/BluePillF4-1/SDIO_D2">
       <node ref="U3" pin="51"/>
       <node ref="J4" pin="P1"/>
     </net>
-    <net code="41" name="/BluePillF4-1/D2_G">
+    <net code="56" name="/BluePillF4-1/VCAP_2">
+      <node ref="C14" pin="2"/>
+      <node ref="U3" pin="47"/>
+    </net>
+    <net code="57" name="/BluePillF4-1/PB12">
+      <node ref="U3" pin="33"/>
+      <node ref="J2" pin="20"/>
+    </net>
+    <net code="58" name="/BluePillF4-1/PB13">
+      <node ref="U3" pin="34"/>
+      <node ref="J2" pin="19"/>
+    </net>
+    <net code="59" name="/BluePillF4-1/PB14">
+      <node ref="J2" pin="18"/>
+      <node ref="U3" pin="35"/>
+    </net>
+    <net code="60" name="/BluePillF4-1/PB15">
+      <node ref="U3" pin="36"/>
+      <node ref="J2" pin="17"/>
+    </net>
+    <net code="61" name="/BluePillF4-1/PC6">
+      <node ref="PC6" pin="1"/>
+      <node ref="U3" pin="37"/>
+    </net>
+    <net code="62" name="/BluePillF4-1/PC7">
+      <node ref="PC7" pin="1"/>
+      <node ref="U3" pin="38"/>
+    </net>
+    <net code="63" name="/BluePillF4-1/PC14">
+      <node ref="C2" pin="1"/>
+      <node ref="J1" pin="3"/>
+      <node ref="U3" pin="3"/>
+      <node ref="Y1" pin="1"/>
+    </net>
+    <net code="64" name="/BluePillF4-1/PC15">
+      <node ref="Y1" pin="2"/>
+      <node ref="U3" pin="4"/>
+      <node ref="J1" pin="4"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="65" name="/BluePillF4-1/D2_G">
       <node ref="D2" pin="2"/>
       <node ref="R14" pin="2"/>
     </net>
-    <net code="42" name="/BluePillF4-1/D2_B">
-      <node ref="R15" pin="2"/>
+    <net code="66" name="/BluePillF4-1/D2_B">
       <node ref="D2" pin="3"/>
+      <node ref="R15" pin="2"/>
     </net>
-    <net code="43" name="/BluePillF4-1/SDIO_D3">
-      <node ref="J4" pin="P2"/>
-      <node ref="U3" pin="52"/>
-      <node ref="R16" pin="1"/>
-    </net>
-    <net code="44" name="/BluePillF4-1/SDIO_VDD">
-      <node ref="C16" pin="2"/>
+    <net code="67" name="/BluePillF4-1/SDIO_VDD">
       <node ref="J4" pin="P4"/>
+      <node ref="C16" pin="2"/>
       <node ref="L3" pin="1"/>
     </net>
-    <net code="45" name="/BluePillF4-1/VBK">
-      <node ref="U3" pin="1"/>
-      <node ref="J1" pin="1"/>
-    </net>
-    <net code="46" name="/BluePillF4-1/OSCIN">
-      <node ref="U3" pin="5"/>
-      <node ref="C4" pin="1"/>
+    <net code="68" name="/BluePillF4-1/OSCIN">
       <node ref="Y2" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U3" pin="5"/>
     </net>
-    <net code="47" name="/BluePillF4-1/OSCOUT">
+    <net code="69" name="/BluePillF4-1/OSCOUT">
       <node ref="C5" pin="1"/>
       <node ref="U3" pin="6"/>
       <node ref="Y2" pin="1"/>
     </net>
-    <net code="48" name="/BluePillF4-1/VBUS">
-      <node ref="U4" pin="1"/>
-      <node ref="D3" pin="A"/>
-      <node ref="R12" pin="1"/>
-      <node ref="J5" pin="1"/>
-    </net>
-    <net code="49" name="Net-(S2-Pad1)">
-      <node ref="S2" pin="1"/>
-    </net>
-    <net code="50" name="Net-(S2-Pad4)">
-      <node ref="S2" pin="4"/>
-    </net>
-    <net code="51" name="Net-(S1-Pad4)">
-      <node ref="S1" pin="4"/>
-    </net>
-    <net code="52" name="/BluePillF4-1/PA9">
-      <node ref="J2" pin="15"/>
+    <net code="70" name="/BluePillF4-1/PA9">
       <node ref="U3" pin="42"/>
       <node ref="R12" pin="2"/>
+      <node ref="J2" pin="15"/>
     </net>
-    <net code="53" name="+3V3">
-      <node ref="R20" pin="1"/>
-      <node ref="L1" pin="1"/>
-      <node ref="U1" pin="3"/>
-      <node ref="R6" pin="1"/>
-      <node ref="U3" pin="19"/>
-      <node ref="S1" pin="3"/>
-      <node ref="D2" pin="4"/>
-      <node ref="C18" pin="2"/>
-      <node ref="L3" pin="2"/>
-      <node ref="C8" pin="1"/>
-      <node ref="U3" pin="48"/>
-      <node ref="R8" pin="1"/>
-      <node ref="C9" pin="2"/>
-      <node ref="U3" pin="32"/>
-      <node ref="J1" pin="18"/>
-      <node ref="C17" pin="2"/>
-      <node ref="D1" pin="2"/>
-      <node ref="U3" pin="64"/>
-      <node ref="C1" pin="1"/>
-      <node ref="C13" pin="1"/>
-      <node ref="C12" pin="1"/>
-      <node ref="C10" pin="2"/>
+    <net code="71" name="/BluePillF4-1/PB10">
+      <node ref="J1" pin="15"/>
+      <node ref="U3" pin="29"/>
     </net>
-    <net code="54" name="+3V3A">
-      <node ref="U3" pin="13"/>
-      <node ref="L1" pin="2"/>
-      <node ref="J2" pin="1"/>
-      <node ref="U2" pin="5"/>
-      <node ref="C7" pin="2"/>
-    </net>
-    <net code="55" name="+5V">
-      <node ref="D3" pin="C"/>
-      <node ref="J2" pin="3"/>
-      <node ref="U4" pin="5"/>
-      <node ref="R19" pin="1"/>
-      <node ref="U5" pin="1"/>
-      <node ref="C19" pin="1"/>
-      <node ref="R18" pin="1"/>
-      <node ref="D4" pin="A"/>
-      <node ref="U5" pin="4"/>
-      <node ref="Q1" pin="1"/>
-    </net>
-    <net code="56" name="+VIN">
-      <node ref="C6" pin="1"/>
-      <node ref="U2" pin="3"/>
-      <node ref="U2" pin="1"/>
-      <node ref="U1" pin="1"/>
-      <node ref="R19" pin="2"/>
-      <node ref="D4" pin="C"/>
-      <node ref="Q1" pin="2"/>
-    </net>
-    <net code="57" name="/BluePillF4-1/PC14">
-      <node ref="C2" pin="1"/>
-      <node ref="Y1" pin="1"/>
-      <node ref="J1" pin="3"/>
-      <node ref="U3" pin="3"/>
-    </net>
-    <net code="58" name="/BluePillF4-1/PC15">
-      <node ref="C3" pin="1"/>
-      <node ref="Y1" pin="2"/>
-      <node ref="J1" pin="4"/>
-      <node ref="U3" pin="4"/>
-    </net>
-    <net code="59" name="/BluePillF4-1/SDIO_CK">
-      <node ref="U3" pin="53"/>
-      <node ref="J4" pin="P5"/>
-    </net>
-    <net code="60" name="/BluePillF4-1/SDIO_CMD">
-      <node ref="J4" pin="P3"/>
-      <node ref="U3" pin="54"/>
-    </net>
-    <net code="61" name="/BluePillF4-1/SDIO_D0">
-      <node ref="U3" pin="39"/>
-      <node ref="J4" pin="P7"/>
-    </net>
-    <net code="62" name="/BluePillF4-1/SDIO_D1">
-      <node ref="J4" pin="P8"/>
-      <node ref="U3" pin="40"/>
-    </net>
-    <net code="63" name="/BluePillF4-1/VCAP_2">
-      <node ref="U3" pin="47"/>
-      <node ref="C14" pin="2"/>
-    </net>
-    <net code="64" name="/BluePillF4-1/PB8">
-      <node ref="J2" pin="5"/>
-      <node ref="U3" pin="61"/>
-      <node ref="R5" pin="1"/>
-    </net>
-    <net code="65" name="/BluePillF4-1/PB9">
-      <node ref="U3" pin="62"/>
-      <node ref="J2" pin="4"/>
-    </net>
-    <net code="66" name="/BluePillF4-1/PB12">
-      <node ref="J2" pin="20"/>
-      <node ref="U3" pin="33"/>
-    </net>
-    <net code="67" name="/BluePillF4-1/PB13">
-      <node ref="J2" pin="19"/>
-      <node ref="U3" pin="34"/>
-    </net>
-    <net code="68" name="/BluePillF4-1/PB15">
-      <node ref="U3" pin="36"/>
-      <node ref="J2" pin="17"/>
-    </net>
-    <net code="69" name="/BluePillF4-1/PC6">
-      <node ref="PC6" pin="1"/>
-      <node ref="U3" pin="37"/>
-    </net>
-    <net code="70" name="/BluePillF4-1/PC7">
-      <node ref="PC7" pin="1"/>
-      <node ref="U3" pin="38"/>
-    </net>
-    <net code="71" name="/BluePillF4-1/PB3">
-      <node ref="J2" pin="10"/>
-      <node ref="U3" pin="55"/>
-    </net>
-    <net code="72" name="/BluePillF4-1/PA15">
-      <node ref="U3" pin="50"/>
-      <node ref="J2" pin="11"/>
-    </net>
-    <net code="73" name="/BluePillF4-1/PA1">
-      <node ref="U3" pin="15"/>
-      <node ref="J1" pin="6"/>
-    </net>
-    <net code="74" name="/BluePillF4-1/PB4">
-      <node ref="J2" pin="9"/>
-      <node ref="U3" pin="56"/>
-    </net>
-    <net code="75" name="/BluePillF4-1/PB5">
+    <net code="72" name="/BluePillF4-1/PB5">
       <node ref="U3" pin="57"/>
       <node ref="J2" pin="8"/>
     </net>
-    <net code="76" name="/BluePillF4-1/PB6">
-      <node ref="J2" pin="7"/>
-      <node ref="U3" pin="58"/>
+    <net code="73" name="/BluePillF4-1/PA15">
+      <node ref="J2" pin="11"/>
+      <node ref="U3" pin="50"/>
     </net>
-    <net code="77" name="/BluePillF4-1/PB7">
+    <net code="74" name="/BluePillF4-1/PB3">
+      <node ref="J2" pin="10"/>
+      <node ref="U3" pin="55"/>
+    </net>
+    <net code="75" name="/BluePillF4-1/PB4">
+      <node ref="J2" pin="9"/>
+      <node ref="U3" pin="56"/>
+    </net>
+    <net code="76" name="/BluePillF4-1/PA4">
+      <node ref="J1" pin="9"/>
+      <node ref="U3" pin="20"/>
+    </net>
+    <net code="77" name="/BluePillF4-1/PB6">
+      <node ref="U3" pin="58"/>
+      <node ref="J2" pin="7"/>
+    </net>
+    <net code="78" name="/BluePillF4-1/PB7">
       <node ref="J2" pin="6"/>
       <node ref="U3" pin="59"/>
     </net>
-    <net code="78" name="/BluePillF4-1/PA8">
+    <net code="79" name="/BluePillF4-1/PB9">
+      <node ref="U3" pin="62"/>
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="80" name="/BluePillF4-1/PA8">
       <node ref="J2" pin="16"/>
       <node ref="U3" pin="41"/>
     </net>
-    <net code="79" name="/BluePillF4-2/PROG">
+    <net code="81" name="/BluePillF4-2/PROG">
       <node ref="U5" pin="5"/>
       <node ref="R17" pin="1"/>
     </net>
