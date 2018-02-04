@@ -15,7 +15,7 @@
   (page User 210.007 148.006)
   (title_block
     (title "BluePill F4")
-    (date 2018-02-03)
+    (date 2018-02-04)
     (rev A)
     (company www.stm32duino.com)
     (comment 1 "© 2017-2018, All rights reserved.")
@@ -24,28 +24,28 @@
   (layers
     (0 Top signal)
     (31 Bottom signal)
-    (32 B.Adhes user hide)
-    (33 F.Adhes user hide)
-    (34 B.Paste user hide)
-    (35 F.Paste user hide)
-    (36 B.SilkS user hide)
-    (37 F.SilkS user hide)
-    (38 B.Mask user hide)
-    (39 F.Mask user hide)
-    (40 Dwgs.User user hide)
-    (41 Cmts.User user hide)
-    (42 Eco1.User user hide)
-    (43 Eco2.User user hide)
+    (32 B.Adhes user)
+    (33 F.Adhes user)
+    (34 B.Paste user)
+    (35 F.Paste user)
+    (36 B.SilkS user)
+    (37 F.SilkS user)
+    (38 B.Mask user)
+    (39 F.Mask user)
+    (40 Dwgs.User user)
+    (41 Cmts.User user)
+    (42 Eco1.User user)
+    (43 Eco2.User user)
     (44 Edge.Cuts user)
     (45 Margin user)
-    (46 B.CrtYd user hide)
-    (47 F.CrtYd user hide)
-    (48 B.Fab user hide)
-    (49 F.Fab user hide)
+    (46 B.CrtYd user)
+    (47 F.CrtYd user)
+    (48 B.Fab user)
+    (49 F.Fab user)
   )
 
   (setup
-    (last_trace_width 0.4572)
+    (last_trace_width 0.1524)
     (user_trace_width 0.1524)
     (user_trace_width 0.3048)
     (user_trace_width 0.4064)
@@ -74,7 +74,7 @@
     (pad_drill 0.3048)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 76.2 76.2)
-    (visible_elements 7FFFFF5F)
+    (visible_elements 7FFFFF7F)
     (pcbplotparams
       (layerselection 0x010fc_80000001)
       (usegerberextensions false)
@@ -284,7 +284,7 @@
     (uvia_drill 0.1)
   )
 
-  (module "BluePillF4 Lib:SOD-123" (layer Top) (tedit 5A5A3138) (tstamp 5A305590)
+  (module "BluePillF4 Lib:SOD-123" (layer Top) (tedit 5A772853) (tstamp 5A305590)
     (at 89.789 60.833 180)
     (descr SOD-123)
     (tags SOD-123)
@@ -293,8 +293,8 @@
     (fp_text reference D3 (at 0.127 -1.6764 180) (layer F.SilkS) hide
       (effects (font (size 0.8128 0.8128) (thickness 0.0762)))
     )
-    (fp_text value 1N5819HW (at 0.5334 1.4986 180) (layer F.SilkS) hide
-      (effects (font (size 0.8128 0.8128) (thickness 0.0762)))
+    (fp_text value 1N5819HW (at 0 -0.127 180) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)))
     )
     (fp_line (start -1.92278 0.27432) (end -1.42494 0.27432) (layer Dwgs.User) (width 0.06604))
     (fp_line (start -1.42494 0.27432) (end -1.42494 -0.27432) (layer Dwgs.User) (width 0.06604))
@@ -338,7 +338,7 @@
     )
   )
 
-  (module "BluePillF4 Lib:SOD-123" (layer Bottom) (tedit 5A5A3138) (tstamp 5A4D57DF)
+  (module "BluePillF4 Lib:SOD-123" (layer Bottom) (tedit 5A773015) (tstamp 5A4D57DF)
     (at 125.603 60.96 270)
     (descr SOD-123)
     (tags SOD-123)
@@ -347,8 +347,8 @@
     (fp_text reference D4 (at 0.127 1.6764 270) (layer B.SilkS) hide
       (effects (font (size 0.8128 0.8128) (thickness 0.0762)) (justify mirror))
     )
-    (fp_text value 1N5819HW (at 0.5334 -1.4986 270) (layer B.SilkS) hide
-      (effects (font (size 0.8128 0.8128) (thickness 0.0762)) (justify mirror))
+    (fp_text value 1N5819HW (at 0.381 1.397 270) (layer Eco2.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)))
     )
     (fp_line (start -1.92278 -0.27432) (end -1.42494 -0.27432) (layer Dwgs.User) (width 0.06604))
     (fp_line (start -1.42494 -0.27432) (end -1.42494 0.27432) (layer Dwgs.User) (width 0.06604))
@@ -717,15 +717,15 @@
       (net 1 GND) (zone_connect 2))
   )
 
-  (module "BluePillF4 Lib:SOT23-5" (layer Bottom) (tedit 5A0B5B87) (tstamp 5A4D5801)
+  (module "BluePillF4 Lib:SOT23-5" (layer Bottom) (tedit 5A77300B) (tstamp 5A4D5801)
     (at 126.238 66.7766)
     (descr "<b>Small Outline Transistor (SOT), 5 Pins (SOT23-5) Package</b>")
     (path /5A4D7C11/5A4DC6E1)
     (fp_text reference U5 (at -1.905 -1.27 270) (layer B.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify right top mirror))
     )
-    (fp_text value MCP73812T-420I/OT (at 2.54 -1.27 270) (layer B.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify right top mirror))
+    (fp_text value MCP73812T-420I/OT (at 1.778 0.9144 180) (layer Eco2.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start -1.55 -0.85) (end 1.55 -0.85) (layer Dwgs.User) (width 0.127))
     (fp_line (start 1.55 -0.85) (end 1.55 0.85) (layer Dwgs.User) (width 0.127))
@@ -760,15 +760,15 @@
     )
   )
 
-  (module "BluePillF4 Lib:SOT323" (layer Bottom) (tedit 5A0B5B65) (tstamp 5A4D57E6)
+  (module "BluePillF4 Lib:SOT323" (layer Bottom) (tedit 5A773019) (tstamp 5A4D57E6)
     (at 128.143 60.071 180)
     (descr "<b>SC-70 (SOT-323)</b>")
     (path /5A4D7C11/5A4DC942)
     (fp_text reference Q1 (at -1.9755 1.978 450) (layer B.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom mirror))
     )
-    (fp_text value IRLML6402 (at -1.966 -2.9905 180) (layer B.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify left bottom mirror))
+    (fp_text value IRLML6402 (at 2.921 0.635 180) (layer Eco2.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify left bottom))
     )
     (fp_line (start 1.05 0.62) (end 1.05 -0.62) (layer Dwgs.User) (width 0.1524))
     (fp_line (start 1.05 -0.62) (end -1.05 -0.62) (layer Dwgs.User) (width 0.1524))
@@ -806,15 +806,15 @@
       (net 1 GND) (zone_connect 2))
   )
 
-  (module "BluePillF4 Lib:FB0805" (layer Top) (tedit 5A455BE8) (tstamp 5A44FEED)
+  (module "BluePillF4 Lib:FB0805" (layer Top) (tedit 5A77288A) (tstamp 5A44FEED)
     (at 89.408 69.596 180)
     (descr "<b>0805 Chip Inductor</b>")
     (path /5A4D4310/5A44FA55)
     (fp_text reference L3 (at -2.54 -1.27 180) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom))
     )
-    (fp_text value LQW2BASR47J00L (at -2.54 2.032 180) (layer F.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify right top))
+    (fp_text value LQW2BASR47J00L (at -3.175 -1.778 360) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start -0.5 -0.6) (end 0.5 -0.6) (layer Dwgs.User) (width 0.1524))
     (fp_line (start -0.5 0.6) (end 0.5 0.6) (layer Dwgs.User) (width 0.1524))
@@ -845,7 +845,7 @@
     )
   )
 
-  (module "BluePillF4 Lib:1616RGB" (layer Top) (tedit 5A42B73B) (tstamp 5A4287D8)
+  (module "BluePillF4 Lib:1616RGB" (layer Top) (tedit 5A772AAF) (tstamp 5A4287D8)
     (at 121.031 61.341 90)
     (descr "16 MM X 16 MM RGB LED")
     (tags "16 MM X 16 MM RGB LED")
@@ -854,8 +854,8 @@
     (fp_text reference D2 (at -0.508 -1.6764 90) (layer F.SilkS) hide
       (effects (font (size 0.8128 0.8128) (thickness 0.0762)))
     )
-    (fp_text value 1616RGB (at -0.1016 2.1336 90) (layer F.SilkS) hide
-      (effects (font (size 0.8128 0.8128) (thickness 0.0762)))
+    (fp_text value 1616RGB (at 0.127 0 90) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)))
     )
     (fp_line (start -0.79756 -0.79756) (end -0.49784 -0.79756) (layer Dwgs.User) (width 0.127))
     (fp_line (start -0.49784 -0.79756) (end 0.49784 -0.79756) (layer Dwgs.User) (width 0.127))
@@ -939,7 +939,7 @@
     )
   )
 
-  (module "BluePillF4 Lib:FC-12M" (layer Top) (tedit 5A344B1F) (tstamp 5A344B7E)
+  (module "BluePillF4 Lib:FC-12M" (layer Top) (tedit 5A772A62) (tstamp 5A344B7E)
     (at 110.617 68.58 90)
     (descr "SEIKO EPSON KHZ RANGE 2 PIN CRYSTAL")
     (tags "SEIKO EPSON KHZ RANGE 2 PIN CRYSTAL")
@@ -948,8 +948,8 @@
     (fp_text reference Y1 (at -0.508 -1.6764 90) (layer F.SilkS) hide
       (effects (font (size 0.8128 0.8128) (thickness 0.1524)))
     )
-    (fp_text value FC-12M (at -0.1016 1.4986 90) (layer F.SilkS) hide
-      (effects (font (size 0.8128 0.8128) (thickness 0.1524)))
+    (fp_text value FC-12M (at 0.381 -0.127 90) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)))
     )
     (fp_line (start -0.84836 -0.54864) (end 0.84836 -0.54864) (layer Dwgs.User) (width 0.127))
     (fp_line (start 0.99822 -0.39878) (end 0.99822 0.39878) (layer Dwgs.User) (width 0.127))
@@ -990,15 +990,15 @@
     )
   )
 
-  (module "BluePillF4 Lib:FB0603" (layer Top) (tedit 5A0B5BCD) (tstamp 5A359647)
+  (module "BluePillF4 Lib:FB0603" (layer Top) (tedit 5A772A3A) (tstamp 5A359647)
     (at 114.7318 63.881)
     (descr "<b>0603 Chip Inductor</b>")
     (path /5A4D4310/5A35F7D7)
     (fp_text reference L2 (at -1.27 -1.27 90) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify right top))
     )
-    (fp_text value BLM18BA470SN1D (at -1.27 1.905) (layer F.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.092659)) (justify right top))
+    (fp_text value BLM18BA470SN1D (at 4.6482 0) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start -0.5 -0.32) (end 0.5 -0.32) (layer Dwgs.User) (width 0.1524))
     (fp_line (start -0.5 0.32) (end 0.5 0.32) (layer Dwgs.User) (width 0.1524))
@@ -1019,15 +1019,15 @@
     )
   )
 
-  (module "BluePillF4 Lib:CRYSTAL_32X25_2P" (layer Top) (tedit 5A0B5BF9) (tstamp 5A0891F6)
+  (module "BluePillF4 Lib:CRYSTAL_32X25_2P" (layer Top) (tedit 5A772A30) (tstamp 5A0891F6)
     (at 111.252 65.278 270)
     (descr "<b>3.2 mm x 2.5 mm Crystal, 2 Pads</b>")
     (path /5A4D4310/5A09181B)
     (fp_text reference Y2 (at -2.54 -2.54 360) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom))
     )
-    (fp_text value NX3225GD (at -2.54 3.175 270) (layer F.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify right top))
+    (fp_text value NX3225GD (at -2.032 0.254 270) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start -2.032 -1.778) (end 2.032 -1.778) (layer F.SilkS) (width 0.127))
     (fp_line (start 2.032 -1.778) (end 2.032 1.778) (layer F.SilkS) (width 0.127))
@@ -1061,7 +1061,7 @@
     )
   )
 
-  (module "BluePillF4 Lib:LQFP64" (layer Top) (tedit 5A1F1B6E) (tstamp 5A088D36)
+  (module "BluePillF4 Lib:LQFP64" (layer Top) (tedit 5A7728A8) (tstamp 5A088D36)
     (at 102.87 64.77 180)
     (descr "LOW PROFILE QUAD FLAT PACKAGE (LQFP), 64 PINS, 10 X 10 MM BODY")
     (tags "LOW PROFILE QUAD FLAT PACKAGE (LQFP), 64 PINS, 10 X 10 MM BODY")
@@ -1070,8 +1070,8 @@
     (fp_text reference U3 (at -4.318 -7.3914 180) (layer F.SilkS) hide
       (effects (font (size 0.8128 0.8128) (thickness 0.1524)))
     )
-    (fp_text value STM32F405RGT6 (at -3.9116 7.21106 180) (layer F.SilkS) hide
-      (effects (font (size 0.8128 0.8128) (thickness 0.1524)))
+    (fp_text value STM32F405RGT6 (at 0.127 0 180) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)))
     )
     (fp_line (start -5.99948 -3.63982) (end -4.99872 -3.63982) (layer Dwgs.User) (width 0.06604))
     (fp_line (start -4.99872 -3.63982) (end -4.99872 -3.85826) (layer Dwgs.User) (width 0.06604))
@@ -1478,15 +1478,15 @@
     )
   )
 
-  (module "BluePillF4 Lib:SKSGACE010" (layer Top) (tedit 5A0D37E7) (tstamp 5A088E71)
+  (module "BluePillF4 Lib:SKSGACE010" (layer Top) (tedit 5A772A69) (tstamp 5A088E71)
     (at 118.11 68.326)
     (descr "<b>Surface Mount Type TACT Switch</b>")
     (path /5A4D4310/5A08B41A)
     (fp_text reference S1 (at -1.905 -1.905) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom))
     )
-    (fp_text value SKSGACE010 (at -1.905 2.54) (layer F.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom))
+    (fp_text value SKSGACE010 (at -3.175 0.381) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify left bottom))
     )
     (fp_circle (center 0 0) (end 0.8 0) (layer Dwgs.User) (width 0.127))
     (fp_circle (center 0 0) (end 0.85 0) (layer Dwgs.User) (width 0.127))
@@ -1666,15 +1666,15 @@
     )
   )
 
-  (module "BluePillF4 Lib:SKSGACE010" (layer Top) (tedit 5A0D37E7) (tstamp 5A088F19)
+  (module "BluePillF4 Lib:SKSGACE010" (layer Top) (tedit 5A7729ED) (tstamp 5A088F19)
     (at 118.11 61.214)
     (descr "<b>Surface Mount Type TACT Switch</b>")
     (path /5A4D4310/5A08B4E2)
     (fp_text reference S2 (at -1.905 -1.905) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom))
     )
-    (fp_text value SKSGACE010 (at -1.905 2.54) (layer F.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom))
+    (fp_text value SKSGACE010 (at -2.286 0.381) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify left bottom))
     )
     (fp_circle (center 0 0) (end 0.8 0) (layer Dwgs.User) (width 0.127))
     (fp_circle (center 0 0) (end 0.85 0) (layer Dwgs.User) (width 0.127))
@@ -1854,15 +1854,15 @@
     )
   )
 
-  (module "BluePillF4 Lib:MH_RA4-1-0.1" (layer Top) (tedit 5A0B5BE3) (tstamp 5A088E43)
+  (module "BluePillF4 Lib:MH_RA4-1-0.1" (layer Top) (tedit 5A772A88) (tstamp 5A088E43)
     (at 127.0762 64.77 270)
     (descr "<b>1x4 Pin Male Header, Right-Angle, 0.1\" Pitch</b>")
     (path /5A4D4310/5A089E3A)
     (fp_text reference J3 (at -5.715 3.81 360) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify right top))
     )
-    (fp_text value MH_RA4-1 (at 6.985 4.445 270) (layer F.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify right top))
+    (fp_text value MH_RA4-1 (at -1.905 4.1402 270) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start -5.08 1.905) (end -2.54 1.905) (layer Dwgs.User) (width 0.1524))
     (fp_line (start -2.54 1.905) (end -2.54 -0.635) (layer Dwgs.User) (width 0.1524))
@@ -1918,15 +1918,15 @@
     )
   )
 
-  (module "BluePillF4 Lib:FB0603" (layer Top) (tedit 5A0B5BCD) (tstamp 5A0892D9)
+  (module "BluePillF4 Lib:FB0603" (layer Top) (tedit 5A772A2B) (tstamp 5A0892D9)
     (at 111.887 61.087 270)
     (descr "<b>0603 Chip Inductor</b>")
     (path /5A4D4310/5A08A092)
     (fp_text reference L1 (at -1.27 -1.27 360) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify right top))
     )
-    (fp_text value FBMH1608HM471-T (at -1.27 1.905 270) (layer F.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.092659)) (justify right top))
+    (fp_text value FBMH1608HM471-T (at -1.524 0.127 270) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start -0.5 -0.32) (end 0.5 -0.32) (layer Dwgs.User) (width 0.1524))
     (fp_line (start -0.5 0.32) (end 0.5 0.32) (layer Dwgs.User) (width 0.1524))
@@ -1942,15 +1942,15 @@
       (net 5 +3V3A))
   )
 
-  (module "BluePillF4 Lib:SOT223" (layer Top) (tedit 5A0B5B92) (tstamp 5A089261)
+  (module "BluePillF4 Lib:SOT223" (layer Top) (tedit 5A77282A) (tstamp 5A089261)
     (at 90.678 65.278 270)
     (descr "<b>Small Outline Transistor</b>")
     (path /5A4D7C11/5A6DFFE5)
     (fp_text reference U1 (at 2.54 -2.54 360) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom))
     )
-    (fp_text value AP2114HA-3.3TRG1 (at 3.81 2.54 270) (layer F.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify right top))
+    (fp_text value AP2114HA-3.3TRG1 (at -3.302 0.254 270) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start 3.302 -1.778) (end 3.302 1.778) (layer F.SilkS) (width 0.127))
     (fp_line (start 3.302 1.778) (end -3.302 1.778) (layer F.SilkS) (width 0.127))
@@ -1983,15 +1983,15 @@
     )
   )
 
-  (module "BluePillF4 Lib:SOT23-5" (layer Top) (tedit 5A0B5B87) (tstamp 5A0893E1)
+  (module "BluePillF4 Lib:SOT23-5" (layer Top) (tedit 5A7729FC) (tstamp 5A0893E1)
     (at 114.3 61.341)
     (descr "<b>Small Outline Transistor (SOT), 5 Pins (SOT23-5) Package</b>")
     (path /5A4D7C11/5A6DFFF1)
     (fp_text reference U2 (at -1.905 1.27 90) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify right top))
     )
-    (fp_text value AP2112K3.3-TRG1 (at 2.54 1.27 90) (layer F.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify right top))
+    (fp_text value AP2112K3.3-TRG1 (at 5.588 -1.27) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start -1.55 0.85) (end 1.55 0.85) (layer Dwgs.User) (width 0.127))
     (fp_line (start 1.55 0.85) (end 1.55 -0.85) (layer Dwgs.User) (width 0.127))
@@ -2035,15 +2035,15 @@
     )
   )
 
-  (module "BluePillF4 Lib:SOT23-5" (layer Top) (tedit 5A0B5B87) (tstamp 5A0892A5)
+  (module "BluePillF4 Lib:SOT23-5" (layer Top) (tedit 5A772858) (tstamp 5A0892A5)
     (at 85.344 59.944 90)
     (descr "<b>Small Outline Transistor (SOT), 5 Pins (SOT23-5) Package</b>")
     (path /5A4D4310/5A08C8CE)
     (fp_text reference U4 (at -1.905 1.27 180) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify right top))
     )
-    (fp_text value SY6280 (at 2.54 1.27 180) (layer F.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify right top))
+    (fp_text value SY6280 (at 1.397 -1.27 90) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start -1.55 0.85) (end 1.55 0.85) (layer Dwgs.User) (width 0.127))
     (fp_line (start 1.55 0.85) (end 1.55 -0.85) (layer Dwgs.User) (width 0.127))
@@ -2078,15 +2078,15 @@
     )
   )
 
-  (module "BluePillF4 Lib:LED0603" (layer Top) (tedit 5A0B5BDF) (tstamp 5A08909C)
+  (module "BluePillF4 Lib:LED0603" (layer Top) (tedit 5A772A78) (tstamp 5A08909C)
     (at 121.031 67.945 90)
     (descr "<b>0603 Chip LED</b>")
     (path /5A4D4310/5A089AB6)
     (fp_text reference D1 (at -1.905 -1.27 180) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom))
     )
-    (fp_text value GREEN (at -1.905 1.905 90) (layer F.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify right top))
+    (fp_text value GREEN (at 1.143 -0.254 90) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start -0.432 0.356) (end 0.432 0.356) (layer Dwgs.User) (width 0.1524))
     (fp_line (start 0.432 -0.356) (end -0.432 -0.356) (layer Dwgs.User) (width 0.1524))
@@ -3414,15 +3414,15 @@
     (fp_poly (pts (xy 0 0) (xy 4.572 0) (xy 4.572 0.762) (xy 0 0.762)) (layer B.SilkS) (width 0))
   )
 
-  (module MH20-1-0.1 (layer Top) (tedit 5A0B5C42) (tstamp 5A088E03)
+  (module MH20-1-0.1 (layer Top) (tedit 5A772B5C) (tstamp 5A088E03)
     (at 127 72.39 180)
     (descr "<b>1x20 Pin Male Header, 0.1\" Pitch</b>")
     (path /5A4D4310/5A089D72)
     (fp_text reference J2 (at -1.3462 -2.4638 180) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify right top))
     )
-    (fp_text value MH20-1 (at -1.27 2.54 180) (layer F.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify right top))
+    (fp_text value MH20-1 (at 21.971 0.127 180) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_poly (pts (xy 12.446 0.254) (xy 12.954 0.254) (xy 12.954 -0.254) (xy 12.446 -0.254)) (layer Dwgs.User) (width 0))
     (fp_poly (pts (xy 9.906 0.254) (xy 10.414 0.254) (xy 10.414 -0.254) (xy 9.906 -0.254)) (layer Dwgs.User) (width 0))
@@ -3507,15 +3507,15 @@
       (net 53 /BluePillF4-1/PB12))
   )
 
-  (module MH20-1-0.1 (layer Top) (tedit 5A0B5BEA) (tstamp 5A088DC3)
+  (module MH20-1-0.1 (layer Top) (tedit 5A772B53) (tstamp 5A088DC3)
     (at 127 57.15 180)
     (descr "<b>1x20 Pin Male Header, 0.1\" Pitch</b>")
     (path /5A4D4310/5A089CAA)
     (fp_text reference J1 (at -1.3462 -2.4638 180) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify right top))
     )
-    (fp_text value MH20-1 (at -1.27 2.54 180) (layer F.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify right top))
+    (fp_text value MH20-1 (at 22.098 0.254 180) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_poly (pts (xy 12.446 0.254) (xy 12.954 0.254) (xy 12.954 -0.254) (xy 12.446 -0.254)) (layer Dwgs.User) (width 0))
     (fp_poly (pts (xy 9.906 0.254) (xy 10.414 0.254) (xy 10.414 -0.254) (xy 9.906 -0.254)) (layer Dwgs.User) (width 0))
@@ -3600,15 +3600,15 @@
       (net 1 GND))
   )
 
-  (module "BluePillF4 Lib:C0603" (layer Top) (tedit 5A633A8D) (tstamp 5A089178)
+  (module "BluePillF4 Lib:C0603" (layer Top) (tedit 5A772782) (tstamp 5A089178)
     (at 94.996 70.231 180)
     (descr "<b>0603 Chip Capacitor</b>")
     (path /5A4D4310/5A0896CE)
     (fp_text reference C13 (at -1.27 -1.27 180) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom))
     )
-    (fp_text value 100n (at -1.27 1.905 180) (layer F.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify right top))
+    (fp_text value 100n (at -0.889 0.254 180) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start 0.356 0.432) (end -0.356 0.432) (layer Dwgs.User) (width 0.1016))
     (fp_line (start 0.356 -0.419) (end -0.356 -0.419) (layer Dwgs.User) (width 0.1016))
@@ -3630,15 +3630,15 @@
     )
   )
 
-  (module "BluePillF4 Lib:C0603" (layer Top) (tedit 5A633A8D) (tstamp 5A089194)
+  (module "BluePillF4 Lib:C0603" (layer Top) (tedit 5A77289D) (tstamp 5A089194)
     (at 94.996 68.961)
     (descr "<b>0603 Chip Capacitor</b>")
     (path /5A4D4310/5A089796)
     (fp_text reference C14 (at -1.27 -1.27) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom))
     )
-    (fp_text value 2u2 (at -1.27 1.905) (layer F.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify right top))
+    (fp_text value 2u2 (at 0.635 -0.254) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start 0.356 0.432) (end -0.356 0.432) (layer Dwgs.User) (width 0.1016))
     (fp_line (start 0.356 -0.419) (end -0.356 -0.419) (layer Dwgs.User) (width 0.1016))
@@ -3660,15 +3660,15 @@
     )
   )
 
-  (module "BluePillF4 Lib:C0603" (layer Top) (tedit 5A633A8D) (tstamp 5A089286)
+  (module "BluePillF4 Lib:C0603" (layer Top) (tedit 5A77287B) (tstamp 5A089286)
     (at 85.725 69.85 270)
     (descr "<b>0603 Chip Capacitor</b>")
     (path /5A4D7C11/5A6DFFC7)
     (fp_text reference C8 (at -1.27 -1.27 270) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom))
     )
-    (fp_text value 4u7 (at -1.27 1.905 270) (layer F.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify right top))
+    (fp_text value 4u7 (at -0.762 0.254 270) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start 0.356 0.432) (end -0.356 0.432) (layer Dwgs.User) (width 0.1016))
     (fp_line (start 0.356 -0.419) (end -0.356 -0.419) (layer Dwgs.User) (width 0.1016))
@@ -3690,15 +3690,15 @@
     )
   )
 
-  (module "BluePillF4 Lib:C0603" (layer Top) (tedit 5A633A8D) (tstamp 5A0892E6)
+  (module "BluePillF4 Lib:C0603" (layer Top) (tedit 5A772895) (tstamp 5A0892E6)
     (at 91.821 69.85 270)
     (descr "<b>0603 Chip Capacitor</b>")
     (path /5A4D4310/5A089926)
     (fp_text reference C16 (at -1.27 -1.27 270) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom))
     )
-    (fp_text value 4u7 (at -1.27 1.905 270) (layer F.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify right top))
+    (fp_text value 4u7 (at -0.762 0.254 270) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start 0.356 0.432) (end -0.356 0.432) (layer Dwgs.User) (width 0.1016))
     (fp_line (start 0.356 -0.419) (end -0.356 -0.419) (layer Dwgs.User) (width 0.1016))
@@ -3720,15 +3720,15 @@
     )
   )
 
-  (module "BluePillF4 Lib:C0603" (layer Top) (tedit 5A633A8D) (tstamp 5A089278)
+  (module "BluePillF4 Lib:C0603" (layer Top) (tedit 5A77285D) (tstamp 5A089278)
     (at 85.09 62.357 180)
     (descr "<b>0603 Chip Capacitor</b>")
     (path /5A4D7C11/5A6DFFB9)
     (fp_text reference C6 (at -1.27 -1.27 180) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom))
     )
-    (fp_text value 4u7 (at -1.27 1.905 180) (layer F.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify right top))
+    (fp_text value 4u7 (at -0.762 0.254 180) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start 0.356 0.432) (end -0.356 0.432) (layer Dwgs.User) (width 0.1016))
     (fp_line (start 0.356 -0.419) (end -0.356 -0.419) (layer Dwgs.User) (width 0.1016))
@@ -3750,15 +3750,15 @@
     )
   )
 
-  (module "BluePillF4 Lib:C0603" (layer Top) (tedit 5A633A8D) (tstamp 5A0891BE)
+  (module "BluePillF4 Lib:C0603" (layer Top) (tedit 5A772846) (tstamp 5A0891BE)
     (at 94.869 60.325)
     (descr "<b>0603 Chip Capacitor</b>")
     (path /5A4D4310/5A08953E)
     (fp_text reference C11 (at -1.27 -1.27) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom))
     )
-    (fp_text value 2u2 (at -1.27 1.905) (layer F.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify right top))
+    (fp_text value 2u2 (at 0.635 -0.254) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start 0.356 0.432) (end -0.356 0.432) (layer Dwgs.User) (width 0.1016))
     (fp_line (start 0.356 -0.419) (end -0.356 -0.419) (layer Dwgs.User) (width 0.1016))
@@ -3780,15 +3780,15 @@
     )
   )
 
-  (module "BluePillF4 Lib:C0603" (layer Top) (tedit 5A633A8D) (tstamp 5A0891B0)
+  (module "BluePillF4 Lib:C0603" (layer Top) (tedit 5A772ADF) (tstamp 5A0891B0)
     (at 94.996 59.055 180)
     (descr "<b>0603 Chip Capacitor</b>")
     (path /5A4D4310/5A089606)
     (fp_text reference C12 (at -1.27 -1.27 180) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom))
     )
-    (fp_text value 100n (at -1.27 1.905 180) (layer F.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify right top))
+    (fp_text value 100n (at -0.889 0.254 180) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start 0.356 0.432) (end -0.356 0.432) (layer Dwgs.User) (width 0.1016))
     (fp_line (start 0.356 -0.419) (end -0.356 -0.419) (layer Dwgs.User) (width 0.1016))
@@ -3810,15 +3810,15 @@
     )
   )
 
-  (module "BluePillF4 Lib:C0603" (layer Top) (tedit 5A633A8D) (tstamp 5A08916A)
+  (module "BluePillF4 Lib:C0603" (layer Top) (tedit 5A772A1A) (tstamp 5A08916A)
     (at 110.109 59.436 90)
     (descr "<b>0603 Chip Capacitor</b>")
     (path /5A4D4310/5A089476)
     (fp_text reference C10 (at -1.27 -1.27 90) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom))
     )
-    (fp_text value 100n (at -1.27 1.905 90) (layer F.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify right top))
+    (fp_text value 100n (at 0.889 -0.254 90) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start 0.356 0.432) (end -0.356 0.432) (layer Dwgs.User) (width 0.1016))
     (fp_line (start 0.356 -0.419) (end -0.356 -0.419) (layer Dwgs.User) (width 0.1016))
@@ -3840,15 +3840,15 @@
     )
   )
 
-  (module "BluePillF4 Lib:C0603" (layer Top) (tedit 5A633A8D) (tstamp 5A0891CC)
+  (module "BluePillF4 Lib:C0603" (layer Top) (tedit 5A772A20) (tstamp 5A0891CC)
     (at 110.617 61.976 90)
     (descr "<b>0603 Chip Capacitor</b>")
     (path /5A4D4310/5A08921E)
     (fp_text reference C7 (at -1.27 -1.27 90) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom))
     )
-    (fp_text value 100n (at -1.27 1.905 90) (layer F.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify right top))
+    (fp_text value 100n (at 0.889 -0.254 90) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start 0.356 0.432) (end -0.356 0.432) (layer Dwgs.User) (width 0.1016))
     (fp_line (start 0.356 -0.419) (end -0.356 -0.419) (layer Dwgs.User) (width 0.1016))
@@ -3870,15 +3870,15 @@
     )
   )
 
-  (module "BluePillF4 Lib:C0603" (layer Top) (tedit 5A633A8D) (tstamp 5A0891DA)
+  (module "BluePillF4 Lib:C0603" (layer Top) (tedit 5A772A0C) (tstamp 5A0891DA)
     (at 112.014 58.801)
     (descr "<b>0603 Chip Capacitor</b>")
     (path /5A4D4310/5A088D6E)
     (fp_text reference C1 (at -1.27 -1.27) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom))
     )
-    (fp_text value 10u (at -1.27 1.905) (layer F.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify right top))
+    (fp_text value 10u (at 0.635 -0.254) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start 0.356 0.432) (end -0.356 0.432) (layer Dwgs.User) (width 0.1016))
     (fp_line (start 0.356 -0.419) (end -0.356 -0.419) (layer Dwgs.User) (width 0.1016))
@@ -3900,15 +3900,15 @@
     )
   )
 
-  (module "BluePillF4 Lib:C0603" (layer Top) (tedit 5A633A8D) (tstamp 5A089210)
+  (module "BluePillF4 Lib:C0603" (layer Top) (tedit 5A772A40) (tstamp 5A089210)
     (at 114.3 65.405)
     (descr "<b>0603 Chip Capacitor</b>")
     (path /5A4D4310/5A08908E)
     (fp_text reference C5 (at -1.27 -1.27) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom))
     )
-    (fp_text value 20p (at -1.27 1.905) (layer F.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify right top))
+    (fp_text value 20p (at 0.762 -0.254) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start 0.356 0.432) (end -0.356 0.432) (layer Dwgs.User) (width 0.1016))
     (fp_line (start 0.356 -0.419) (end -0.356 -0.419) (layer Dwgs.User) (width 0.1016))
@@ -3930,15 +3930,15 @@
     )
   )
 
-  (module "BluePillF4 Lib:C0603" (layer Top) (tedit 5A633A8D) (tstamp 5A08921E)
+  (module "BluePillF4 Lib:C0603" (layer Top) (tedit 5A772A49) (tstamp 5A08921E)
     (at 114.3 66.675)
     (descr "<b>0603 Chip Capacitor</b>")
     (path /5A4D4310/5A088FC6)
     (fp_text reference C4 (at -1.27 -1.27) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom))
     )
-    (fp_text value 20p (at -1.27 1.905) (layer F.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify right top))
+    (fp_text value 20p (at 0.762 -0.254) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.06096)) (justify right top))
     )
     (fp_line (start 0.356 0.432) (end -0.356 0.432) (layer Dwgs.User) (width 0.1016))
     (fp_line (start 0.356 -0.419) (end -0.356 -0.419) (layer Dwgs.User) (width 0.1016))
@@ -3960,15 +3960,15 @@
     )
   )
 
-  (module "BluePillF4 Lib:C0603" (layer Top) (tedit 5A633A8D) (tstamp 5A089186)
+  (module "BluePillF4 Lib:C0603" (layer Top) (tedit 5A772A5B) (tstamp 5A089186)
     (at 110.744 70.485 180)
     (descr "<b>0603 Chip Capacitor</b>")
     (path /5A4D4310/5A0893AE)
     (fp_text reference C9 (at -1.27 -1.27 180) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom))
     )
-    (fp_text value 100n (at -1.27 1.905 180) (layer F.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify right top))
+    (fp_text value 100n (at -0.889 0.254 180) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start 0.356 0.432) (end -0.356 0.432) (layer Dwgs.User) (width 0.1016))
     (fp_line (start 0.356 -0.419) (end -0.356 -0.419) (layer Dwgs.User) (width 0.1016))
@@ -3990,15 +3990,15 @@
     )
   )
 
-  (module "BluePillF4 Lib:C0603" (layer Top) (tedit 5A633A8D) (tstamp 5A089245)
+  (module "BluePillF4 Lib:C0603" (layer Top) (tedit 5A772A56) (tstamp 5A089245)
     (at 113.03 69.2023)
     (descr "<b>0603 Chip Capacitor</b>")
     (path /5A4D4310/5A088E36)
     (fp_text reference C2 (at -1.27 -1.27) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom))
     )
-    (fp_text value 6p8 (at -1.27 1.905) (layer F.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify right top))
+    (fp_text value 6p8 (at 0.762 -0.2413) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start 0.356 0.432) (end -0.356 0.432) (layer Dwgs.User) (width 0.1016))
     (fp_line (start 0.356 -0.419) (end -0.356 -0.419) (layer Dwgs.User) (width 0.1016))
@@ -4020,15 +4020,15 @@
     )
   )
 
-  (module "BluePillF4 Lib:C0603" (layer Top) (tedit 5A633A8D) (tstamp 5A089253)
+  (module "BluePillF4 Lib:C0603" (layer Top) (tedit 5A772A58) (tstamp 5A089253)
     (at 113.03 67.945)
     (descr "<b>0603 Chip Capacitor</b>")
     (path /5A4D4310/5A088EFE)
     (fp_text reference C3 (at -1.27 -1.27) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom))
     )
-    (fp_text value 6p8 (at -1.27 1.905) (layer F.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify right top))
+    (fp_text value 6p8 (at 0.762 -0.254) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start 0.356 0.432) (end -0.356 0.432) (layer Dwgs.User) (width 0.1016))
     (fp_line (start 0.356 -0.419) (end -0.356 -0.419) (layer Dwgs.User) (width 0.1016))
@@ -4050,15 +4050,15 @@
     )
   )
 
-  (module "BluePillF4 Lib:C0603" (layer Top) (tedit 5A633A8D) (tstamp 5A0891E8)
+  (module "BluePillF4 Lib:C0603" (layer Top) (tedit 5A772A72) (tstamp 5A0891E8)
     (at 120.904 70.485)
     (descr "<b>0603 Chip Capacitor</b>")
     (path /5A4D4310/5A0899EE)
     (fp_text reference C17 (at -1.27 -1.27) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom))
     )
-    (fp_text value 100n (at -1.27 1.905) (layer F.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify right top))
+    (fp_text value 100n (at 0.889 -0.254) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start 0.356 0.432) (end -0.356 0.432) (layer Dwgs.User) (width 0.1016))
     (fp_line (start 0.356 -0.419) (end -0.356 -0.419) (layer Dwgs.User) (width 0.1016))
@@ -4080,15 +4080,15 @@
     )
   )
 
-  (module "BluePillF4 Lib:C0603" (layer Top) (tedit 5A633A8D) (tstamp 5A089140)
+  (module "BluePillF4 Lib:C0603" (layer Top) (tedit 5A7729D1) (tstamp 5A089140)
     (at 117.348 59.055 180)
     (descr "<b>0603 Chip Capacitor</b>")
     (path /5A4D4310/5A08985E)
     (fp_text reference C15 (at -1.27 -1.27 180) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom))
     )
-    (fp_text value 100n (at -1.27 1.905 180) (layer F.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify right top))
+    (fp_text value 100n (at -0.889 0.254 180) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start 0.356 0.432) (end -0.356 0.432) (layer Dwgs.User) (width 0.1016))
     (fp_line (start 0.356 -0.419) (end -0.356 -0.419) (layer Dwgs.User) (width 0.1016))
@@ -4110,15 +4110,15 @@
     )
   )
 
-  (module "BluePillF4 Lib:C0603" (layer Top) (tedit 5A633A8D) (tstamp 5A3ECDFA)
+  (module "BluePillF4 Lib:C0603" (layer Top) (tedit 5A77287E) (tstamp 5A3ECDFA)
     (at 86.995 69.85 90)
     (descr "<b>0603 Chip Capacitor</b>")
     (path /5A4D7C11/5A6E0015)
     (fp_text reference C18 (at -1.27 -1.27 90) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom))
     )
-    (fp_text value 100n (at -1.27 1.905 90) (layer F.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify right top))
+    (fp_text value 100n (at 0.889 -0.254 90) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start 0.356 0.432) (end -0.356 0.432) (layer Dwgs.User) (width 0.1016))
     (fp_line (start 0.356 -0.419) (end -0.356 -0.419) (layer Dwgs.User) (width 0.1016))
@@ -4140,15 +4140,15 @@
     )
   )
 
-  (module "BluePillF4 Lib:C0603" (layer Bottom) (tedit 5A633A8D) (tstamp 5A4D57D3)
+  (module "BluePillF4 Lib:C0603" (layer Bottom) (tedit 5A773003) (tstamp 5A4D57D3)
     (at 127.381 69.85 270)
     (descr "<b>0603 Chip Capacitor</b>")
     (path /5A4D7C11/5A4DC5F8)
     (fp_text reference C19 (at -1.27 1.27 270) (layer B.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom mirror))
     )
-    (fp_text value 1u (at -1.27 -1.905 270) (layer B.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify right top mirror))
+    (fp_text value 1u (at -0.508 0.381 270) (layer Eco2.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start 0.356 -0.432) (end -0.356 -0.432) (layer Dwgs.User) (width 0.1016))
     (fp_line (start 0.356 0.419) (end -0.356 0.419) (layer Dwgs.User) (width 0.1016))
@@ -4170,15 +4170,15 @@
     )
   )
 
-  (module "BluePillF4 Lib:C0603" (layer Bottom) (tedit 5A633A8D) (tstamp 5A4D57D9)
+  (module "BluePillF4 Lib:C0603" (layer Bottom) (tedit 5A772FFC) (tstamp 5A4D57D9)
     (at 128.651 66.167 270)
     (descr "<b>0603 Chip Capacitor</b>")
     (path /5A4D7C11/5A4DC654)
     (fp_text reference C20 (at -1.27 1.27 270) (layer B.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom mirror))
     )
-    (fp_text value 1u (at -1.27 -1.905 270) (layer B.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify right top mirror))
+    (fp_text value 1u (at -0.508 0.254 270) (layer Eco2.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start 0.356 -0.432) (end -0.356 -0.432) (layer Dwgs.User) (width 0.1016))
     (fp_line (start 0.356 0.419) (end -0.356 0.419) (layer Dwgs.User) (width 0.1016))
@@ -4200,15 +4200,15 @@
     )
   )
 
-  (module "BluePillF4 Lib:R0603" (layer Top) (tedit 5A633AB1) (tstamp 5A0892F4)
+  (module "BluePillF4 Lib:R0603" (layer Top) (tedit 5A77284F) (tstamp 5A0892F4)
     (at 91.059 59.055)
     (descr "<b>0603 Chip Resistor</b>")
     (path /5A4D4310/5A3F09CB)
     (fp_text reference R12 (at -1.27 -1.27) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom))
     )
-    (fp_text value 510R (at -1.27 1.905) (layer F.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify right top))
+    (fp_text value 510R (at 1.016 -0.254) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start 0.356 0.432) (end -0.356 0.432) (layer Dwgs.User) (width 0.1016))
     (fp_line (start 0.356 -0.419) (end -0.356 -0.419) (layer Dwgs.User) (width 0.1016))
@@ -4230,15 +4230,15 @@
     )
   )
 
-  (module "BluePillF4 Lib:R0603" (layer Top) (tedit 5A633AB1) (tstamp 5A08915C)
+  (module "BluePillF4 Lib:R0603" (layer Top) (tedit 5A772873) (tstamp 5A08915C)
     (at 85.725 66.929 90)
     (descr "<b>0603 Chip Resistor</b>")
     (path /5A4D4310/5A08AF6A)
     (fp_text reference R8 (at -1.27 -1.27 90) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom))
     )
-    (fp_text value 1k5 (at -1.27 1.905 90) (layer F.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify right top))
+    (fp_text value 1k5 (at 0.635 -0.254 90) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start 0.356 0.432) (end -0.356 0.432) (layer Dwgs.User) (width 0.1016))
     (fp_line (start 0.356 -0.419) (end -0.356 -0.419) (layer Dwgs.User) (width 0.1016))
@@ -4255,15 +4255,15 @@
       (net 45 /BluePillF4-1/PA12))
   )
 
-  (module "BluePillF4 Lib:R0603" (layer Top) (tedit 5A633AB1) (tstamp 5A089116)
+  (module "BluePillF4 Lib:R0603" (layer Top) (tedit 5A772870) (tstamp 5A089116)
     (at 84.455 66.929 270)
     (descr "<b>0603 Chip Resistor</b>")
     (path /5A4D4310/5A08B1C2)
     (fp_text reference R11 (at -1.27 -1.27 270) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom))
     )
-    (fp_text value 1k (at -1.27 1.905 270) (layer F.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify right top))
+    (fp_text value 1k (at -0.381 0.254 270) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start 0.356 0.432) (end -0.356 0.432) (layer Dwgs.User) (width 0.1016))
     (fp_line (start 0.356 -0.419) (end -0.356 -0.419) (layer Dwgs.User) (width 0.1016))
@@ -4285,15 +4285,15 @@
     )
   )
 
-  (module "BluePillF4 Lib:R0603" (layer Top) (tedit 5A633AB1) (tstamp 5A089108)
+  (module "BluePillF4 Lib:R0603" (layer Top) (tedit 5A77286D) (tstamp 5A089108)
     (at 85.09 64.9478)
     (descr "<b>0603 Chip Resistor</b>")
     (path /5A4D4310/5A08B0FA)
     (fp_text reference R10 (at -1.27 -1.27) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom))
     )
-    (fp_text value 22R (at -1.27 1.905) (layer F.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify right top))
+    (fp_text value 22R (at 0.762 -0.3048) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start 0.356 0.432) (end -0.356 0.432) (layer Dwgs.User) (width 0.1016))
     (fp_line (start 0.356 -0.419) (end -0.356 -0.419) (layer Dwgs.User) (width 0.1016))
@@ -4315,15 +4315,15 @@
     )
   )
 
-  (module "BluePillF4 Lib:R0603" (layer Top) (tedit 5A633AB1) (tstamp 5A0890FA)
+  (module "BluePillF4 Lib:R0603" (layer Top) (tedit 5A77286A) (tstamp 5A0890FA)
     (at 85.09 63.6778)
     (descr "<b>0603 Chip Resistor</b>")
     (path /5A4D4310/5A08B032)
     (fp_text reference R9 (at -1.27 -1.27) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom))
     )
-    (fp_text value 22R (at -1.27 1.905) (layer F.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify right top))
+    (fp_text value 22R (at 0.762 -0.1778) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start 0.356 0.432) (end -0.356 0.432) (layer Dwgs.User) (width 0.1016))
     (fp_line (start 0.356 -0.419) (end -0.356 -0.419) (layer Dwgs.User) (width 0.1016))
@@ -4345,15 +4345,15 @@
     )
   )
 
-  (module "BluePillF4 Lib:R0603" (layer Top) (tedit 5A633AB1) (tstamp 5A0892CB)
+  (module "BluePillF4 Lib:R0603" (layer Top) (tedit 5A772842) (tstamp 5A0892CB)
     (at 88.519 59.055)
     (descr "<b>0603 Chip Resistor</b>")
     (path /5A4D4310/5A08B352)
     (fp_text reference R13 (at -1.27 -1.27) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom))
     )
-    (fp_text value 10k (at -1.27 1.905) (layer F.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify right top))
+    (fp_text value 10k (at 0.635 -0.254) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start 0.356 0.432) (end -0.356 0.432) (layer Dwgs.User) (width 0.1016))
     (fp_line (start 0.356 -0.419) (end -0.356 -0.419) (layer Dwgs.User) (width 0.1016))
@@ -4375,15 +4375,15 @@
     )
   )
 
-  (module "BluePillF4 Lib:R0603" (layer Top) (tedit 5A633AB1) (tstamp 5A0892BD)
+  (module "BluePillF4 Lib:R0603" (layer Top) (tedit 5A77284C) (tstamp 5A0892BD)
     (at 92.964 59.69 270)
     (descr "<b>0603 Chip Resistor</b>")
     (path /5A4D4310/5A08AEA2)
     (fp_text reference R7 (at -1.27 -1.27 270) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom))
     )
-    (fp_text value 100k (at -1.27 1.905 270) (layer F.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify right top))
+    (fp_text value 100k (at -0.889 0.254 270) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start 0.356 0.432) (end -0.356 0.432) (layer Dwgs.User) (width 0.1016))
     (fp_line (start 0.356 -0.419) (end -0.356 -0.419) (layer Dwgs.User) (width 0.1016))
@@ -4405,15 +4405,15 @@
     )
   )
 
-  (module "BluePillF4 Lib:R0603" (layer Top) (tedit 5A633AB1) (tstamp 5A0890DE)
+  (module "BluePillF4 Lib:R0603" (layer Top) (tedit 5A772849) (tstamp 5A0890DE)
     (at 93.853 61.595 180)
     (descr "<b>0603 Chip Resistor</b>")
     (path /5A4D4310/5A08A9F2)
     (fp_text reference R1 (at -1.27 -1.27 180) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom))
     )
-    (fp_text value 100k (at -1.27 1.905 180) (layer F.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify right top))
+    (fp_text value 100k (at -1.016 0.254 180) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start 0.356 0.432) (end -0.356 0.432) (layer Dwgs.User) (width 0.1016))
     (fp_line (start 0.356 -0.419) (end -0.356 -0.419) (layer Dwgs.User) (width 0.1016))
@@ -4435,15 +4435,15 @@
     )
   )
 
-  (module "BluePillF4 Lib:R0603" (layer Top) (tedit 5A633AB1) (tstamp 5A0890EC)
+  (module "BluePillF4 Lib:R0603" (layer Top) (tedit 5A772A4D) (tstamp 5A0890EC)
     (at 113.284 70.485 180)
     (descr "<b>0603 Chip Resistor</b>")
     (path /5A4D4310/5A08AC4A)
     (fp_text reference R4 (at -1.27 -1.27 180) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom))
     )
-    (fp_text value 100k (at -1.27 1.905 180) (layer F.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify right top))
+    (fp_text value 100k (at -0.889 0.254 180) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start 0.356 0.432) (end -0.356 0.432) (layer Dwgs.User) (width 0.1016))
     (fp_line (start 0.356 -0.419) (end -0.356 -0.419) (layer Dwgs.User) (width 0.1016))
@@ -4465,15 +4465,15 @@
     )
   )
 
-  (module "BluePillF4 Lib:R0603" (layer Top) (tedit 5A633AB1) (tstamp 5A0891A2)
+  (module "BluePillF4 Lib:R0603" (layer Top) (tedit 5A772B79) (tstamp 5A0891A2)
     (at 115.824 70.485 180)
     (descr "<b>0603 Chip Resistor</b>")
     (path /5A4D4310/5A08AD12)
     (fp_text reference R5 (at -1.27 -1.27 180) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom))
     )
-    (fp_text value 0R (at -1.27 1.905 180) (layer F.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify right top))
+    (fp_text value 0R (at -0.508 0.254 180) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start 0.356 0.432) (end -0.356 0.432) (layer Dwgs.User) (width 0.1016))
     (fp_line (start 0.356 -0.419) (end -0.356 -0.419) (layer Dwgs.User) (width 0.1016))
@@ -4495,15 +4495,15 @@
     )
   )
 
-  (module "BluePillF4 Lib:R0603" (layer Top) (tedit 5A633AB1) (tstamp 5A089124)
+  (module "BluePillF4 Lib:R0603" (layer Top) (tedit 5A772A6F) (tstamp 5A089124)
     (at 118.364 70.485)
     (descr "<b>0603 Chip Resistor</b>")
     (path /5A4D4310/5A08AABA)
     (fp_text reference R2 (at -1.27 -1.27) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom))
     )
-    (fp_text value 510R (at -1.27 1.905) (layer F.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify right top))
+    (fp_text value 510R (at 1.016 -0.254) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start 0.356 0.432) (end -0.356 0.432) (layer Dwgs.User) (width 0.1016))
     (fp_line (start 0.356 -0.419) (end -0.356 -0.419) (layer Dwgs.User) (width 0.1016))
@@ -4525,15 +4525,15 @@
     )
   )
 
-  (module "BluePillF4 Lib:R0603" (layer Top) (tedit 5A633AB1) (tstamp 5A08914E)
+  (module "BluePillF4 Lib:R0603" (layer Top) (tedit 5A7729D4) (tstamp 5A08914E)
     (at 119.888 59.055 180)
     (descr "<b>0603 Chip Resistor</b>")
     (path /5A4D4310/5A08ADDA)
     (fp_text reference R6 (at -1.27 -1.27 180) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom))
     )
-    (fp_text value 10k (at -1.27 1.905 180) (layer F.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify right top))
+    (fp_text value 10k (at -0.635 0.254 180) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start 0.356 0.432) (end -0.356 0.432) (layer Dwgs.User) (width 0.1016))
     (fp_line (start 0.356 -0.419) (end -0.356 -0.419) (layer Dwgs.User) (width 0.1016))
@@ -4555,15 +4555,15 @@
     )
   )
 
-  (module "BluePillF4 Lib:R0603" (layer Top) (tedit 5A633AB1) (tstamp 5A089132)
+  (module "BluePillF4 Lib:R0603" (layer Top) (tedit 5A7729E8) (tstamp 5A089132)
     (at 121.285 64.262 90)
     (descr "<b>0603 Chip Resistor</b>")
     (path /5A4D4310/5A08AB82)
     (fp_text reference R3 (at -1.27 -1.27 90) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom))
     )
-    (fp_text value 560R (at -1.27 1.905 90) (layer F.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify right top))
+    (fp_text value 560R (at 1.016 -0.254 90) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start 0.356 0.432) (end -0.356 0.432) (layer Dwgs.User) (width 0.1016))
     (fp_line (start 0.356 -0.419) (end -0.356 -0.419) (layer Dwgs.User) (width 0.1016))
@@ -4585,15 +4585,15 @@
     )
   )
 
-  (module "BluePillF4 Lib:R0603" (layer Top) (tedit 5A633AB1) (tstamp 5A4286E9)
+  (module "BluePillF4 Lib:R0603" (layer Top) (tedit 5A7729E4) (tstamp 5A4286E9)
     (at 120.015 64.262 90)
     (descr "<b>0603 Chip Resistor</b>")
     (path /5A4D4310/5A427787)
     (fp_text reference R14 (at -1.27 -1.27 90) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom))
     )
-    (fp_text value 560R (at -1.27 1.905 90) (layer F.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify right top))
+    (fp_text value 560R (at 1.016 -0.254 90) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start 0.356 0.432) (end -0.356 0.432) (layer Dwgs.User) (width 0.1016))
     (fp_line (start 0.356 -0.419) (end -0.356 -0.419) (layer Dwgs.User) (width 0.1016))
@@ -4615,15 +4615,15 @@
     )
   )
 
-  (module "BluePillF4 Lib:R0603" (layer Top) (tedit 5A633AB1) (tstamp 5A4286F8)
+  (module "BluePillF4 Lib:R0603" (layer Top) (tedit 5A7729D7) (tstamp 5A4286F8)
     (at 122.4026 59.055 180)
     (descr "<b>0603 Chip Resistor</b>")
     (path /5A4D4310/5A427885)
     (fp_text reference R15 (at -1.27 -1.27 180) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom))
     )
-    (fp_text value 220R (at -1.27 1.905 180) (layer F.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify right top))
+    (fp_text value 220R (at -0.9144 0.254 180) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start 0.356 0.432) (end -0.356 0.432) (layer Dwgs.User) (width 0.1016))
     (fp_line (start 0.356 -0.419) (end -0.356 -0.419) (layer Dwgs.User) (width 0.1016))
@@ -4645,15 +4645,15 @@
     )
   )
 
-  (module "BluePillF4 Lib:R0603" (layer Top) (tedit 5A633AB1) (tstamp 5A428707)
+  (module "BluePillF4 Lib:R0603" (layer Top) (tedit 5A772899) (tstamp 5A428707)
     (at 93.091 69.596 270)
     (descr "<b>0603 Chip Resistor</b>")
     (path /5A4D4310/5A42D7B9)
     (fp_text reference R16 (at -1.27 -1.27 270) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom))
     )
-    (fp_text value 1M (at -1.27 1.905 270) (layer F.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify right top))
+    (fp_text value 1M (at -0.381 0.254 270) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start 0.356 0.432) (end -0.356 0.432) (layer Dwgs.User) (width 0.1016))
     (fp_line (start 0.356 -0.419) (end -0.356 -0.419) (layer Dwgs.User) (width 0.1016))
@@ -4675,15 +4675,15 @@
     )
   )
 
-  (module "BluePillF4 Lib:R0603" (layer Bottom) (tedit 5A633AB1) (tstamp 5A4D57EC)
+  (module "BluePillF4 Lib:R0603" (layer Bottom) (tedit 5A773000) (tstamp 5A4D57EC)
     (at 125.984 69.85 270)
     (descr "<b>0603 Chip Resistor</b>")
     (path /5A4D7C11/5A4DB032)
     (fp_text reference R17 (at -1.27 1.27 270) (layer B.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom mirror))
     )
-    (fp_text value 15k (at -1.27 -1.905 270) (layer B.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify right top mirror))
+    (fp_text value 15k (at -0.762 0.254 270) (layer Eco2.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start 0.356 -0.432) (end -0.356 -0.432) (layer Dwgs.User) (width 0.1016))
     (fp_line (start 0.356 0.419) (end -0.356 0.419) (layer Dwgs.User) (width 0.1016))
@@ -4705,15 +4705,15 @@
     )
   )
 
-  (module "BluePillF4 Lib:R0603" (layer Bottom) (tedit 5A633AB1) (tstamp 5A4D57F2)
+  (module "BluePillF4 Lib:R0603" (layer Bottom) (tedit 5A772FF8) (tstamp 5A4D57F2)
     (at 125.857 64.262)
     (descr "<b>0603 Chip Resistor</b>")
     (path /5A4D7C11/5A4DB01E)
     (fp_text reference R18 (at -1.27 1.27) (layer B.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom mirror))
     )
-    (fp_text value 10k (at -1.27 -1.905) (layer B.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify right top mirror))
+    (fp_text value 10k (at 0.635 -0.254) (layer Eco2.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start 0.356 -0.432) (end -0.356 -0.432) (layer Dwgs.User) (width 0.1016))
     (fp_line (start 0.356 0.419) (end -0.356 0.419) (layer Dwgs.User) (width 0.1016))
@@ -4735,15 +4735,15 @@
     )
   )
 
-  (module "BluePillF4 Lib:R0603" (layer Top) (tedit 5A633AB1) (tstamp 5A4D57F8)
+  (module "BluePillF4 Lib:R0603" (layer Top) (tedit 5A772876) (tstamp 5A4D57F8)
     (at 84.328 69.723 90)
     (descr "<b>0603 Chip Resistor</b>")
     (path /5A4D7C11/5A4D9DD1)
     (fp_text reference R19 (at -1.27 -1.27 90) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom))
     )
-    (fp_text value 0R (at -1.27 1.905 90) (layer F.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify right top))
+    (fp_text value 0R (at 0.508 -0.127 90) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start 0.356 0.432) (end -0.356 0.432) (layer Dwgs.User) (width 0.1016))
     (fp_line (start 0.356 -0.419) (end -0.356 -0.419) (layer Dwgs.User) (width 0.1016))
@@ -4765,15 +4765,15 @@
     )
   )
 
-  (module "BluePillF4 Lib:R0603" (layer Top) (tedit 5A633AB1) (tstamp 5A59255A)
+  (module "BluePillF4 Lib:R0603" (layer Top) (tedit 5A772B74) (tstamp 5A59255A)
     (at 123.444 70.485)
     (descr "<b>0603 Chip Resistor</b>")
     (path /5A4D4310/5A58633C)
     (fp_text reference R20 (at -1.27 -1.27) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom))
     )
-    (fp_text value 0R (at -1.27 1.905) (layer F.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify right top))
+    (fp_text value 0R (at 0.381 -0.254) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start 0.356 0.432) (end -0.356 0.432) (layer Dwgs.User) (width 0.1016))
     (fp_line (start 0.356 -0.419) (end -0.356 -0.419) (layer Dwgs.User) (width 0.1016))
@@ -4805,15 +4805,15 @@
     )
   )
 
-  (module "BluePillF4 Lib:47309-2651" (layer Bottom) (tedit 5A665CE9) (tstamp 5A08941A)
+  (module "BluePillF4 Lib:47309-2651" (layer Bottom) (tedit 5A772FEA) (tstamp 5A08941A)
     (at 90.17 65.0875 90)
     (descr "<b>TFR Header with Detect Pin</b>")
     (path /5A4D4310/5A089F02)
     (fp_text reference J4 (at -5.08 2.54 90) (layer B.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.16256)) (justify left bottom mirror))
     )
-    (fp_text value 47309-2651 (at 1.27 2.54 90) (layer B.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.16256)) (justify left bottom mirror))
+    (fp_text value 47309-2651 (at -1.7145 -1.016 90) (layer Eco2.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify left bottom))
     )
     (fp_line (start -5.4 1.325) (end 6 1.325) (layer Dwgs.User) (width 0.127))
     (fp_line (start 6 1.325) (end 6 -0.05) (layer Dwgs.User) (width 0.127))
@@ -5015,15 +5015,15 @@
       (net 1 GND) (zone_connect 2))
   )
 
-  (module "BluePillF4 Lib:R0603" (layer Bottom) (tedit 5A633AB1) (tstamp 5A6DF3E2)
+  (module "BluePillF4 Lib:R0603" (layer Bottom) (tedit 5A772FF0) (tstamp 5A6DF3E2)
     (at 115.062 62.992)
     (descr "<b>0603 Chip Resistor</b>")
     (path /5A4D4310/5A6E3EB6)
     (fp_text reference R21 (at -1.27 1.27) (layer B.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom mirror))
     )
-    (fp_text value 10k (at -1.27 -1.905) (layer B.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify right top mirror))
+    (fp_text value 10k (at 0.635 -0.254) (layer Eco2.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start 0.356 -0.432) (end -0.356 -0.432) (layer Dwgs.User) (width 0.1016))
     (fp_line (start 0.356 0.419) (end -0.356 0.419) (layer Dwgs.User) (width 0.1016))
@@ -5045,15 +5045,15 @@
     )
   )
 
-  (module "BluePillF4 Lib:R0603" (layer Bottom) (tedit 5A633AB1) (tstamp 5A6DF3E8)
+  (module "BluePillF4 Lib:R0603" (layer Bottom) (tedit 5A772FF4) (tstamp 5A6DF3E8)
     (at 115.062 64.262 180)
     (descr "<b>0603 Chip Resistor</b>")
     (path /5A4D4310/5A6E4128)
     (fp_text reference R22 (at -1.27 1.27 180) (layer B.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom mirror))
     )
-    (fp_text value 10k (at -1.27 -1.905 180) (layer B.SilkS) hide
-      (effects (font (size 0.77216 0.77216) (thickness 0.061772)) (justify right top mirror))
+    (fp_text value 10k (at -0.635 0.254 180) (layer Eco2.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start 0.356 -0.432) (end -0.356 -0.432) (layer Dwgs.User) (width 0.1016))
     (fp_line (start 0.356 0.419) (end -0.356 0.419) (layer Dwgs.User) (width 0.1016))
@@ -5099,7 +5099,7 @@
       (net 1 GND) (zone_connect 2))
   )
 
-  (module "BluePillF4 Lib:U02-BFD3111B0-009" (layer Top) (tedit 5A75C5EA) (tstamp 5A088FC9)
+  (module "BluePillF4 Lib:U02-BFD3111B0-009" (layer Top) (tedit 5A772AFC) (tstamp 5A088FC9)
     (at 78.105 64.77 270)
     (descr "MID MOUNT PCB SMT MICRO USB TYPE B FEMALE SOCKET SOLDER JACK 5 PIN 4 LEGS")
     (tags "MID MOUNT PCB SMT MICRO USB TYPE B FEMALE SOCKET SOLDER JACK 5 PIN 4 LEGS")
@@ -5108,8 +5108,8 @@
     (fp_text reference J5 (at -3.048 -6.985 270) (layer F.SilkS) hide
       (effects (font (size 0.8128 0.8128) (thickness 0.0762)))
     )
-    (fp_text value U02-BFD3111B0-009 (at -2.6416 3.80746 270) (layer F.SilkS) hide
-      (effects (font (size 0.8128 0.8128) (thickness 0.0762)))
+    (fp_text value U02-BFD3111B0-009 (at -0.127 -0.762 360) (layer Eco1.User)
+      (effects (font (size 0.508 0.508) (thickness 0.0508)))
     )
     (fp_line (start -0.12446 -3.59918) (end 0.12446 -3.59918) (layer Dwgs.User) (width 0.06604))
     (fp_line (start 0.12446 -3.59918) (end 0.12446 -4.24942) (layer Dwgs.User) (width 0.06604))
