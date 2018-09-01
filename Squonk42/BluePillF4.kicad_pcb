@@ -1,9 +1,6 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.7-e2-6376~58~ubuntu16.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.0.0-rc3-unknown-14ce5182~65~ubuntu16.04.1)
 
   (general
-    (links 283)
-    (no_connects 0)
-    (area 76.124999 53.264999 129.615001 76.275001)
     (thickness 1.2)
     (drawings 115)
     (tracks 1223)
@@ -32,7 +29,7 @@
     (37 F.SilkS user hide)
     (38 B.Mask user hide)
     (39 F.Mask user hide)
-    (40 Dwgs.User user hide)
+    (40 Dwgs.User user)
     (41 Cmts.User user hide)
     (42 Eco1.User user hide)
     (43 Eco2.User user hide)
@@ -45,7 +42,7 @@
   )
 
   (setup
-    (last_trace_width 0.4572)
+    (last_trace_width 0.1524)
     (user_trace_width 0.1524)
     (user_trace_width 0.3048)
     (user_trace_width 0.4064)
@@ -78,6 +75,9 @@
     (pcbplotparams
       (layerselection 0x010fc_80000001)
       (usegerberextensions false)
+      (usegerberattributes false)
+      (usegerberadvancedattributes false)
+      (creategerberjobfile false)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
@@ -86,8 +86,7 @@
       (useauxorigin true)
       (hpglpennumber 1)
       (hpglpenspeed 20)
-      (hpglpendiameter 15)
-      (hpglpenoverlay 2)
+      (hpglpendiameter 15.000000)
       (psnegative false)
       (psa4output false)
       (plotreference false)
@@ -99,7 +98,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory gerber/))
+      (outputdirectory "gerber/"))
   )
 
   (net 0 "")
@@ -332,7 +331,7 @@
     (pad C smd rect (at -1.5748 0) (size 0.89916 0.94996) (layers Top F.Paste F.Mask)
       (net 3 +5V))
     (model ${KIPRJMOD}/shapes3D/SOD-123.wrl
-      (at (xyz -0.056 -0.033 0))
+      (offset (xyz -1.422399978637695 -0.838199987411499 0))
       (scale (xyz 0.393701 0.393701 0.393701))
       (rotate (xyz 0 0 0))
     )
@@ -386,7 +385,7 @@
     (pad C smd rect (at -1.5748 0 90) (size 0.89916 0.94996) (layers Bottom B.Paste B.Mask)
       (net 14 +VIN))
     (model ${KIPRJMOD}/shapes3D/SOD-123.wrl
-      (at (xyz -0.056 -0.033 0))
+      (offset (xyz -1.422399978637695 -0.838199987411499 0))
       (scale (xyz 0.393701 0.393701 0.393701))
       (rotate (xyz 0 0 0))
     )
@@ -484,10 +483,10 @@
     (at 99.06 64.77 180)
     (descr "<b>Open Hardware Logo</b>")
     (fp_text reference U$4 (at 0 0 180) (layer B.SilkS) hide
-      (effects (font (thickness 0.15)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.15)) (justify mirror))
     )
     (fp_text value "" (at 0 0 180) (layer B.SilkS)
-      (effects (font (thickness 0.15)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -3.81 0.5588) (end -2.7686 0.7366) (layer B.SilkS) (width 0.254))
     (fp_line (start -2.7686 0.7366) (end -2.413 1.6256) (layer B.SilkS) (width 0.254))
@@ -753,7 +752,7 @@
       (net 3 +5V))
     (pad 5 smd rect (at -0.95 1.2 270) (size 0.8 0.55) (layers Bottom B.Paste B.Mask)
       (net 76 /BluePillF4-2/PROG))
-    (model TO_SOT_Packages_SMD.3dshapes/SOT-23-5.wrl
+    (model ${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
@@ -764,7 +763,7 @@
     (at 128.143 60.071 180)
     (descr "<b>SC-70 (SOT-323)</b>")
     (path /5A4D7C11/5A4DC942)
-    (fp_text reference Q1 (at -1.9755 1.978 450) (layer B.SilkS) hide
+    (fp_text reference Q1 (at -1.9755 1.978 90) (layer B.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom mirror))
     )
     (fp_text value IRLML6402 (at 2.921 0.635 180) (layer Eco2.User)
@@ -787,7 +786,7 @@
       (net 14 +VIN))
     (pad 1 smd rect (at -0.65 -0.95 180) (size 0.7 0.9) (layers Bottom B.Paste B.Mask)
       (net 3 +5V))
-    (model TO_SOT_Packages_SMD.3dshapes/SOT-323_SC-70.wrl
+    (model ${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-323_SC-70.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
@@ -813,7 +812,7 @@
     (fp_text reference L3 (at -2.54 -1.27 180) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom))
     )
-    (fp_text value LQW2BASR47J00L (at -3.175 -1.778 360) (layer Eco1.User)
+    (fp_text value LQW2BASR47J00L (at -3.175 -1.778) (layer Eco1.User)
       (effects (font (size 0.508 0.508) (thickness 0.0508)) (justify right top))
     )
     (fp_line (start -0.5 -0.6) (end 0.5 -0.6) (layer Dwgs.User) (width 0.1524))
@@ -828,7 +827,7 @@
       (net 18 /BluePillF4-1/SDIO_VDD))
     (pad 2 smd rect (at 0.9 0 180) (size 1.15 1.4) (layers Top F.Paste F.Mask)
       (net 2 +3V3))
-    (model Inductors_SMD.3dshapes/L_0805.wrl
+    (model ${KISYS3DMOD}/Inductor_SMD.3dshapes/L_0805_2012Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1012,7 +1011,7 @@
       (net 4 AGND))
     (pad 2 smd rect (at 0.889 0) (size 1.016 0.762) (layers Top F.Paste F.Mask)
       (net 1 GND))
-    (model Inductors_SMD.3dshapes/L_0603.wrl
+    (model ${KISYS3DMOD}/Inductor_SMD.3dshapes/L_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1023,7 +1022,7 @@
     (at 111.252 65.278 270)
     (descr "<b>3.2 mm x 2.5 mm Crystal, 2 Pads</b>")
     (path /5A4D4310/5A09181B)
-    (fp_text reference Y2 (at -2.54 -2.54 360) (layer F.SilkS) hide
+    (fp_text reference Y2 (at -2.54 -2.54) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom))
     )
     (fp_text value NX3225GD (at -2.032 0.254 270) (layer Eco1.User)
@@ -1056,7 +1055,7 @@
       (net 12 /BluePillF4-1/OSCIN))
     (model ${KIPRJMOD}/shapes3D/NX3225GD.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 0.393701 0.393701 0.393701))
+      (scale (xyz 0.393700787 0.393700787 0.393700787))
       (rotate (xyz -90 0 0))
     )
   )
@@ -1471,7 +1470,7 @@
       (net 1 GND))
     (pad 64 smd rect (at -3.74904 -5.74802 90) (size 1.19888 0.29972) (layers Top F.Paste F.Mask)
       (net 2 +3V3))
-    (model Housings_QFP.3dshapes/LQFP-64_10x10mm_Pitch0.5mm.wrl
+    (model ${KISYS3DMOD}/Package_QFP.3dshapes/LQFP-64_10x10mm_P0.5mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1858,7 +1857,7 @@
     (at 127.0762 64.77 270)
     (descr "<b>1x4 Pin Male Header, Right-Angle, 0.1\" Pitch</b>")
     (path /5A4D4310/5A089E3A)
-    (fp_text reference J3 (at -5.715 3.81 360) (layer F.SilkS) hide
+    (fp_text reference J3 (at -5.715 3.81) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify right top))
     )
     (fp_text value MH_RA4-1 (at -1.905 4.1402 270) (layer Eco1.User)
@@ -1912,7 +1911,7 @@
     (pad 4 thru_hole circle (at 3.81 3.81) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask)
       (net 77 +VBAT))
     (model ${KIPRJMOD}/shapes3D/Pin_Header_Angled_1x04_Pitch2.54mm.wrl
-      (at (xyz -0.15 -0.147 0))
+      (offset (xyz -3.809999942779541 -3.73379994392395 0))
       (scale (xyz 0.393701 0.393701 0.393701))
       (rotate (xyz 0 0 -90))
     )
@@ -1922,7 +1921,7 @@
     (at 111.887 61.087 270)
     (descr "<b>0603 Chip Inductor</b>")
     (path /5A4D4310/5A08A092)
-    (fp_text reference L1 (at -1.27 -1.27 360) (layer F.SilkS) hide
+    (fp_text reference L1 (at -1.27 -1.27) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify right top))
     )
     (fp_text value FBMH1608HM471-T (at -1.524 0.127 270) (layer Eco1.User)
@@ -1946,7 +1945,7 @@
     (at 90.678 65.278 270)
     (descr "<b>Small Outline Transistor</b>")
     (path /5A4D7C11/5A6DFFE5)
-    (fp_text reference U1 (at 2.54 -2.54 360) (layer F.SilkS) hide
+    (fp_text reference U1 (at 2.54 -2.54) (layer F.SilkS) hide
       (effects (font (size 0.77216 0.77216) (thickness 0.154432)) (justify left bottom))
     )
     (fp_text value AP2114HA-3.3TRG1 (at -3.302 0.254 270) (layer Eco1.User)
@@ -1976,7 +1975,7 @@
       (net 2 +3V3))
     (pad PAD smd rect (at 0 -3.099 270) (size 3.6 2.2) (layers Top F.Paste F.Mask)
       (net 1 GND))
-    (model TO_SOT_Packages_SMD.3dshapes/SOT-223.wrl
+    (model ${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-223.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
@@ -2018,7 +2017,7 @@
     (pad 4 smd rect (at 0.95 -1.2 90) (size 0.8 0.55) (layers Top F.Paste F.Mask))
     (pad 5 smd rect (at -0.95 -1.2 90) (size 0.8 0.55) (layers Top F.Paste F.Mask)
       (net 5 +3V3A))
-    (model TO_SOT_Packages_SMD.3dshapes/SOT-23-5.wrl
+    (model ${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
@@ -2071,7 +2070,7 @@
       (net 74 /BluePillF4-1/VBUS_EN))
     (pad 5 smd rect (at -0.95 -1.2 180) (size 0.8 0.55) (layers Top F.Paste F.Mask)
       (net 3 +5V))
-    (model TO_SOT_Packages_SMD.3dshapes/SOT-23-5.wrl
+    (model ${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
@@ -2120,7 +2119,7 @@
       (net 2 +3V3))
     (pad 1 smd rect (at -0.762 0 90) (size 1.016 1.016) (layers Top F.Paste F.Mask)
       (net 19 /BluePillF4-1/D1))
-    (model LEDs.3dshapes/LED_0603.wrl
+    (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3373,10 +3372,10 @@
     (at 113.665 67.945 180)
     (descr "<b>Recycle Bin Logo</b>")
     (fp_text reference U$6 (at 0 0 180) (layer B.SilkS) hide
-      (effects (font (thickness 0.15)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.15)) (justify mirror))
     )
     (fp_text value "" (at 0 0 180) (layer B.SilkS)
-      (effects (font (thickness 0.15)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.15)) (justify mirror))
     )
     (fp_circle (center 3.175 1.905) (end 3.2004 1.905) (layer B.SilkS) (width 0.254))
     (fp_circle (center 3.175 1.905) (end 3.5766 1.905) (layer B.SilkS) (width 0.254))
@@ -3623,7 +3622,7 @@
       (net 2 +3V3))
     (pad 2 smd rect (at 0.6985 0 270) (size 0.889 0.762) (layers Top F.Paste F.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3653,7 +3652,7 @@
       (net 1 GND))
     (pad 2 smd rect (at 0.6985 0 90) (size 0.889 0.762) (layers Top F.Paste F.Mask)
       (net 16 /BluePillF4-1/VCAP_2))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3683,7 +3682,7 @@
       (net 2 +3V3))
     (pad 2 smd rect (at 0.6985 0) (size 0.889 0.762) (layers Top F.Paste F.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3713,7 +3712,7 @@
       (net 1 GND))
     (pad 2 smd rect (at 0.6985 0) (size 0.889 0.762) (layers Top F.Paste F.Mask)
       (net 18 /BluePillF4-1/SDIO_VDD))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3743,7 +3742,7 @@
       (net 14 +VIN))
     (pad 2 smd rect (at 0.6985 0 270) (size 0.889 0.762) (layers Top F.Paste F.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3773,7 +3772,7 @@
       (net 1 GND))
     (pad 2 smd rect (at 0.6985 0 90) (size 0.889 0.762) (layers Top F.Paste F.Mask)
       (net 15 /BluePillF4-1/VCAP_1))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3803,7 +3802,7 @@
       (net 2 +3V3))
     (pad 2 smd rect (at 0.6985 0 270) (size 0.889 0.762) (layers Top F.Paste F.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3833,7 +3832,7 @@
       (net 1 GND))
     (pad 2 smd rect (at 0.6985 0 180) (size 0.889 0.762) (layers Top F.Paste F.Mask)
       (net 2 +3V3))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3863,7 +3862,7 @@
       (net 4 AGND))
     (pad 2 smd rect (at 0.6985 0 180) (size 0.889 0.762) (layers Top F.Paste F.Mask)
       (net 5 +3V3A))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3893,7 +3892,7 @@
       (net 2 +3V3))
     (pad 2 smd rect (at 0.6985 0 90) (size 0.889 0.762) (layers Top F.Paste F.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3923,7 +3922,7 @@
       (net 13 /BluePillF4-1/OSCOUT))
     (pad 2 smd rect (at 0.6985 0 90) (size 0.889 0.762) (layers Top F.Paste F.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3953,7 +3952,7 @@
       (net 12 /BluePillF4-1/OSCIN))
     (pad 2 smd rect (at 0.6985 0 90) (size 0.889 0.762) (layers Top F.Paste F.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3983,7 +3982,7 @@
       (net 1 GND))
     (pad 2 smd rect (at 0.6985 0 270) (size 0.889 0.762) (layers Top F.Paste F.Mask)
       (net 2 +3V3))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4013,7 +4012,7 @@
       (net 10 /BluePillF4-1/PC14))
     (pad 2 smd rect (at 0.6985 0 90) (size 0.889 0.762) (layers Top F.Paste F.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4043,7 +4042,7 @@
       (net 11 /BluePillF4-1/PC15))
     (pad 2 smd rect (at 0.6985 0 90) (size 0.889 0.762) (layers Top F.Paste F.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4073,7 +4072,7 @@
       (net 1 GND))
     (pad 2 smd rect (at 0.6985 0 90) (size 0.889 0.762) (layers Top F.Paste F.Mask)
       (net 2 +3V3))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4103,7 +4102,7 @@
       (net 1 GND))
     (pad 2 smd rect (at 0.6985 0 270) (size 0.889 0.762) (layers Top F.Paste F.Mask)
       (net 17 /BluePillF4-1/NRST))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4133,7 +4132,7 @@
       (net 1 GND))
     (pad 2 smd rect (at 0.6985 0 180) (size 0.889 0.762) (layers Top F.Paste F.Mask)
       (net 2 +3V3))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4163,7 +4162,7 @@
       (net 3 +5V))
     (pad 2 smd rect (at 0.6985 0 180) (size 0.889 0.762) (layers Bottom B.Paste B.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4193,7 +4192,7 @@
       (net 77 +VBAT))
     (pad 2 smd rect (at 0.6985 0 180) (size 0.889 0.762) (layers Bottom B.Paste B.Mask)
       (net 1 GND))
-    (model Capacitors_SMD.3dshapes/C_0603.wrl
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4223,7 +4222,7 @@
       (net 23 /BluePillF4-1/VBUS))
     (pad 2 smd rect (at 0.6985 0 90) (size 0.889 0.762) (layers Top F.Paste F.Mask)
       (net 48 /BluePillF4-1/PA9))
-    (model Resistors_SMD.3dshapes/R_0603.wrl
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4278,7 +4277,7 @@
       (net 64 /BluePillF4-1/ID))
     (pad 2 smd rect (at 0.6985 0) (size 0.889 0.762) (layers Top F.Paste F.Mask)
       (net 47 /BluePillF4-1/PA10))
-    (model Resistors_SMD.3dshapes/R_0603.wrl
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4308,7 +4307,7 @@
       (net 63 /BluePillF4-1/DP))
     (pad 2 smd rect (at 0.6985 0 90) (size 0.889 0.762) (layers Top F.Paste F.Mask)
       (net 45 /BluePillF4-1/PA12))
-    (model Resistors_SMD.3dshapes/R_0603.wrl
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4338,7 +4337,7 @@
       (net 62 /BluePillF4-1/DM))
     (pad 2 smd rect (at 0.6985 0 90) (size 0.889 0.762) (layers Top F.Paste F.Mask)
       (net 46 /BluePillF4-1/PA11))
-    (model Resistors_SMD.3dshapes/R_0603.wrl
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4368,7 +4367,7 @@
       (net 75 /BluePillF4-1/ISET))
     (pad 2 smd rect (at 0.6985 0 90) (size 0.889 0.762) (layers Top F.Paste F.Mask)
       (net 1 GND))
-    (model Resistors_SMD.3dshapes/R_0603.wrl
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4398,7 +4397,7 @@
       (net 74 /BluePillF4-1/VBUS_EN))
     (pad 2 smd rect (at 0.6985 0) (size 0.889 0.762) (layers Top F.Paste F.Mask)
       (net 1 GND))
-    (model Resistors_SMD.3dshapes/R_0603.wrl
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4428,7 +4427,7 @@
       (net 71 /BluePillF4-1/PB2))
     (pad 2 smd rect (at 0.6985 0 270) (size 0.889 0.762) (layers Top F.Paste F.Mask)
       (net 1 GND))
-    (model Resistors_SMD.3dshapes/R_0603.wrl
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4458,7 +4457,7 @@
       (net 72 /BluePillF4-1/BOOT0))
     (pad 2 smd rect (at 0.6985 0 270) (size 0.889 0.762) (layers Top F.Paste F.Mask)
       (net 1 GND))
-    (model Resistors_SMD.3dshapes/R_0603.wrl
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4488,7 +4487,7 @@
       (net 38 /BluePillF4-1/PB8))
     (pad 2 smd rect (at 0.6985 0 270) (size 0.889 0.762) (layers Top F.Paste F.Mask)
       (net 72 /BluePillF4-1/BOOT0))
-    (model Resistors_SMD.3dshapes/R_0603.wrl
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4518,7 +4517,7 @@
       (net 1 GND))
     (pad 2 smd rect (at 0.6985 0 90) (size 0.889 0.762) (layers Top F.Paste F.Mask)
       (net 19 /BluePillF4-1/D1))
-    (model Resistors_SMD.3dshapes/R_0603.wrl
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4548,11 +4547,6 @@
       (net 2 +3V3))
     (pad 2 smd rect (at 0.6985 0 270) (size 0.889 0.762) (layers Top F.Paste F.Mask)
       (net 73 /BluePillF4-1/R6))
-    (model Resistors_SMD.3dshapes/R_0603.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module "BluePillF4 Lib:R0603" (layer Top) (tedit 5A7729E8) (tstamp 5A089132)
@@ -4578,7 +4572,7 @@
       (net 24 /BluePillF4-1/PC13))
     (pad 2 smd rect (at 0.6985 0 180) (size 0.889 0.762) (layers Top F.Paste F.Mask)
       (net 20 /BluePillF4-1/D2_R))
-    (model Resistors_SMD.3dshapes/R_0603.wrl
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4608,7 +4602,7 @@
       (net 55 /BluePillF4-1/PA13))
     (pad 2 smd rect (at 0.6985 0 180) (size 0.889 0.762) (layers Top F.Paste F.Mask)
       (net 21 /BluePillF4-1/D2_G))
-    (model Resistors_SMD.3dshapes/R_0603.wrl
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4638,7 +4632,7 @@
       (net 54 /BluePillF4-1/PA14))
     (pad 2 smd rect (at 0.6985 0 270) (size 0.889 0.762) (layers Top F.Paste F.Mask)
       (net 22 /BluePillF4-1/D2_B))
-    (model Resistors_SMD.3dshapes/R_0603.wrl
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4668,7 +4662,7 @@
       (net 60 /BluePillF4-1/SDIO_D3))
     (pad 2 smd rect (at 0.6985 0) (size 0.889 0.762) (layers Top F.Paste F.Mask)
       (net 1 GND))
-    (model Resistors_SMD.3dshapes/R_0603.wrl
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4698,7 +4692,7 @@
       (net 76 /BluePillF4-2/PROG))
     (pad 2 smd rect (at 0.6985 0 180) (size 0.889 0.762) (layers Bottom B.Paste B.Mask)
       (net 1 GND))
-    (model Resistors_SMD.3dshapes/R_0603.wrl
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4728,7 +4722,7 @@
       (net 3 +5V))
     (pad 2 smd rect (at 0.6985 0 270) (size 0.889 0.762) (layers Bottom B.Paste B.Mask)
       (net 1 GND))
-    (model Resistors_SMD.3dshapes/R_0603.wrl
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4758,7 +4752,7 @@
       (net 3 +5V))
     (pad 2 smd rect (at 0.6985 0 180) (size 0.889 0.762) (layers Top F.Paste F.Mask)
       (net 14 +VIN))
-    (model Resistors_SMD.3dshapes/R_0603.wrl
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4788,7 +4782,7 @@
       (net 2 +3V3))
     (pad 2 smd rect (at 0.6985 0 90) (size 0.889 0.762) (layers Top F.Paste F.Mask)
       (net 77 +VBAT))
-    (model Resistors_SMD.3dshapes/R_0603.wrl
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5038,7 +5032,7 @@
       (net 14 +VIN))
     (pad 2 smd rect (at 0.6985 0 270) (size 0.889 0.762) (layers Bottom B.Paste B.Mask)
       (net 65 /BluePillF4-1/PC1))
-    (model Resistors_SMD.3dshapes/R_0603.wrl
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5068,7 +5062,7 @@
       (net 65 /BluePillF4-1/PC1))
     (pad 2 smd rect (at 0.6985 0 90) (size 0.889 0.762) (layers Bottom B.Paste B.Mask)
       (net 1 GND))
-    (model Resistors_SMD.3dshapes/R_0603.wrl
+    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -5108,7 +5102,7 @@
     (fp_text reference J5 (at -3.048 -6.985 270) (layer F.SilkS) hide
       (effects (font (size 0.8128 0.8128) (thickness 0.0762)))
     )
-    (fp_text value U02-BFD3111B0-009 (at -0.127 -0.762 360) (layer Eco1.User)
+    (fp_text value U02-BFD3111B0-009 (at -0.127 -0.762) (layer Eco1.User)
       (effects (font (size 0.508 0.508) (thickness 0.0508)))
     )
     (fp_line (start -0.12446 -3.59918) (end 0.12446 -3.59918) (layer Dwgs.User) (width 0.06604))
@@ -5512,7 +5506,7 @@
     (pad S$4 thru_hole oval (at 4.84886 -3.14452) (size 2.3 1.4) (drill oval 1.699999 0.800001) (layers *.Cu *.Paste *.Mask)
       (net 1 GND))
     (model ${KIPRJMOD}/shapes3D/U02-BFD3111B0-009.wrl
-      (at (xyz 0 -0.08 0.01))
+      (offset (xyz 0 -2.031999969482422 0.2539999961853027))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz -90 0 180))
     )
