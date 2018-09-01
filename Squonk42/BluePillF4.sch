@@ -1,8 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:BluePillF4
-LIBS:power
+EESchema Schematic File Version 4
 LIBS:BluePillF4-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -38,7 +36,7 @@ Text Notes 9600 7150 0    32   ~ 0
 descriptions at any time, without notice.
 $Bitmap
 Pos 8200 6800
-Scale 1,000000
+Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 01 93 00 00 00 8D 08 06 00 00 00 72 B7 97 
 3E 00 00 00 04 73 42 49 54 08 08 08 08 7C 08 64 88 00 00 00 09 70 48 59 73 00 00 2E 18 00 00 2E 
