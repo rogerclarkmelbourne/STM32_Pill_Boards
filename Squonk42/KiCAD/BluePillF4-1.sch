@@ -1,8 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:BluePillF4
-LIBS:power
+EESchema Schematic File Version 4
 LIBS:BluePillF4-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -167,7 +165,7 @@ Or any other STM32FxxxRyyy\nin LQFP64 package
 Text Notes 1350 6650 0    70   ~ 0
 Note: Mount L1\nor U2, but not\nboth
 $Comp
-L CAP_0603 C1
+L BluePillF4:CAP_0603 C1
 U 1 1 5A088D6E
 P 1200 5900
 F 0 "C1" V 1150 6110 70  0000 R TNN
@@ -186,7 +184,7 @@ F 11 "https://www.aliexpress.com/item/0603-SMD-Capacitor-assorted-kit-36values-2
 	0    -1   1    0   
 $EndComp
 $Comp
-L CAP_0603 C2
+L BluePillF4:CAP_0603 C2
 U 1 1 5A088E36
 P 1300 3800
 F 0 "C2" H 1360 3950 70  0000 R TNN
@@ -205,7 +203,7 @@ F 11 "https://www.aliexpress.com/item/0603-SMD-Capacitor-assorted-kit-36values-2
 	-1   0    0    1   
 $EndComp
 $Comp
-L CAP_0603 C3
+L BluePillF4:CAP_0603 C3
 U 1 1 5A088EFE
 P 1300 4300
 F 0 "C3" H 1360 4200 70  0000 R TNN
@@ -224,7 +222,7 @@ F 11 "https://www.aliexpress.com/item/0603-SMD-Capacitor-assorted-kit-36values-2
 	-1   0    0    1   
 $EndComp
 $Comp
-L CAP_0603 C4
+L BluePillF4:CAP_0603 C4
 U 1 1 5A088FC6
 P 1300 4500
 F 0 "C4" H 1360 4650 70  0000 R TNN
@@ -243,7 +241,7 @@ F 11 "https://www.aliexpress.com/item/0603-SMD-Capacitor-assorted-kit-36values-2
 	-1   0    0    1   
 $EndComp
 $Comp
-L CAP_0603 C5
+L BluePillF4:CAP_0603 C5
 U 1 1 5A08908E
 P 1300 5000
 F 0 "C5" H 1360 4900 70  0000 R TNN
@@ -262,7 +260,7 @@ F 11 "https://www.aliexpress.com/item/0603-SMD-Capacitor-assorted-kit-36values-2
 	-1   0    0    1   
 $EndComp
 $Comp
-L CAP_0603 C7
+L BluePillF4:CAP_0603 C7
 U 1 1 5A08921E
 P 1900 5900
 F 0 "C7" V 1950 5710 70  0000 L BNN
@@ -281,7 +279,7 @@ F 11 "https://www.aliexpress.com/item/0603-SMD-Capacitor-assorted-kit-36values-2
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CAP_0603 C9
+L BluePillF4:CAP_0603 C9
 U 1 1 5A0893AE
 P 3100 3100
 F 0 "C9" V 3150 2890 70  0000 L BNN
@@ -300,7 +298,7 @@ F 11 "https://www.aliexpress.com/item/0603-SMD-Capacitor-assorted-kit-36values-2
 	0    1    -1   0   
 $EndComp
 $Comp
-L CAP_0603 C10
+L BluePillF4:CAP_0603 C10
 U 1 1 5A089476
 P 3500 6500
 F 0 "C10" V 3600 6260 70  0000 L BNN
@@ -319,7 +317,7 @@ F 11 "https://www.aliexpress.com/item/0603-SMD-Capacitor-assorted-kit-36values-2
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CAP_0603 C11
+L BluePillF4:CAP_0603 C11
 U 1 1 5A08953E
 P 4700 6500
 F 0 "C11" V 4800 6210 70  0000 L BNN
@@ -338,7 +336,7 @@ F 11 "https://www.aliexpress.com/item/0603-SMD-Capacitor-assorted-kit-36values-2
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CAP_0603 C12
+L BluePillF4:CAP_0603 C12
 U 1 1 5A089606
 P 5300 6500
 F 0 "C12" V 5200 6410 70  0000 R TNN
@@ -357,7 +355,7 @@ F 11 "https://www.aliexpress.com/item/0603-SMD-Capacitor-assorted-kit-36values-2
 	0    -1   1    0   
 $EndComp
 $Comp
-L CAP_0603 C13
+L BluePillF4:CAP_0603 C13
 U 1 1 5A0896CE
 P 5800 4300
 F 0 "C13" V 5700 4260 70  0000 R TNN
@@ -376,7 +374,7 @@ F 11 "https://www.aliexpress.com/item/0603-SMD-Capacitor-assorted-kit-36values-2
 	0    -1   1    0   
 $EndComp
 $Comp
-L CAP_0603 C14
+L BluePillF4:CAP_0603 C14
 U 1 1 5A089796
 P 6300 4300
 F 0 "C14" V 6400 4060 70  0000 L BNN
@@ -395,7 +393,7 @@ F 11 "https://www.aliexpress.com/item/0603-SMD-Capacitor-assorted-kit-36values-2
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CAP_0603 C15
+L BluePillF4:CAP_0603 C15
 U 1 1 5A08985E
 P 8300 2300
 F 0 "C15" V 8400 2360 70  0000 L BNN
@@ -414,7 +412,7 @@ F 11 "https://www.aliexpress.com/item/0603-SMD-Capacitor-assorted-kit-36values-2
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CAP_0603 C16
+L BluePillF4:CAP_0603 C16
 U 1 1 5A089926
 P 9100 3000
 F 0 "C16" V 9100 3260 70  0000 R TNN
@@ -433,7 +431,7 @@ F 11 "https://www.aliexpress.com/item/0603-SMD-Capacitor-assorted-kit-36values-2
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CAP_0603 C17
+L BluePillF4:CAP_0603 C17
 U 1 1 5A0899EE
 P 9350 1050
 F 0 "C17" V 9450 1160 70  0000 L BNN
@@ -452,7 +450,7 @@ F 11 "https://www.aliexpress.com/item/0603-SMD-Capacitor-assorted-kit-36values-2
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED_0603 D1
+L BluePillF4:LED_0603 D1
 U 1 1 5A089AB6
 P 3900 1200
 F 0 "D1" V 3950 1100 70  0000 R BNN
@@ -467,7 +465,7 @@ F 7 "https://www.aliexpress.com/item/100pcs-lot-5-Colors-0603-SMD-Led-each-20pcs
 	0    1    -1   0   
 $EndComp
 $Comp
-L MH20-1 J1
+L BluePillF4:MH20-1 J1
 U 1 1 5A089CAA
 P 7250 5000
 F 0 "J1" H 7250 6105 70  0000 L BNN
@@ -481,7 +479,7 @@ F 6 "N/A" H 7250 5000 60  0001 C CNN "AliExpress"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MH20-1 J2
+L BluePillF4:MH20-1 J2
 U 1 1 5A089D72
 P 8350 5000
 F 0 "J2" H 8350 6105 70  0000 L BNN
@@ -495,7 +493,7 @@ F 6 "N/A" H 8350 5000 60  0001 C CNN "AliExpress"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L MH_RA4-1 J3
+L BluePillF4:MH_RA4-1 J3
 U 1 1 5A089E3A
 P 10500 950
 F 0 "J3" H 10500 1255 70  0000 L BNN
@@ -509,7 +507,7 @@ F 6 "N/A" H 10500 950 60  0001 C CNN "AliExpress"
 	-1   0    0    1   
 $EndComp
 $Comp
-L 47309-2651 J4
+L BluePillF4:47309-2651 J4
 U 1 1 5A089F02
 P 10500 2900
 F 0 "J4" H 10500 2300 70  0000 L BNN
@@ -524,7 +522,7 @@ F 7 "https://fr.aliexpress.com/item/10-PCS-LOT-Court-TF-carte-mini-MICRO-SD-avec
 	1    0    0    -1  
 $EndComp
 $Comp
-L U02-BFD3111B0-009 J5
+L BluePillF4:U02-BFD3111B0-009 J5
 U 1 1 5A089FCA
 P 10600 5500
 F 0 "J5" H 10550 4900 70  0000 R BNN
@@ -538,7 +536,7 @@ F 6 "https://www.aliexpress.com/item/50pcs-Micro-USB-Connector-5pin-0-8mm-B-Type
 	-1   0    0    -1  
 $EndComp
 $Comp
-L FB_0603 L1
+L BluePillF4:FB_0603 L1
 U 1 1 5A08A092
 P 1500 5700
 F 0 "L1" H 1340 6250 70  0000 R TNN
@@ -553,7 +551,7 @@ F 7 "DNP" H 1550 5600 60  0000 C CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST_PAD PC1
+L BluePillF4:TEST_PAD PC1
 U 1 1 5A08A2EA
 P 2400 4800
 F 0 "PC1" V 2400 4960 70  0000 L BNN
@@ -567,7 +565,7 @@ F 6 "N/A" H 2400 4800 60  0001 C CNN "AliExpress"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST_PAD PC2
+L BluePillF4:TEST_PAD PC2
 U 1 1 5A08A3B2
 P 2400 4900
 F 0 "PC2" V 2400 5060 70  0000 L BNN
@@ -581,7 +579,7 @@ F 6 "N/A" H 2400 4900 60  0001 C CNN "AliExpress"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST_PAD PC3
+L BluePillF4:TEST_PAD PC3
 U 1 1 5A08A47A
 P 2400 5000
 F 0 "PC3" V 2400 5160 70  0000 L BNN
@@ -595,7 +593,7 @@ F 6 "N/A" H 2400 5000 60  0001 C CNN "AliExpress"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST_PAD PC5
+L BluePillF4:TEST_PAD PC5
 U 1 1 5A08A542
 P 4100 6300
 F 0 "PC5" H 3950 6450 70  0000 L BNN
@@ -609,7 +607,7 @@ F 6 "N/A" H 4100 6300 60  0001 C CNN "AliExpress"
 	-1   0    0    1   
 $EndComp
 $Comp
-L TEST_PAD PC6
+L BluePillF4:TEST_PAD PC6
 U 1 1 5A08A60A
 P 5600 5100
 F 0 "PC6" V 5650 5240 70  0000 L BNN
@@ -623,7 +621,7 @@ F 6 "N/A" H 5600 5100 60  0001 C CNN "AliExpress"
 	0    1    1    0   
 $EndComp
 $Comp
-L TEST_PAD PC7
+L BluePillF4:TEST_PAD PC7
 U 1 1 5A08A6D2
 P 5600 5000
 F 0 "PC7" V 5650 5140 70  0000 L BNN
@@ -637,7 +635,7 @@ F 6 "N/A" H 5600 5000 60  0001 C CNN "AliExpress"
 	0    1    1    0   
 $EndComp
 $Comp
-L RES_0603 R1
+L BluePillF4:RES_0603 R1
 U 1 1 5A08A9F2
 P 4400 6500
 F 0 "R1" V 4500 6440 70  0000 R TNN
@@ -654,7 +652,7 @@ F 9 "https://www.aliexpress.com/item/Free-shipping-0603-SMD-Resistor-Kit-Assorte
 	0    1    1    0   
 $EndComp
 $Comp
-L RES_0603 R2
+L BluePillF4:RES_0603 R2
 U 1 1 5A08AABA
 P 3900 1700
 F 0 "R2" V 3900 1640 70  0000 R TNN
@@ -671,7 +669,7 @@ F 9 "https://www.aliexpress.com/item/300-pcs-lot-SMD-Puce-R-sistance-0603-470R-5
 	0    1    -1   0   
 $EndComp
 $Comp
-L RES_0603 R3
+L BluePillF4:RES_0603 R3
 U 1 1 5A08AB82
 P 4200 1800
 F 0 "R3" V 4400 1750 70  0000 R TNN
@@ -688,7 +686,7 @@ F 9 "https://www.aliexpress.com/item/300-pcs-lot-SMD-Puce-R-sistance-0603-470R-5
 	0    1    -1   0   
 $EndComp
 $Comp
-L RES_0603 R4
+L BluePillF4:RES_0603 R4
 U 1 1 5A08AC4A
 P 6400 2500
 F 0 "R4" V 6350 2310 70  0000 L BNN
@@ -705,7 +703,7 @@ F 9 "https://www.aliexpress.com/item/Free-shipping-0603-SMD-Resistor-Kit-Assorte
 	0    -1   1    0   
 $EndComp
 $Comp
-L RES_0603 R5
+L BluePillF4:RES_0603 R5
 U 1 1 5A08AD12
 P 7200 2500
 F 0 "R5" V 7250 2590 70  0000 L BNN
@@ -722,24 +720,7 @@ F 9 "https://www.aliexpress.com/item/300-pcs-lot-SMD-Puce-R-sistance-0603-0R-1R-
 	0    1    -1   0   
 $EndComp
 $Comp
-L RES_0603 R6
-U 1 1 5A08ADDA
-P 7500 1200
-F 0 "R6" V 7500 1400 70  0000 L BNN
-F 1 "10k" V 7599 1400 70  0000 L BNN
-F 2 "BluePillF4 Lib:R0603" H 7490 990 65  0001 L TNN
-F 3 "" H 7500 1200 60  0001 C CNN
-F 4 "5%" H 7500 1200 60  0001 C CNN "TOL"
-F 5 "R0603_10k_5%_125mW" H 7500 1200 60  0001 C CNN "PARTNO"
-F 6 "0603" H 7500 1200 60  0001 C CNN "SIZE"
-F 7 "125mW" H 7500 1200 60  0001 C CNN "RATE"
-F 8 "F" H 7500 1200 60  0001 C CNN "DNP"
-F 9 "https://www.aliexpress.com/item/Free-shipping-0603-SMD-Resistor-Kit-Assorted-Kit-1ohm-1M-ohm-1-33valuesX-20pcs-660pcs-Sample/32773409942.html" H 7500 1200 60  0001 C CNN "AliExpress"
-	1    7500 1200
-	0    1    1    0   
-$EndComp
-$Comp
-L RES_0603 R7
+L BluePillF4:RES_0603 R7
 U 1 1 5A08AEA2
 P 9000 4700
 F 0 "R7" V 9000 4940 70  0000 R TNN
@@ -756,7 +737,7 @@ F 9 "https://www.aliexpress.com/item/Free-shipping-0603-SMD-Resistor-Kit-Assorte
 	0    1    1    0   
 $EndComp
 $Comp
-L RES_0603 R8
+L BluePillF4:RES_0603 R8
 U 1 1 5A08AF6A
 P 9000 5700
 F 0 "R8" V 8950 5490 70  0000 L BNN
@@ -773,7 +754,7 @@ F 9 "https://www.aliexpress.com/item/300-pcs-lot-SMD-Puce-R-sistance-0603-1-2-K-
 	0    1    1    0   
 $EndComp
 $Comp
-L RES_0603 R9
+L BluePillF4:RES_0603 R9
 U 1 1 5A08B032
 P 9300 6100
 F 0 "R9" H 9060 6000 70  0000 L BNN
@@ -790,7 +771,7 @@ F 9 "https://www.aliexpress.com/item/Free-shipping-0603-SMD-Resistor-Kit-Assorte
 	-1   0    0    1   
 $EndComp
 $Comp
-L RES_0603 R10
+L BluePillF4:RES_0603 R10
 U 1 1 5A08B0FA
 P 9300 6200
 F 0 "R10" H 9010 6100 70  0000 L BNN
@@ -807,7 +788,7 @@ F 9 "https://www.aliexpress.com/item/Free-shipping-0603-SMD-Resistor-Kit-Assorte
 	-1   0    0    1   
 $EndComp
 $Comp
-L RES_0603 R11
+L BluePillF4:RES_0603 R11
 U 1 1 5A08B1C2
 P 9300 6300
 F 0 "R11" H 9010 6200 70  0000 L BNN
@@ -824,7 +805,7 @@ F 9 "https://www.aliexpress.com/item/Free-shipping-0603-SMD-Resistor-Kit-Assorte
 	-1   0    0    1   
 $EndComp
 $Comp
-L RES_0603 R13
+L BluePillF4:RES_0603 R13
 U 1 1 5A08B352
 P 10000 4700
 F 0 "R13" V 10000 4440 70  0000 L BNN
@@ -841,7 +822,7 @@ F 9 "https://www.aliexpress.com/item/Free-shipping-0603-SMD-Resistor-Kit-Assorte
 	0    1    1    0   
 $EndComp
 $Comp
-L SKSGACE010 S1
+L BluePillF4:SKSGACE010 S1
 U 1 1 5A08B41A
 P 6800 1700
 F 0 "S1" H 6500 1700 70  0000 R BNN
@@ -856,7 +837,7 @@ F 7 "https://www.aliexpress.com/item/3-5-2-7-1-4-Micro-Switch-button-For-BMW-Mer
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SKSGACE010 S2
+L BluePillF4:SKSGACE010 S2
 U 1 1 5A08B4E2
 P 7900 1700
 F 0 "S2" H 7500 1700 70  0000 L BNN
@@ -871,7 +852,7 @@ F 7 "https://www.aliexpress.com/item/3-5-2-7-1-4-Micro-Switch-button-For-BMW-Mer
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #SUPPLY01
+L BluePillF4:GND #SUPPLY01
 U 1 1 5A08B546
 P 1100 5100
 F 0 "#SUPPLY01" H 1100 4850 70  0001 R BNN
@@ -882,7 +863,7 @@ F 3 "" H 1100 5100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #SUPPLY02
+L BluePillF4:+3V3 #SUPPLY02
 U 1 1 5A08B5AA
 P 1200 5600
 F 0 "#SUPPLY02" H 1200 5750 70  0001 L BNN
@@ -893,7 +874,7 @@ F 3 "" H 1200 5600 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L AGND #SUPPLY03
+L BluePillF4:AGND #SUPPLY03
 U 1 1 5A08B60E
 P 2300 6350
 F 0 "#SUPPLY03" H 2300 6100 70  0001 R BNN
@@ -904,7 +885,7 @@ F 3 "" H 2300 6350 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L +3V3A #SUPPLY04
+L BluePillF4:+3V3A #SUPPLY04
 U 1 1 5A08B6D6
 P 1900 5600
 F 0 "#SUPPLY04" H 1900 5750 70  0001 L BNN
@@ -915,7 +896,7 @@ F 3 "" H 1900 5600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #SUPPLY05
+L BluePillF4:GND #SUPPLY05
 U 1 1 5A08B802
 P 3100 3400
 F 0 "#SUPPLY05" H 3100 3150 70  0001 R BNN
@@ -926,7 +907,7 @@ F 3 "" H 3100 3400 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L +3V3 #SUPPLY06
+L BluePillF4:+3V3 #SUPPLY06
 U 1 1 5A08B866
 P 3100 6000
 F 0 "#SUPPLY06" H 3100 6150 70  0001 L BNN
@@ -937,7 +918,7 @@ F 3 "" H 3100 6000 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L +3V3 #SUPPLY07
+L BluePillF4:+3V3 #SUPPLY07
 U 1 1 5A08B8CA
 P 3300 2800
 F 0 "#SUPPLY07" H 3300 2950 70  0001 L BNN
@@ -948,7 +929,7 @@ F 3 "" H 3300 2800 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #SUPPLY08
+L BluePillF4:GND #SUPPLY08
 U 1 1 5A08B92E
 P 3500 6800
 F 0 "#SUPPLY08" H 3500 6550 70  0001 R BNN
@@ -959,7 +940,7 @@ F 3 "" H 3500 6800 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #SUPPLY09
+L BluePillF4:GND #SUPPLY09
 U 1 1 5A08BA5A
 P 4400 6800
 F 0 "#SUPPLY09" H 4400 6550 70  0001 R BNN
@@ -970,7 +951,7 @@ F 3 "" H 4400 6800 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #SUPPLY010
+L BluePillF4:+3V3 #SUPPLY010
 U 1 1 5A08BABE
 P 3900 900
 F 0 "#SUPPLY010" H 3900 1050 70  0001 L BNN
@@ -981,7 +962,7 @@ F 3 "" H 3900 900 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #SUPPLY011
+L BluePillF4:GND #SUPPLY011
 U 1 1 5A08BB22
 P 3900 2000
 F 0 "#SUPPLY011" H 3900 1750 70  0001 R BNN
@@ -992,7 +973,7 @@ F 3 "" H 3900 2000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #SUPPLY012
+L BluePillF4:+3V3 #SUPPLY012
 U 1 1 5A08BB86
 P 5300 6000
 F 0 "#SUPPLY012" H 5300 6150 70  0001 L BNN
@@ -1003,7 +984,7 @@ F 3 "" H 5300 6000 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #SUPPLY013
+L BluePillF4:GND #SUPPLY013
 U 1 1 5A08BBEA
 P 5300 6800
 F 0 "#SUPPLY013" H 5300 6550 70  0001 L TNN
@@ -1014,7 +995,7 @@ F 3 "" H 5300 6800 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L +3V3 #SUPPLY014
+L BluePillF4:+3V3 #SUPPLY014
 U 1 1 5A08BC4E
 P 5800 3900
 F 0 "#SUPPLY014" H 5800 4050 70  0001 L BNN
@@ -1025,7 +1006,7 @@ F 3 "" H 5800 3900 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #SUPPLY015
+L BluePillF4:GND #SUPPLY015
 U 1 1 5A08BCB2
 P 6300 4600
 F 0 "#SUPPLY015" H 6300 4350 70  0001 R BNN
@@ -1036,7 +1017,7 @@ F 3 "" H 6300 4600 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L +3V3 #SUPPLY016
+L BluePillF4:+3V3 #SUPPLY016
 U 1 1 5A08BD16
 P 6400 1400
 F 0 "#SUPPLY016" H 6400 1550 70  0001 L BNN
@@ -1047,7 +1028,7 @@ F 3 "" H 6400 1400 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #SUPPLY017
+L BluePillF4:GND #SUPPLY017
 U 1 1 5A08BD7A
 P 6700 2900
 F 0 "#SUPPLY017" H 6700 2650 70  0001 R BNN
@@ -1058,7 +1039,7 @@ F 3 "" H 6700 2900 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #SUPPLY018
+L BluePillF4:GND #SUPPLY018
 U 1 1 5A08BDDE
 P 7450 6000
 F 0 "#SUPPLY018" H 7450 5750 70  0001 R BNN
@@ -1069,18 +1050,7 @@ F 3 "" H 7450 6000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #SUPPLY019
-U 1 1 5A08BE42
-P 7500 900
-F 0 "#SUPPLY019" H 7500 1050 70  0001 L BNN
-F 1 "+3V3" H 7360 1050 70  0000 L BNN
-F 2 "" H 7500 900 60  0001 C CNN
-F 3 "" H 7500 900 60  0001 C CNN
-	1    7500 900 
-	-1   0    0    -1  
-$EndComp
-$Comp
-L GND #SUPPLY020
+L BluePillF4:GND #SUPPLY020
 U 1 1 5A08BEA6
 P 7850 4200
 F 0 "#SUPPLY020" H 7850 3950 70  0001 R BNN
@@ -1091,7 +1061,7 @@ F 3 "" H 7850 4200 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #SUPPLY021
+L BluePillF4:+3V3 #SUPPLY021
 U 1 1 5A08BF0A
 P 7850 5600
 F 0 "#SUPPLY021" H 7850 5750 70  0001 L BNN
@@ -1102,7 +1072,7 @@ F 3 "" H 7850 5600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #SUPPLY022
+L BluePillF4:+5V #SUPPLY022
 U 1 1 5A08BF6E
 P 7950 3900
 F 0 "#SUPPLY022" H 7950 4050 70  0001 L BNN
@@ -1113,7 +1083,7 @@ F 3 "" H 7950 3900 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #SUPPLY023
+L BluePillF4:GND #SUPPLY023
 U 1 1 5A08BFD2
 P 8000 2600
 F 0 "#SUPPLY023" H 8000 2350 70  0001 R BNN
@@ -1124,7 +1094,7 @@ F 3 "" H 8000 2600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3A #SUPPLY024
+L BluePillF4:+3V3A #SUPPLY024
 U 1 1 5A08C036
 P 8150 3900
 F 0 "#SUPPLY024" H 8150 4050 70  0001 L BNN
@@ -1135,7 +1105,7 @@ F 3 "" H 8150 3900 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #SUPPLY025
+L BluePillF4:+3V3 #SUPPLY025
 U 1 1 5A08C09A
 P 9100 2100
 F 0 "#SUPPLY025" H 9100 2250 70  0001 L BNN
@@ -1146,7 +1116,7 @@ F 3 "" H 9100 2100 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #SUPPLY026
+L BluePillF4:GND #SUPPLY026
 U 1 1 5A08C0FE
 P 9100 3300
 F 0 "#SUPPLY026" H 9100 3050 70  0001 L TNN
@@ -1157,7 +1127,7 @@ F 3 "" H 9100 3300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #SUPPLY027
+L BluePillF4:+5V #SUPPLY027
 U 1 1 5A08C162
 P 9000 4100
 F 0 "#SUPPLY027" H 9000 4250 70  0001 L BNN
@@ -1168,7 +1138,7 @@ F 3 "" H 9000 4100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #SUPPLY028
+L BluePillF4:+3V3 #SUPPLY028
 U 1 1 5A08C1C6
 P 9000 5400
 F 0 "#SUPPLY028" H 9000 5550 70  0001 L BNN
@@ -1179,7 +1149,7 @@ F 3 "" H 9000 5400 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #SUPPLY029
+L BluePillF4:+3V3 #SUPPLY029
 U 1 1 5A08C22A
 P 9350 750
 F 0 "#SUPPLY029" H 9350 900 70  0001 L BNN
@@ -1190,7 +1160,7 @@ F 3 "" H 9350 750 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #SUPPLY030
+L BluePillF4:GND #SUPPLY030
 U 1 1 5A08C28E
 P 9350 1350
 F 0 "#SUPPLY030" H 9350 1100 70  0001 R BNN
@@ -1201,7 +1171,7 @@ F 3 "" H 9350 1350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #SUPPLY031
+L BluePillF4:GND #SUPPLY031
 U 1 1 5A08C356
 P 9500 5100
 F 0 "#SUPPLY031" H 9500 4850 70  0001 R BNN
@@ -1212,7 +1182,7 @@ F 3 "" H 9500 5100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #SUPPLY032
+L BluePillF4:GND #SUPPLY032
 U 1 1 5A08C3BA
 P 10100 1900
 F 0 "#SUPPLY032" H 10100 1650 70  0001 R BNN
@@ -1223,7 +1193,7 @@ F 3 "" H 10100 1900 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #SUPPLY033
+L BluePillF4:GND #SUPPLY033
 U 1 1 5A08C41E
 P 10300 3600
 F 0 "#SUPPLY033" H 10300 3350 70  0001 R BNN
@@ -1234,7 +1204,7 @@ F 3 "" H 10300 3600 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #SUPPLY034
+L BluePillF4:GND #SUPPLY034
 U 1 1 5A08C482
 P 10300 4900
 F 0 "#SUPPLY034" H 10300 4650 70  0001 R BNN
@@ -1245,7 +1215,7 @@ F 3 "" H 10300 4900 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #SUPPLY035
+L BluePillF4:GND #SUPPLY035
 U 1 1 5A08C4E6
 P 10300 6200
 F 0 "#SUPPLY035" H 10300 5950 70  0001 R BNN
@@ -1256,7 +1226,7 @@ F 3 "" H 10300 6200 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L +5V #SUPPLY036
+L BluePillF4:+5V #SUPPLY036
 U 1 1 5A08C5AE
 P 10600 4100
 F 0 "#SUPPLY036" H 10600 4250 70  0001 L BNN
@@ -1267,7 +1237,7 @@ F 3 "" H 10600 4100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SY6280 U4
+L BluePillF4:SY6280 U4
 U 1 1 5A08C8CE
 P 9600 4300
 F 0 "U4" H 9190 4550 70  0000 L BNN
@@ -1282,7 +1252,7 @@ F 7 "https://www.aliexpress.com/item/20PCS-SY6280AAC-SY6280AA-SY6280A-SY6280-SOT
 	1    0    0    -1  
 $EndComp
 $Comp
-L NX3225GD Y2
+L BluePillF4:NX3225GD Y2
 U 1 1 5A09181B
 P 1500 4700
 F 0 "Y2" V 1600 4660 70  0000 R TNN
@@ -1518,13 +1488,11 @@ Text Label 4200 1500 3    10   ~ 0
 D2_R
 Text Label 9900 4400 0    10   ~ 0
 ISET
-Text Label 7600 1500 2    10   ~ 0
-R6
 Text Notes 9275 6750 0    39   ~ 0
 Licensed under a Creative Commons\nAttribution-Share-Alike Unported License.\nSee creativecommons.org/licenses/by-sa/4.0/
 $Bitmap
 Pos 8190 6800
-Scale 1,000000
+Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 01 93 00 00 00 8D 08 06 00 00 00 72 B7 97 
 3E 00 00 00 04 73 42 49 54 08 08 08 08 7C 08 64 88 00 00 00 09 70 48 59 73 00 00 2E 18 00 00 2E 
@@ -2078,7 +2046,7 @@ B1 FA F3 E2 C5 8B 3A E5 21 E4 E5 E5 6B 1D E4 03 55 59 99 53 52 52 48 8F AB AB AB
 EndData
 $EndBitmap
 $Comp
-L 1N5819HW D3
+L BluePillF4:1N5819HW D3
 U 1 1 5A308BA1
 P 10400 4200
 F 0 "D3" H 10300 4275 70  0000 L BNN
@@ -2094,7 +2062,7 @@ F 8 "https://www.aliexpress.com/item/Livraison-gratuite-100-pcs-ss14-sma-1n5819-
 	1    0    0    -1  
 $EndComp
 $Comp
-L FC-12M Y1
+L BluePillF4:FC-12M Y1
 U 1 1 5A346A7B
 P 1500 4100
 F 0 "Y1" V 1300 4240 70  0000 L BNN
@@ -2111,7 +2079,7 @@ F 9 "https://www.aliexpress.com/item/Free-shipping-10pcs-Passive-SMD-crystal-FC-
 	0    1    1    0   
 $EndComp
 $Comp
-L FB_0603 L2
+L BluePillF4:FB_0603 L2
 U 1 1 5A35F7D7
 P 2600 6200
 F 0 "L2" H 2700 6500 70  0000 R TNN
@@ -2127,7 +2095,7 @@ F 8 "https://www.aliexpress.com/item/100PCS-0603-47R-47-ohm-SMD-Magnetic-beads-4
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #SUPPLY037
+L BluePillF4:GND #SUPPLY037
 U 1 1 5A35FBE7
 P 3000 6300
 F 0 "#SUPPLY037" H 3000 6300 45  0001 L BNN
@@ -2138,7 +2106,7 @@ F 3 "" H 3000 6300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG038
+L power:PWR_FLAG #FLG038
 U 1 1 5A363159
 P 7900 4000
 F 0 "#FLG038" H 7900 4075 50  0001 C CNN
@@ -2149,7 +2117,7 @@ F 3 "" H 7900 4000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L PWR_FLAG #FLG039
+L power:PWR_FLAG #FLG039
 U 1 1 5A36482A
 P 7500 5900
 F 0 "#FLG039" H 7500 5975 50  0001 C CNN
@@ -2164,7 +2132,7 @@ NoConn ~ 8200 1500
 NoConn ~ 7600 1900
 NoConn ~ 6500 1900
 $Comp
-L PWR_FLAG #FLG040
+L power:PWR_FLAG #FLG040
 U 1 1 5A36A841
 P 2350 5750
 F 0 "#FLG040" H 2350 5825 50  0001 C CNN
@@ -2175,7 +2143,7 @@ F 3 "" H 2350 5750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L RES_0603 R12
+L BluePillF4:RES_0603 R12
 U 1 1 5A3F09CB
 P 10400 4500
 F 0 "R12" H 10450 4450 70  0000 R TNN
@@ -2194,7 +2162,7 @@ $EndComp
 Text Label 10700 4500 0    65   ~ 0
 PA9
 $Comp
-L 1616RGB D2
+L BluePillF4:1616RGB D2
 U 1 1 5A426D49
 P 4400 1400
 F 0 "D2" V 5050 1400 70  0000 L BNN
@@ -2209,7 +2177,7 @@ F 7 "https://www.aliexpress.com/item/100-pcs-0603-1616-RGB-LED-Anode-Commune-Tri
 	0    -1   -1   0   
 $EndComp
 $Comp
-L RES_0603 R14
+L BluePillF4:RES_0603 R14
 U 1 1 5A427787
 P 4400 1800
 F 0 "R14" V 4600 1750 70  0000 R TNN
@@ -2226,7 +2194,7 @@ F 9 "https://www.aliexpress.com/item/300-pcs-lot-SMD-Puce-R-sistance-0603-470R-5
 	0    1    -1   0   
 $EndComp
 $Comp
-L RES_0603 R15
+L BluePillF4:RES_0603 R15
 U 1 1 5A427885
 P 4600 1800
 F 0 "R15" V 4800 1750 70  0000 R TNN
@@ -2251,7 +2219,7 @@ Note: RGB LED can be\nreplaced by 0603 LED\nin same footprint and\nnot mounting 
 Text Notes 2600 2100 0    70   ~ 0
 Note: Unmount R2 for\nLow-Power Operation
 $Comp
-L RES_0603 R16
+L BluePillF4:RES_0603 R16
 U 1 1 5A42D7B9
 P 9700 2100
 F 0 "R16" V 9800 2000 70  0000 R TNN
@@ -2268,7 +2236,7 @@ F 9 "https://www.aliexpress.com/item/Free-shipping-0603-SMD-Resistor-Kit-Assorte
 	0    1    -1   0   
 $EndComp
 $Comp
-L FB_0805 L3
+L BluePillF4:FB_0805 L3
 U 1 1 5A44FA55
 P 9100 2500
 F 0 "L3" V 9425 2700 70  0000 R TNN
@@ -2285,7 +2253,7 @@ $EndComp
 Text Label 9300 2800 0    65   ~ 0
 SDIO_VDD
 $Comp
-L PWR_FLAG #FLG041
+L power:PWR_FLAG #FLG041
 U 1 1 5A452CF2
 P 9000 2800
 F 0 "#FLG041" H 9000 2875 50  0001 C CNN
@@ -2300,7 +2268,7 @@ OSCIN
 Text Label 2300 4500 0    65   ~ 0
 OSCOUT
 $Comp
-L STM32F405RGT6 U3
+L BluePillF4:STM32F405RGT6 U3
 U 1 1 5A08C806
 P 4000 4800
 F 0 "U3" H 2700 5900 70  0000 L BNN
@@ -2321,7 +2289,7 @@ PA13
 Text Label 4600 2200 1    65   ~ 0
 PA14
 $Comp
-L GND #SUPPLY042
+L BluePillF4:GND #SUPPLY042
 U 1 1 5A57FB4B
 P 1200 6300
 F 0 "#SUPPLY042" H 1200 6300 45  0001 L BNN
@@ -2334,7 +2302,7 @@ $EndComp
 Text Label 2300 4700 0    65   ~ 0
 VBUS_EN
 $Comp
-L TEST_PAD PC4
+L BluePillF4:TEST_PAD PC4
 U 1 1 5A58185D
 P 4000 6300
 F 0 "PC4" H 4000 6450 70  0000 L BNN
@@ -2348,7 +2316,7 @@ F 6 "N/A" H 4000 6300 60  0001 C CNN "AliExpress"
 	-1   0    0    1   
 $EndComp
 $Comp
-L +VBAT #SUPPLY043
+L BluePillF4:+VBAT #SUPPLY043
 U 1 1 5A584A64
 P 10300 750
 F 0 "#SUPPLY043" H 10300 750 45  0001 L BNN
@@ -2359,7 +2327,7 @@ F 3 "" H 10300 750 65  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RES_0603 R20
+L BluePillF4:RES_0603 R20
 U 1 1 5A58633C
 P 9900 850
 F 0 "R20" H 9750 600 70  0000 L BNN
@@ -2378,7 +2346,7 @@ $EndComp
 Text Notes 9600 1500 0    70   ~ 0
 Remove\nR20 if LiPo\nCharger
 $Comp
-L PWR_FLAG #FLG044
+L power:PWR_FLAG #FLG044
 U 1 1 5A5885F2
 P 7400 3850
 F 0 "#FLG044" H 7400 3925 50  0001 C CNN
@@ -2397,16 +2365,14 @@ Wire Wire Line
 Wire Wire Line
 	7850 5700 7350 5700
 Wire Wire Line
-	9350 750  9350 950 
+	9350 750  9350 850 
 Connection ~ 9350 850 
 Wire Wire Line
 	6500 1500 6400 1500
 Wire Wire Line
 	6400 1500 6400 1400
 Wire Wire Line
-	7500 900  7500 1000
-Wire Wire Line
-	3900 900  3900 1100
+	3900 900  3900 1000
 Wire Wire Line
 	4400 1000 4400 1100
 Wire Wire Line
@@ -2417,31 +2383,31 @@ Wire Wire Line
 Wire Wire Line
 	5300 4000 5800 4000
 Wire Wire Line
-	5800 3900 5800 4200
+	5800 3900 5800 4000
 Connection ~ 5800 4000
 Wire Wire Line
-	5300 6000 5300 6400
+	5300 6000 5300 6100
 Wire Wire Line
 	5300 6100 4800 6100
 Wire Wire Line
 	4800 6100 4800 6000
 Connection ~ 5300 6100
 Wire Wire Line
-	3500 6000 3500 6400
+	3500 6000 3500 6100
 Wire Wire Line
 	3500 6100 3100 6100
 Wire Wire Line
 	3100 6100 3100 6000
 Connection ~ 3500 6100
 Wire Wire Line
-	3300 2800 3300 3500
+	3300 2800 3300 2900
 Wire Wire Line
 	3300 2900 3100 2900
 Wire Wire Line
 	3100 2900 3100 3000
 Connection ~ 3300 2900
 Wire Wire Line
-	1200 5600 1200 5800
+	1200 5600 1200 5700
 Wire Wire Line
 	1200 5700 1300 5700
 Connection ~ 1200 5700
@@ -2450,9 +2416,9 @@ Wire Wire Line
 Wire Wire Line
 	2200 5200 2200 5700
 Wire Wire Line
-	2200 5700 1800 5700
+	2200 5700 1900 5700
 Wire Wire Line
-	1900 5600 1900 5800
+	1900 5600 1900 5700
 Connection ~ 1900 5700
 Wire Wire Line
 	8250 4000 8150 4000
@@ -2461,7 +2427,7 @@ Wire Wire Line
 Wire Wire Line
 	7950 4200 8250 4200
 Wire Wire Line
-	7950 3900 7950 4200
+	7950 3900 7950 4000
 Wire Wire Line
 	10500 4200 10600 4200
 Wire Wire Line
@@ -2473,17 +2439,17 @@ Wire Wire Line
 Wire Wire Line
 	1900 6200 1900 6000
 Wire Wire Line
-	2300 5100 2300 6350
+	2300 5100 2300 5750
 Wire Wire Line
 	2300 5100 2700 5100
 Wire Wire Line
 	6400 2200 6400 2300
 Wire Wire Line
-	7100 1900 7300 1900
+	7100 1900 7200 1900
 Wire Wire Line
 	6400 2200 7200 2200
 Wire Wire Line
-	7200 1900 7200 2300
+	7200 1900 7200 2200
 Connection ~ 7200 1900
 Connection ~ 7200 2200
 Wire Wire Line
@@ -2505,9 +2471,9 @@ Wire Wire Line
 Wire Wire Line
 	10000 6200 9500 6200
 Wire Wire Line
-	7350 5900 7500 5900
+	7350 5900 7450 5900
 Wire Wire Line
-	7450 5800 7450 6000
+	7450 5800 7450 5900
 Wire Wire Line
 	7350 5800 7450 5800
 Connection ~ 7450 5900
@@ -2520,14 +2486,14 @@ Wire Wire Line
 Wire Wire Line
 	6900 2800 6900 2100
 Wire Wire Line
-	6400 2800 6900 2800
+	6400 2800 6700 2800
 Wire Wire Line
-	6700 2100 6700 2900
+	6700 2100 6700 2800
 Wire Wire Line
 	6400 2800 6400 2700
 Connection ~ 6700 2800
 Wire Wire Line
-	10300 4800 10600 4800
+	10300 4800 10500 4800
 Wire Wire Line
 	10500 4800 10500 5000
 Wire Wire Line
@@ -2536,9 +2502,9 @@ Connection ~ 10500 4800
 Wire Wire Line
 	3900 2000 3900 1900
 Wire Wire Line
-	7800 2500 8300 2500
+	7800 2500 8000 2500
 Wire Wire Line
-	8000 2100 8000 2600
+	8000 2100 8000 2500
 Wire Wire Line
 	7800 2100 7800 2500
 Wire Wire Line
@@ -2549,24 +2515,24 @@ Wire Wire Line
 Wire Wire Line
 	3400 3300 3100 3300
 Wire Wire Line
-	3100 3200 3100 3400
+	3100 3200 3100 3300
 Connection ~ 3100 3300
 Wire Wire Line
 	3400 6000 3400 6700
 Wire Wire Line
 	3400 6700 3500 6700
 Wire Wire Line
-	3500 6600 3500 6800
+	3500 6600 3500 6700
 Connection ~ 3500 6700
 Wire Wire Line
-	5300 6600 5300 6800
+	5300 6600 5300 6700
 Wire Wire Line
 	4700 6600 4700 6700
 Wire Wire Line
 	4700 6700 5300 6700
 Connection ~ 5300 6700
 Wire Wire Line
-	9350 1150 9350 1350
+	9350 1150 9350 1250
 Wire Wire Line
 	9450 1250 9450 1150
 Wire Wire Line
@@ -2577,14 +2543,14 @@ Connection ~ 9350 1250
 Wire Wire Line
 	5800 4400 5800 4500
 Wire Wire Line
-	6300 4400 6300 4600
+	6300 4400 6300 4500
 Wire Wire Line
 	5800 4500 6300 4500
 Connection ~ 6300 4500
 Wire Wire Line
 	1100 4500 1200 4500
 Wire Wire Line
-	1100 3800 1100 5100
+	1100 3800 1100 4300
 Wire Wire Line
 	1100 5000 1200 5000
 Wire Wire Line
@@ -2593,18 +2559,18 @@ Connection ~ 1100 5000
 Connection ~ 1100 4300
 Connection ~ 1100 4500
 Wire Wire Line
-	9500 4600 9500 5100
+	9500 4600 9500 5000
 Wire Wire Line
 	9000 4900 9000 5000
 Wire Wire Line
-	9000 5000 10000 5000
+	9000 5000 9500 5000
 Wire Wire Line
 	10000 5000 10000 4900
 Connection ~ 9500 5000
 Wire Wire Line
 	10300 3500 10300 3600
 Wire Wire Line
-	9100 3100 9100 3300
+	9100 3100 9100 3200
 Wire Wire Line
 	9100 3200 9200 3200
 Wire Wire Line
@@ -2615,11 +2581,11 @@ Connection ~ 9100 3200
 Wire Wire Line
 	10600 6100 10600 6000
 Wire Wire Line
-	10300 6100 10600 6100
+	10300 6100 10500 6100
 Wire Wire Line
 	10500 6100 10500 6000
 Wire Wire Line
-	10300 5700 10300 6200
+	10300 5700 10300 6100
 Wire Wire Line
 	10300 5700 10400 5700
 Connection ~ 10500 6100
@@ -2627,7 +2593,7 @@ Connection ~ 10300 6100
 Wire Wire Line
 	10100 1900 10100 1800
 Wire Wire Line
-	9700 1800 10300 1800
+	9700 1800 10100 1800
 Wire Wire Line
 	10300 1800 10300 2100
 Wire Wire Line
@@ -2647,10 +2613,10 @@ Wire Wire Line
 Wire Wire Line
 	8300 1900 8300 2200
 Wire Wire Line
-	8200 1900 8400 1900
+	8200 1900 8300 1900
 Connection ~ 8300 1900
 Wire Wire Line
-	1400 4500 2000 4500
+	1400 4500 1500 4500
 Wire Wire Line
 	1500 4500 1500 4600
 Wire Wire Line
@@ -2659,7 +2625,7 @@ Wire Wire Line
 	2000 4400 2000 4500
 Connection ~ 1500 4500
 Wire Wire Line
-	1400 5000 2100 5000
+	1400 5000 1500 5000
 Wire Wire Line
 	1500 5000 1500 4900
 Wire Wire Line
@@ -2724,7 +2690,7 @@ Wire Wire Line
 Wire Wire Line
 	8250 5100 7950 5100
 Wire Wire Line
-	8800 6200 9100 6200
+	8800 6200 9000 6200
 Wire Wire Line
 	9000 5900 9000 6200
 Connection ~ 9000 6200
@@ -2827,23 +2793,19 @@ Wire Wire Line
 Wire Wire Line
 	2100 4200 2700 4200
 Wire Wire Line
-	1400 3800 2100 3800
+	1400 3800 1500 3800
 Wire Wire Line
 	1500 3800 1500 3900
 Connection ~ 1500 3800
 Wire Wire Line
 	7350 4200 7650 4200
 Wire Wire Line
-	1400 4300 2700 4300
+	1400 4300 1500 4300
 Wire Wire Line
 	1500 4300 1500 4200
 Connection ~ 1500 4300
 Wire Wire Line
 	7650 4300 7350 4300
-Wire Wire Line
-	7500 1400 7500 1500
-Wire Wire Line
-	7500 1500 7600 1500
 Wire Wire Line
 	4400 3500 4400 2900
 Wire Wire Line
@@ -2865,20 +2827,20 @@ Wire Wire Line
 Wire Wire Line
 	9800 2500 9300 2500
 Wire Wire Line
-	9300 2600 9800 2600
+	9300 2600 9700 2600
 Wire Wire Line
 	4500 3500 4500 2900
 Wire Wire Line
-	7350 4000 7650 4000
+	7350 4000 7400 4000
 Wire Wire Line
-	9900 4200 10300 4200
+	9900 4200 10100 4200
 Wire Wire Line
 	10100 5300 10400 5300
 Wire Wire Line
-	10100 4200 10100 5300
+	10100 4200 10100 4500
 Connection ~ 10100 4200
 Wire Wire Line
-	8700 4400 9100 4400
+	8700 4400 9000 4400
 Wire Wire Line
 	9000 4400 9000 4500
 Connection ~ 9000 4400
@@ -2927,8 +2889,6 @@ Wire Notes Line
 Wire Notes Line
 	6100 3200 8500 3200
 Wire Notes Line
-	6800 3200 6800 6540
-Wire Notes Line
 	1300 5200 2200 5200
 Wire Notes Line
 	2200 5200 2200 5400
@@ -2938,8 +2898,6 @@ Wire Notes Line
 	1800 5400 1800 6300
 Wire Notes Line
 	1300 5200 1300 6700
-Wire Notes Line
-	6800 6530 6800 7790
 Wire Notes Line
 	8490 1650 11240 1650
 Wire Notes Line
@@ -2972,9 +2930,9 @@ Wire Wire Line
 	9700 2300 9700 2600
 Connection ~ 9700 2600
 Wire Wire Line
-	9000 2800 9800 2800
+	9000 2800 9100 2800
 Wire Wire Line
-	9100 2700 9100 2900
+	9100 2700 9100 2800
 Connection ~ 9100 2800
 Wire Wire Line
 	9100 2200 9100 2100
@@ -2991,7 +2949,7 @@ Wire Notes Line
 Wire Notes Line
 	2200 6300 1800 6300
 Wire Wire Line
-	1900 6200 2400 6200
+	1900 6200 2300 6200
 Wire Wire Line
 	2350 5750 2300 5750
 Connection ~ 2300 5750
@@ -3005,7 +2963,7 @@ Wire Wire Line
 	10300 750  10300 850 
 Connection ~ 10300 850 
 Wire Wire Line
-	10100 850  10400 850 
+	10100 850  10300 850 
 Wire Wire Line
 	9700 850  9350 850 
 Wire Notes Line
@@ -3020,15 +2978,15 @@ Wire Wire Line
 	7400 3850 7400 4000
 Connection ~ 7400 4000
 $Comp
-L RES_0603 R21
+L BluePillF4:RES_0603 R21
 U 1 1 5A6E3EB6
 P 1400 1050
 F 0 "R21" V 1400 790 70  0000 L BNN
 F 1 "10k" V 1500 790 70  0000 L BNN
 F 2 "BluePillF4 Lib:R0603" H 1390 840 65  0001 L TNN
 F 3 "" H 1400 1050 60  0001 C CNN
-F 4 "5%" H 1400 1050 60  0001 C CNN "TOL"
-F 5 "R0603_10k_5%_125mW" H 1400 1050 60  0001 C CNN "PARTNO"
+F 4 "1%" V 1550 850 60  0000 C CNN "TOL"
+F 5 "R0603_10k_1%_125mW" H 1400 1050 60  0001 C CNN "PARTNO"
 F 6 "0603" H 1400 1050 60  0001 C CNN "SIZE"
 F 7 "125mW" H 1400 1050 60  0001 C CNN "RATE"
 F 8 "F" V 1550 900 60  0001 C CNN "DNP"
@@ -3036,15 +2994,15 @@ F 8 "F" V 1550 900 60  0001 C CNN "DNP"
 	0    1    1    0   
 $EndComp
 $Comp
-L RES_0603 R22
+L BluePillF4:RES_0603 R22
 U 1 1 5A6E4128
 P 1400 1650
 F 0 "R22" V 1400 1390 70  0000 L BNN
 F 1 "10k" V 1500 1390 70  0000 L BNN
 F 2 "BluePillF4 Lib:R0603" H 1390 1440 65  0001 L TNN
 F 3 "" H 1400 1650 60  0001 C CNN
-F 4 "5%" H 1400 1650 60  0001 C CNN "TOL"
-F 5 "R0603_10k_5%_125mW" H 1400 1650 60  0001 C CNN "PARTNO"
+F 4 "1%" V 1550 1450 60  0000 C CNN "TOL"
+F 5 "R0603_10k_1%_125mW" H 1400 1650 60  0001 C CNN "PARTNO"
 F 6 "0603" H 1400 1650 60  0001 C CNN "SIZE"
 F 7 "125mW" H 1400 1650 60  0001 C CNN "RATE"
 F 8 "F" V 1550 1500 60  0001 C CNN "DNP"
@@ -3052,7 +3010,7 @@ F 8 "F" V 1550 1500 60  0001 C CNN "DNP"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #SUPPLY045
+L BluePillF4:GND #SUPPLY045
 U 1 1 5A6E4857
 P 1400 1950
 F 0 "#SUPPLY045" H 1400 1950 45  0001 L BNN
@@ -3063,7 +3021,7 @@ F 3 "" H 1400 1950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +VIN #SUPPLY046
+L BluePillF4:+VIN #SUPPLY046
 U 1 1 5A6E48DF
 P 1400 750
 F 0 "#SUPPLY046" H 1400 750 45  0001 L BNN
@@ -3076,7 +3034,7 @@ $EndComp
 Wire Wire Line
 	1400 750  1400 850 
 Wire Wire Line
-	1400 1250 1400 1450
+	1400 1250 1400 1350
 Wire Wire Line
 	1400 1850 1400 1950
 Wire Wire Line
@@ -3090,4 +3048,123 @@ Wire Notes Line
 	500  2300 6100 2300
 Wire Notes Line
 	2400 500  2400 2300
+Wire Wire Line
+	9350 850  9350 950 
+Wire Wire Line
+	3900 1000 3900 1100
+Wire Wire Line
+	5800 4000 5800 4200
+Wire Wire Line
+	5300 6100 5300 6400
+Wire Wire Line
+	3500 6100 3500 6400
+Wire Wire Line
+	3300 2900 3300 3500
+Wire Wire Line
+	1200 5700 1200 5800
+Wire Wire Line
+	1900 5700 1800 5700
+Wire Wire Line
+	1900 5700 1900 5800
+Wire Wire Line
+	7200 1900 7300 1900
+Wire Wire Line
+	7200 2200 7200 2300
+Wire Wire Line
+	7450 5900 7500 5900
+Wire Wire Line
+	7450 5900 7450 6000
+Wire Wire Line
+	6700 2800 6900 2800
+Wire Wire Line
+	6700 2800 6700 2900
+Wire Wire Line
+	10500 4800 10600 4800
+Wire Wire Line
+	8000 2500 8300 2500
+Wire Wire Line
+	8000 2500 8000 2600
+Wire Wire Line
+	3100 3300 3100 3400
+Wire Wire Line
+	3500 6700 3500 6800
+Wire Wire Line
+	5300 6700 5300 6800
+Wire Wire Line
+	9350 1250 9350 1350
+Wire Wire Line
+	6300 4500 6300 4600
+Wire Wire Line
+	1100 5000 1100 5100
+Wire Wire Line
+	1100 4300 1100 4500
+Wire Wire Line
+	1100 4500 1100 5000
+Wire Wire Line
+	9500 5000 9500 5100
+Wire Wire Line
+	9500 5000 10000 5000
+Wire Wire Line
+	9100 3200 9100 3300
+Wire Wire Line
+	10500 6100 10600 6100
+Wire Wire Line
+	10300 6100 10300 6200
+Wire Wire Line
+	8300 1900 8400 1900
+Wire Wire Line
+	1500 4500 2000 4500
+Wire Wire Line
+	1500 5000 2100 5000
+Wire Wire Line
+	9000 6200 9100 6200
+Wire Wire Line
+	1500 3800 2100 3800
+Wire Wire Line
+	1500 4300 2700 4300
+Wire Wire Line
+	10100 4200 10300 4200
+Wire Wire Line
+	9000 4400 9100 4400
+Wire Wire Line
+	2300 6200 2300 6350
+Wire Wire Line
+	2300 6200 2400 6200
+Wire Wire Line
+	7950 4000 7950 4200
+Wire Wire Line
+	10100 4500 10100 5300
+Wire Wire Line
+	10100 1800 10300 1800
+Wire Wire Line
+	9700 2600 9800 2600
+Wire Wire Line
+	9100 2800 9800 2800
+Wire Wire Line
+	9100 2800 9100 2900
+Wire Wire Line
+	2300 5750 2300 6200
+Wire Wire Line
+	10300 850  10400 850 
+Wire Wire Line
+	7400 4000 7650 4000
+Wire Wire Line
+	1400 1350 1400 1450
+Wire Notes Line
+	6800 3200 6800 7790
+$Comp
+L BluePillF4:GND #SUPPLY?
+U 1 1 5B8EE9E8
+P 7500 1550
+F 0 "#SUPPLY?" H 7500 1550 45  0001 L BNN
+F 1 "GND" H 7500 1321 45  0000 C CNN
+F 2 "" H 7500 1550 60  0001 C CNN
+F 3 "" H 7500 1550 60  0001 C CNN
+	1    7500 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 1500 7500 1500
+Wire Wire Line
+	7500 1500 7500 1550
 $EndSCHEMATC

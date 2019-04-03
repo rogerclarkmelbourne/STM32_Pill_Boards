@@ -1,8 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:BluePillF4
-LIBS:power
+EESchema Schematic File Version 4
 LIBS:BluePillF4-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -32,7 +30,7 @@ Text Notes 9575 7150 0    32   ~ 0
 descriptions at any time, without notice.
 $Bitmap
 Pos 8100 6800
-Scale 1,000000
+Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 01 93 00 00 00 8D 08 06 00 00 00 72 B7 97 
 3E 00 00 00 04 73 42 49 54 08 08 08 08 7C 08 64 88 00 00 00 09 70 48 59 73 00 00 2E 18 00 00 2E 
@@ -586,7 +584,7 @@ B1 FA F3 E2 C5 8B 3A E5 21 E4 E5 E5 6B 1D E4 03 55 59 99 53 52 52 48 8F AB AB AB
 EndData
 $EndBitmap
 $Comp
-L RES_0603 R?
+L BluePillF4:RES_0603 R?
 U 1 1 5A4D9DD1
 P 1700 1200
 AR Path="/5A4D4310/5A4D9DD1" Ref="R?"  Part="1" 
@@ -605,7 +603,7 @@ F 9 "https://www.aliexpress.com/item/300-pcs-lot-SMD-Puce-R-sistance-0603-0R-1R-
 	1    0    0    1   
 $EndComp
 $Comp
-L 1N5819HW D?
+L BluePillF4:1N5819HW D?
 U 1 1 5A4DA4E6
 P 3200 1300
 AR Path="/5A4D4310/5A4DA4E6" Ref="D?"  Part="1" 
@@ -623,7 +621,7 @@ F 8 "https://www.aliexpress.com/item/Livraison-gratuite-100-pcs-ss14-sma-1n5819-
 	1    0    0    -1  
 $EndComp
 $Comp
-L RES_0603 R?
+L BluePillF4:RES_0603 R?
 U 1 1 5A4DB01E
 P 3000 2500
 AR Path="/5A4D4310/5A4DB01E" Ref="R?"  Part="1" 
@@ -642,7 +640,7 @@ F 9 "https://www.aliexpress.com/item/Free-shipping-0603-SMD-Resistor-Kit-Assorte
 	0    1    1    0   
 $EndComp
 $Comp
-L RES_0603 R?
+L BluePillF4:RES_0603 R?
 U 1 1 5A4DB032
 P 2300 2500
 AR Path="/5A4D4310/5A4DB032" Ref="R?"  Part="1" 
@@ -661,7 +659,7 @@ F 9 "https://ww.aliexpress.com/store/product/300-pcs-lot-SMD-Puce-R-sistance-060
 	0    1    1    0   
 $EndComp
 $Comp
-L CAP_0603 C?
+L BluePillF4:CAP_0603 C?
 U 1 1 5A4DC5F8
 P 1100 2500
 AR Path="/5A4D4310/5A4DC5F8" Ref="C?"  Part="1" 
@@ -682,7 +680,7 @@ F 11 "https://www.aliexpress.com/item/0603-SMD-Capacitor-assorted-kit-36values-2
 	0    1    1    0   
 $EndComp
 $Comp
-L CAP_0603 C?
+L BluePillF4:CAP_0603 C?
 U 1 1 5A4DC654
 P 2600 2500
 AR Path="/5A4D4310/5A4DC654" Ref="C?"  Part="1" 
@@ -703,9 +701,11 @@ F 11 "https://www.aliexpress.com/item/0603-SMD-Capacitor-assorted-kit-36values-2
 	0    1    1    0   
 $EndComp
 $Comp
-L MCP73812T-420I/OT U5
+L BluePillF4-rescue:MCP73812T-420I_OT U5
 U 1 1 5A4DC6E1
 P 1700 2100
+AR Path="/5A4DC6E1" Ref="U5"  Part="1" 
+AR Path="/5A4D7C11/5A4DC6E1" Ref="U5"  Part="1" 
 F 0 "U5" H 1300 2500 70  0000 L BNN
 F 1 "MCP73812T-420I/OT" H 1500 2500 70  0000 L BNN
 F 2 "BluePillF4 Lib:SOT23-5" H 1730 2250 20  0001 C CNN
@@ -715,7 +715,7 @@ F 4 "F" H 1700 2100 60  0001 C CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +VIN #SUPPLY047
+L BluePillF4:+VIN #SUPPLY047
 U 1 1 5A4DC75E
 P 3400 1100
 F 0 "#SUPPLY047" H 3400 1100 45  0001 L BNN
@@ -726,7 +726,7 @@ F 3 "" H 3400 1100 65  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #SUPPLY048
+L BluePillF4:+5V #SUPPLY048
 U 1 1 5A4DC787
 P 1100 1100
 F 0 "#SUPPLY048" H 1100 1100 45  0001 L BNN
@@ -737,7 +737,7 @@ F 3 "" H 1100 1100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #SUPPLY049
+L BluePillF4:GND #SUPPLY049
 U 1 1 5A4DC7A9
 P 1700 2900
 F 0 "#SUPPLY049" H 1700 2900 45  0001 L BNN
@@ -748,7 +748,7 @@ F 3 "" H 1700 2900 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IRLML6402 Q1
+L BluePillF4:IRLML6402 Q1
 U 1 1 5A4DC942
 P 3400 1600
 F 0 "Q1" H 3550 1650 70  0000 L BNN
@@ -769,7 +769,7 @@ Resistors are 5% 1/8W 0603 unless otherwise specified
 Text Notes 600  7750 0    70   ~ 0
 Ceramic capacitors are +-10% 50V X7R dielectric 0603 unless otherwise specified
 $Comp
-L +VBAT #SUPPLY050
+L BluePillF4:+VBAT #SUPPLY050
 U 1 1 5A587EA2
 P 4300 1800
 F 0 "#SUPPLY050" H 4300 1800 45  0001 L BNN
@@ -786,7 +786,7 @@ POWER
 Text Notes 7790 2000 0    70   ~ 0
 Note: Mount L1\nor U2, but not\nboth
 $Comp
-L CAP_0603 C?
+L BluePillF4:CAP_0603 C?
 U 1 1 5A6DFFB9
 P 5450 1450
 AR Path="/5A4D4310/5A6DFFB9" Ref="C?"  Part="1" 
@@ -807,7 +807,7 @@ F 11 "https://www.aliexpress.com/item/0603-SMD-Capacitor-assorted-kit-36values-2
 	0    1    1    0   
 $EndComp
 $Comp
-L CAP_0603 C?
+L BluePillF4:CAP_0603 C?
 U 1 1 5A6DFFC7
 P 6450 1450
 AR Path="/5A4D4310/5A6DFFC7" Ref="C?"  Part="1" 
@@ -828,7 +828,7 @@ F 11 "https://www.aliexpress.com/item/0603-SMD-Capacitor-assorted-kit-36values-2
 	0    -1   1    0   
 $EndComp
 $Comp
-L GND #SUPPLY?
+L BluePillF4:GND #SUPPLY?
 U 1 1 5A6DFFCE
 P 5950 1950
 AR Path="/5A4D4310/5A6DFFCE" Ref="#SUPPLY?"  Part="1" 
@@ -841,7 +841,7 @@ F 3 "" H 5950 1950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #SUPPLY?
+L BluePillF4:+3V3 #SUPPLY?
 U 1 1 5A6DFFD4
 P 6450 1150
 AR Path="/5A4D4310/5A6DFFD4" Ref="#SUPPLY?"  Part="1" 
@@ -854,7 +854,7 @@ F 3 "" H 6450 1150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3A #SUPPLY?
+L BluePillF4:+3V3A #SUPPLY?
 U 1 1 5A6DFFDA
 P 8250 1150
 AR Path="/5A4D4310/5A6DFFDA" Ref="#SUPPLY?"  Part="1" 
@@ -867,7 +867,7 @@ F 3 "" H 8250 1150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AP2114HA-3.3TRG1 U?
+L BluePillF4:AP2114HA-3.3TRG1 U?
 U 1 1 5A6DFFE5
 P 5950 1450
 AR Path="/5A4D4310/5A6DFFE5" Ref="U?"  Part="1" 
@@ -886,7 +886,7 @@ F 9 "https://www.ebay.com/itm/5PCS-AP2114HA-3-3TRG1-IC-REG-LDO-3-3V-1A-SOT223-21
 	1    0    0    -1  
 $EndComp
 $Comp
-L AP2112K3.3-TRG1 U?
+L BluePillF4:AP2112K3.3-TRG1 U?
 U 1 1 5A6DFFF1
 P 7750 1450
 AR Path="/5A4D4310/5A6DFFF1" Ref="U?"  Part="1" 
@@ -905,7 +905,7 @@ F 9 "https://www.aliexpress.com/item/Free-Shipping-20PCS-AP2112K-3-3TRG1-IC-REG-
 	1    0    0    -1  
 $EndComp
 $Comp
-L CAP_0603 C?
+L BluePillF4:CAP_0603 C?
 U 1 1 5A6E0015
 P 6750 1450
 AR Path="/5A4D4310/5A6E0015" Ref="C?"  Part="1" 
@@ -926,7 +926,7 @@ F 11 "https://www.aliexpress.com/item/0603-SMD-Capacitor-assorted-kit-36values-2
 	0    1    -1   0   
 $EndComp
 $Comp
-L +VIN #SUPPLY?
+L BluePillF4:+VIN #SUPPLY?
 U 1 1 5A6E001F
 P 5450 1150
 AR Path="/5A4D4310/5A6E001F" Ref="#SUPPLY?"  Part="1" 
@@ -939,7 +939,7 @@ F 3 "" H 5450 1150 65  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +VIN #SUPPLY?
+L BluePillF4:+VIN #SUPPLY?
 U 1 1 5A6E0025
 P 7250 1150
 AR Path="/5A4D4310/5A6E0025" Ref="#SUPPLY?"  Part="1" 
@@ -952,7 +952,7 @@ F 3 "" H 7250 1150 65  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG056
+L power:PWR_FLAG #FLG056
 U 1 1 5A6E002B
 P 5350 1250
 F 0 "#FLG056" H 5350 1325 50  0001 C CNN
@@ -965,7 +965,7 @@ $EndComp
 Text Label 7350 1250 0    10   ~ 0
 +VIN
 $Comp
-L AGND #SUPPLY?
+L BluePillF4:AGND #SUPPLY?
 U 1 1 5A6E0034
 P 7750 1950
 AR Path="/5A4D4310/5A6E0034" Ref="#SUPPLY?"  Part="1" 
@@ -982,19 +982,19 @@ Wire Wire Line
 Wire Wire Line
 	2300 2200 2300 2300
 Wire Wire Line
-	2200 1900 4300 1900
+	2200 1900 2600 1900
 Wire Wire Line
-	1100 2800 3000 2800
+	1100 2800 1700 2800
 Wire Wire Line
 	2300 2700 2300 2800
 Connection ~ 2300 2800
 Wire Wire Line
-	1700 2400 1700 2900
+	1700 2400 1700 2800
 Connection ~ 1700 2800
 Wire Wire Line
 	1100 2800 1100 2600
 Wire Wire Line
-	1100 1100 1100 2400
+	1100 1100 1100 1200
 Wire Wire Line
 	1100 2200 1200 2200
 Wire Wire Line
@@ -1008,9 +1008,9 @@ Wire Wire Line
 	1200 1900 1100 1900
 Connection ~ 1100 2200
 Wire Wire Line
-	1100 1500 3200 1500
+	1100 1500 3000 1500
 Wire Wire Line
-	3000 1300 3000 2300
+	3000 1300 3000 1500
 Connection ~ 1100 1900
 Wire Wire Line
 	1500 1200 1100 1200
@@ -1026,7 +1026,7 @@ Wire Wire Line
 Wire Wire Line
 	3400 1300 3300 1300
 Wire Wire Line
-	3400 1100 3400 1400
+	3400 1100 3400 1200
 Connection ~ 3400 1300
 Connection ~ 3400 1200
 Wire Wire Line
@@ -1046,23 +1046,23 @@ Wire Notes Line
 Wire Notes Line
 	2250 600  1450 600 
 Wire Wire Line
-	6450 1150 6450 1350
+	6450 1150 6450 1250
 Connection ~ 6450 1250
 Wire Wire Line
 	8150 1250 8250 1250
 Wire Wire Line
 	8250 1250 8250 1150
 Wire Wire Line
-	5350 1250 5550 1250
+	5350 1250 5450 1250
 Wire Wire Line
-	5450 1150 5450 1350
+	5450 1150 5450 1250
 Connection ~ 5450 1250
 Wire Wire Line
 	5450 1550 5450 1850
 Wire Wire Line
-	5450 1850 6750 1850
+	5450 1850 5950 1850
 Wire Wire Line
-	5950 1750 5950 1950
+	5950 1750 5950 1850
 Wire Wire Line
 	6450 1850 6450 1550
 Connection ~ 5950 1850
@@ -1072,15 +1072,11 @@ Wire Notes Line
 	8650 655  8650 2250
 Wire Notes Line
 	8650 2250 7150 2250
-Wire Notes Line
-	7150 2250 7150 750 
 Wire Wire Line
 	7250 1250 7350 1250
 Connection ~ 7250 1250
 Wire Wire Line
-	6350 1250 6750 1250
-Wire Notes Line
-	7150 765  7150 655 
+	6350 1250 6450 1250
 Wire Notes Line
 	7150 655  8650 655 
 Wire Wire Line
@@ -1089,9 +1085,55 @@ Wire Wire Line
 	6750 1850 6750 1550
 Connection ~ 6450 1850
 Wire Wire Line
-	7250 1145 7250 1550
+	7250 1145 7250 1250
 Wire Wire Line
 	7250 1550 7350 1550
 Wire Notes Line
 	8700 3250 8700 475 
+Wire Wire Line
+	2300 2800 2600 2800
+Wire Wire Line
+	1700 2800 2300 2800
+Wire Wire Line
+	1700 2800 1700 2900
+Wire Wire Line
+	2600 2800 3000 2800
+Wire Wire Line
+	1100 2200 1100 2400
+Wire Wire Line
+	1100 1900 1100 2200
+Wire Wire Line
+	1100 1500 1100 1900
+Wire Wire Line
+	1100 1200 1100 1500
+Wire Wire Line
+	3000 1500 3200 1500
+Wire Wire Line
+	3000 1500 3000 2300
+Wire Wire Line
+	2600 1900 3400 1900
+Wire Wire Line
+	3400 1900 4300 1900
+Wire Wire Line
+	3400 1300 3400 1400
+Wire Wire Line
+	3400 1200 3400 1300
+Wire Wire Line
+	6450 1250 6450 1350
+Wire Wire Line
+	6450 1250 6750 1250
+Wire Wire Line
+	5450 1250 5550 1250
+Wire Wire Line
+	5450 1250 5450 1350
+Wire Wire Line
+	5950 1850 6450 1850
+Wire Wire Line
+	5950 1850 5950 1950
+Wire Wire Line
+	7250 1250 7250 1550
+Wire Wire Line
+	6450 1850 6750 1850
+Wire Notes Line
+	7150 655  7150 2250
 $EndSCHEMATC
